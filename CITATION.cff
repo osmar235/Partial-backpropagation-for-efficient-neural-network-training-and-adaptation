@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this code and processed-evidence collection using its commit, or its version DOI once assigned."
 title: "Partial backpropagation for efficient neural network training and adaptation"
 type: software
+version: 1.0.1
 authors:
   - given-names: Osmar
     family-names: Pinto Neto

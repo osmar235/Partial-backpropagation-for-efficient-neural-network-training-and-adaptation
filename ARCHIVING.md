@@ -7,3 +7,13 @@
 5. Commit metadata updates separately and make a later release if the archived contents need to change. Do not silently move an existing release tag to a different commit.
 
 No DOI is asserted in this pre-submission package. The manuscript's GitHub availability wording should be used only after public access to the uploaded files is verified.
+
+## Metadata compatibility update for v1.0.1
+
+The v1.0.0 GitHub release was published, but the owner reported that Zenodo marked its import as failed. Its valid CFF license array matches a documented Zenodo ingestion incompatibility; the exact cause remains subject to the failed release's Errors detail.
+
+The next release includes `.zenodo.json`, which Zenodo reads in preference to `CITATION.cff`. This avoids the CFF array-conversion path while retaining the complete multi-license CFF metadata for GitHub. The Zenodo software license field is a scalar Apache-2.0 identifier; its description explicitly retains CC BY 4.0 for research artifacts and all third-party terms. No files are relicensed.
+
+Publish a new `v1.0.1` release from the corrected `main` commit after reviewing the error. Preserve the existing `v1.0.0` tag. Merely editing `main` does not change the old release snapshot or retry its import. If the new import also fails, open its Errors detail before another attempt. No archival DOI is claimed until Zenodo confirms success.
+
+Sources: [Zenodo metadata precedence](https://help.zenodo.org/docs/github/describe-software/zenodo-json/), [failed-release troubleshooting](https://help.zenodo.org/docs/github/archive-software/github-upload/), [CFF license-array issue](https://github.com/zenodo/zenodo/issues/2515).

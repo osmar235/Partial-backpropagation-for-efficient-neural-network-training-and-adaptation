@@ -1,0 +1,21 @@
+{
+  "title": "Partial backpropagation for efficient neural network training and adaptation",
+  "version": "1.0.1",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "creators": [
+    {
+      "name": "Pinto Neto, Osmar",
+      "affiliation": "Department of Kinesiology, California State University San Marcos",
+      "orcid": "0000-0002-3978-8320"
+    }
+  ],
+  "description": "<p>Frozen experiment source, protocols, processed evidence and portable analysis replays supporting Partial backpropagation for efficient neural network training and adaptation. The collection examines gradient omission, optimizer-state behavior and optimized execution across CNN training, ViT training and adaptation, and independent Oxford-IIIT Pet adaptation.</p><p>Licensing is file-specific: original software is licensed under Apache License 2.0; original protocols, processed evidence, figures and documentation are licensed under Creative Commons Attribution 4.0 International. Third-party software retains its upstream licenses and notices. The record-level Apache-2.0 label describes the software and does not relicense the research artifacts. See LICENSE.md and the included license texts for the complete scope.</p><p>Portable analysis replays reconstruct selected results from included evidence. Raw datasets, pretrained weights and model checkpoints are not bundled; full training replication requires the documented external prerequisites. This metadata compatibility revision leaves experimental code, protocols, evidence and scientific conclusions unchanged.</p>",
+  "keywords": [
+    "partial backpropagation",
+    "efficient deep learning",
+    "optimizer states",
+    "reproducibility"
+  ]
+}
