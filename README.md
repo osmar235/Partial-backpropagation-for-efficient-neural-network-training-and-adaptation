@@ -47,6 +47,10 @@ The root documents describe the current collection. Nested README files are hist
 
 Repository: https://github.com/osmar235/Partial-backpropagation-for-efficient-neural-network-training-and-adaptation
 
-This is the pre-submission code and processed-evidence deposit. A Zenodo DOI has not yet been assigned. After the repository is connected to Zenodo, a tagged GitHub release can be archived and its DOI added here, to `CITATION.cff` and to the manuscript. Cite the commit used until an archival DOI is available. No journal publication or acceptance is implied.
+Release **v1.0.1** is archived in Zenodo: **[10.5281/zenodo.24268905](https://doi.org/10.5281/zenodo.24268905)**. Use this version-specific DOI to cite the exact code and processed-evidence package supporting the manuscript. The archived release corresponds to GitHub commit `be13a61d9ffe9ba657a9a549dfaa278aa8e4c622`; subsequent citation-documentation updates on `main` do not modify that archive.
+
+Suggested citation: Pinto Neto, O. (2026). *Partial backpropagation for efficient neural network training and adaptation* (Version 1.0.1) [Computer software and processed evidence]. Zenodo. https://doi.org/10.5281/zenodo.24268905
+
+The concept DOI, [10.5281/zenodo.24268904](https://doi.org/10.5281/zenodo.24268904), refers to the version collection. This is a pre-submission research deposit; no journal publication or acceptance is implied.
 
 Original software is licensed under Apache 2.0; original research artifacts under CC BY 4.0. Third-party licenses and notices remain in place. See [LICENSE.md](LICENSE.md).

@@ -1,5 +1,15 @@
 # Archiving this repository with Zenodo
 
+## Completed archive
+
+Release `v1.0.1`, commit `be13a61d9ffe9ba657a9a549dfaa278aa8e4c622`, is publicly archived at [10.5281/zenodo.24268905](https://doi.org/10.5281/zenodo.24268905). The public Zenodo API confirms the title, author, version, release link and uploaded source ZIP. Its concept DOI is [10.5281/zenodo.24268904](https://doi.org/10.5281/zenodo.24268904). Cite the version DOI for the manuscript.
+
+The original failed `v1.0.0` release and successful `v1.0.1` tag are preserved. Adding the DOI to `main` does not require another release. For future scientific/source changes, update the version metadata and create a new release; do not put the existing version DOI into `.zenodo.json` as the DOI of a new deposit.
+
+## Historical setup and troubleshooting
+
+The instructions and pending-status statements below document the setup before successful archival.
+
 1. In Zenodo, connect the GitHub account and enable this repository.
 2. Create a GitHub release from the reviewed publication commit after the connection is active. Use a version tag such as `v1.0.0` if that tag is still unused.
 3. Confirm that Zenodo has archived the release and review the title, author, licenses and included files.

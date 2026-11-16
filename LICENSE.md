@@ -8,4 +8,4 @@ Original research artifacts, including protocols, processed evidence, figures, d
 
 Third-party software retains its upstream license and copyright notices. In particular, bundled Adan material retains its Apache 2.0 license and notices. Repository-level statements do not override third-party terms. No rights are granted in datasets, pretrained weights, publications or trademarks merely referenced here; raw datasets and weights are not redistributed.
 
-Suggested attribution: Osmar Pinto Neto, *Partial backpropagation for efficient neural network training and adaptation*, code and processed evidence, 2026. Include the repository commit or, once assigned, the Zenodo version DOI.
+Suggested attribution: Osmar Pinto Neto, *Partial backpropagation for efficient neural network training and adaptation*, code and processed evidence, version 1.0.1, 2026. https://doi.org/10.5281/zenodo.24268905
