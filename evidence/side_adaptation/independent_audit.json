@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "training_updates_verified": 8800,
+  "discarded_warmup_updates": 30,
+  "independent_curve_points": 60,
+  "saved_model_scoring_conditions": 20,
+  "max_abs_rescored_logit_error": 0.0,
+  "both_seed_reference_qualified": true,
+  "both_seed_practical_pass": false,
+  "both_seed_quality_pass": false,
+  "both_seed_time_pass": true,
+  "historical_full_trajectory_reproduced": true,
+  "retained_arms_share_one_launch": true,
+  "decision": "close_fixed_side_recipe",
+  "prior_and_raw_files_preserved": 2717,
+  "parameter_updates_performed": false,
+  "test_scoring_performed": false,
+  "development_scoring_performed": true
+}

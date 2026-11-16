@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "trajectories": 36,
+  "training_updates_audited": 31680,
+  "logit_arrays_independently_scored": 252,
+  "paired_comparisons": 24,
+  "qualified_arms": [],
+  "verdict": "periodic_does_not_qualify_no_automatic_rescue",
+  "fragmented_sessions": [],
+  "model_forwards_this_independent_audit": 0,
+  "backwards_this_review": 0,
+  "optimizer_steps_this_review": 0,
+  "prior_immutable_files": 8939
+}

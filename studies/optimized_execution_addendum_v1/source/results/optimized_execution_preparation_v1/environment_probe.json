@@ -1,0 +1,15 @@
+{
+  "python": "3.14.3",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "system": "Windows",
+  "triton_installed": false,
+  "cuda_available": true,
+  "dynamo_supported": true,
+  "hardware": "NVIDIA GeForce RTX 5080",
+  "bf16_supported": true,
+  "compile_status": "UNAVAILABLE_IN_PROBE",
+  "exception_type": "TritonMissing",
+  "reason": "Cannot find a working triton installation. Either the package is not installed or it is too old. More information on installing Triton can be found at: https://github.com/triton-lang/triton\n\nSet TORCHDYNAMO_VERBOSE=1 for the internal stack trace (please do this especially if you're reporting a bug to PyTorch). For even more developer context, set TORCH_LOGS=\"+dynamo\"\n",
+  "compile_first_call_seconds": 5.9617921999888495
+}

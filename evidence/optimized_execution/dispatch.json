@@ -1,0 +1,3786 @@
+[
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.315884590148926,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": [
+      "Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True."
+    ]
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.315884590148926,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3475260734558105,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3475260734558105,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.347470760345459,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.347470760345459,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.308347463607788,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.308347463607788,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3195364475250244,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3195364475250244,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.319774627685547,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.319774627685547,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.336038112640381,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.336038112640381,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3366239070892334,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3366239070892334,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3366901874542236,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3366901874542236,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3067173957824707,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3067173957824707,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3221940994262695,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3221940994262695,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3217484951019287,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 0,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3217484951019287,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.315884590148926,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.315884590148926,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3475260734558105,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3475260734558105,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.347470760345459,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.347470760345459,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.308347463607788,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.308347463607788,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3195364475250244,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3195364475250244,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.319774627685547,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.319774627685547,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.336038112640381,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.336038112640381,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3366239070892334,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3366239070892334,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3366901874542236,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3366901874542236,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3067173957824707,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": [
+      "Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True."
+    ]
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3067173957824707,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3221940994262695,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3221940994262695,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3217484951019287,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 1,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3217484951019287,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.315884590148926,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": [
+      "Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True."
+    ]
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.315884590148926,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3475260734558105,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3475260734558105,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.347470760345459,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.347470760345459,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.308347463607788,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.308347463607788,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3195364475250244,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3195364475250244,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.319774627685547,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.319774627685547,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.336038112640381,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.336038112640381,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3366239070892334,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3366239070892334,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3366901874542236,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3366901874542236,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3067173957824707,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3067173957824707,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3221940994262695,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3221940994262695,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3217484951019287,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 2,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3217484951019287,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.315884590148926,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.315884590148926,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3475260734558105,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3475260734558105,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.347470760345459,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 256,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.347470760345459,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.308347463607788,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.308347463607788,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3195364475250244,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3195364475250244,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.319774627685547,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99201,
+    "batch": 200,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.319774627685547,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.336038112640381,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.336038112640381,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3366239070892334,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3366239070892334,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3366901874542236,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 256,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3366901874542236,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3067173957824707,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": [
+      "Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True."
+    ]
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_fp32_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3067173957824707,
+    "output_dtype": "fp32",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3221940994262695,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_bf16_math",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "loss": 2.3221940994262695,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "native_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3217484951019287,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  },
+  {
+    "session": 3,
+    "seed": 99202,
+    "batch": 200,
+    "arm": "reference_bf16_auto",
+    "status": "SUPPORTED",
+    "policy": {
+      "deterministic": false,
+      "warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "flash_sdp": true,
+      "mem_efficient_sdp": true,
+      "math_sdp": true,
+      "cudnn_sdp": true,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false,
+      "fp16_reduced_reduction": false,
+      "bf16_reduced_reduction": false,
+      "math_reduced_reduction": false
+    },
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention": 6,
+      "aten::_scaled_dot_product_efficient_attention_backward": 6
+    },
+    "loss": 2.3217484951019287,
+    "output_dtype": "bf16",
+    "parameter_dtype": "float32",
+    "all_gradients_finite": true,
+    "warnings": []
+  }
+]

@@ -1,0 +1,2 @@
+seed,algorithm_order,strongest_baseline,adam_eval_accuracy,adan_eval_accuracy,fixed_eval_accuracy,equal_wall_eval_accuracy,fixed_accuracy_delta_pp,equal_wall_accuracy_delta_pp,fixed_wall_reduction,equal_wall_reduction,fixed_partial_fraction,equal_wall_partial_fraction
+39,baseline_first,adam,0.6326,0.5737,0.6221,0.612,-1.0500000000000065,-2.0600000000000063,0.11817809236154941,0.061877951670682885,0.434,0.42592592592592593

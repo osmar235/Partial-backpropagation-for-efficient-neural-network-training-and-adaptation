@@ -1,0 +1,13 @@
+{
+  "independent_audit.json": "e9a8eb58f80abb04382952df6a8389a06be2487adde844f64f1ceeea82efa2ac",
+  "independent_pairs.json": "984e710cb50d45878f0403222428f748ad4925d586d023951a7e85d112258923",
+  "mechanism_summary.json": "4418f5cbbab95d7c185a4407a37d0561d26db76e5039bef6ffe587279c06392b",
+  "numerical_summary.json": "89f1d96044ac7836d5d926ce93ef46cc479fc1d81aa8dc37256ab4e606a59bd1",
+  "original_workspace_review.py": "c3a111b9e5a1eb7d051408f0fb5277793e022fffbd01b0e5b96eaaf2d9e0de67",
+  "position_summary.json": "63228a303c75cef2f92034348347f00d2e91198c19e4ecec6fd0b9303105fe66",
+  "README.md": "5cb7888fc490104e95c8d2ee79439e2b7ce274fe64c763f8781f6b29e958d9b0",
+  "recompute_timings.py": "fb522627dca2d490cc4ad4b2147dcca55c3f80e4fb52ba3acf853bbf64d4239c",
+  "REPORT.md": "5d726af65baea71f3a8240e37aa65aded8bf4f341da91b464fa12202055839e3",
+  "telemetry.json": "dfec081fa92524a621daac44f01eaad1a1e58390b410b23389398b70a99d403c",
+  "trials_export.json": "35533109bf3dcf114fa7a592c28fd0492f80f2a1337a0cb8a866c52cdce20e94"
+}

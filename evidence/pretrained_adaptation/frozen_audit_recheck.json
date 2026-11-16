@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "synthetic": false,
+  "fingerprint": "dd2768b5b52d5987a3941a7fadaa0ad0b9e844b37f96d26752a098b1363049a8",
+  "runs": 10,
+  "audited_updates": 42240,
+  "pretrained_source_verified": true,
+  "frozen_bn_and_inactive_parameters_verified": true,
+  "group_optimizer_counters_verified": true,
+  "matched_head_warmups_bitwise": true,
+  "data_rng_streams_matched": true,
+  "baselines_ready_both_seeds": true,
+  "quality_pass_both_seeds": false,
+  "speed_pass_both_seeds": true,
+  "opportunity_both_seeds": false,
+  "inference": "development opportunity screen at96px; conventional baselines only; no novelty or submission claim"
+}

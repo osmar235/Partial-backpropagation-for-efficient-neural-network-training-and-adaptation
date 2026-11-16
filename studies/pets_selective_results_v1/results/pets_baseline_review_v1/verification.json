@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "qualified": true,
+  "rows": [
+    {
+      "seed": 2601,
+      "policy": "fp32_tf32",
+      "common_correct": 680,
+      "own_correct": 681,
+      "validation_n": 736,
+      "common_accuracy_percent": 92.3913043478261,
+      "own_accuracy_percent": 92.52717391304348,
+      "training_seconds": 29.095094499876723,
+      "complete_seconds": 34.54509080015123
+    },
+    {
+      "seed": 2601,
+      "policy": "bf16",
+      "common_correct": 680,
+      "own_correct": 679,
+      "validation_n": 736,
+      "common_accuracy_percent": 92.3913043478261,
+      "own_accuracy_percent": 92.2554347826087,
+      "training_seconds": 17.709531099768355,
+      "complete_seconds": 22.304604899836704
+    },
+    {
+      "seed": 2602,
+      "policy": "fp32_tf32",
+      "common_correct": 677,
+      "own_correct": 677,
+      "validation_n": 736,
+      "common_accuracy_percent": 91.9836956521739,
+      "own_accuracy_percent": 91.9836956521739,
+      "training_seconds": 28.653406499652192,
+      "complete_seconds": 33.15564320003614
+    },
+    {
+      "seed": 2602,
+      "policy": "bf16",
+      "common_correct": 684,
+      "own_correct": 685,
+      "validation_n": 736,
+      "common_accuracy_percent": 92.93478260869566,
+      "own_accuracy_percent": 93.07065217391305,
+      "training_seconds": 17.287219000747427,
+      "complete_seconds": 21.661246000090614
+    },
+    {
+      "seed": 2603,
+      "policy": "fp32_tf32",
+      "common_correct": 683,
+      "own_correct": 683,
+      "validation_n": 736,
+      "common_accuracy_percent": 92.79891304347827,
+      "own_accuracy_percent": 92.79891304347827,
+      "training_seconds": 28.55995149980299,
+      "complete_seconds": 33.27605939982459
+    },
+    {
+      "seed": 2603,
+      "policy": "bf16",
+      "common_correct": 684,
+      "own_correct": 683,
+      "validation_n": 736,
+      "common_accuracy_percent": 92.93478260869566,
+      "own_accuracy_percent": 92.79891304347827,
+      "training_seconds": 17.243868600344285,
+      "complete_seconds": 21.305425100028515
+    }
+  ],
+  "means": {
+    "fp32_tf32": {
+      "common_accuracy_percent": 92.39130434782608,
+      "own_accuracy_percent": 92.43659420289855,
+      "training_seconds": 28.76948416644397,
+      "complete_seconds": 33.65893113333732
+    },
+    "bf16": {
+      "common_accuracy_percent": 92.7536231884058,
+      "own_accuracy_percent": 92.70833333333333,
+      "training_seconds": 17.413539566953357,
+      "complete_seconds": 21.757091999985278
+    }
+  },
+  "pairs": [
+    {
+      "seed": 2601,
+      "fp32_common_percent": 92.3913061618805,
+      "bf16_common_percent": 92.3913061618805,
+      "deficit_common_pp": 0.0,
+      "deficit_own_pp": 0.27173757553100586,
+      "complete_saving_percent": 35.43335859537222
+    },
+    {
+      "seed": 2602,
+      "fp32_common_percent": 91.9836938381195,
+      "bf16_common_percent": 92.9347813129425,
+      "deficit_common_pp": -0.951087474822998,
+      "deficit_own_pp": -1.086956262588501,
+      "complete_saving_percent": 34.66799642702452
+    },
+    {
+      "seed": 2603,
+      "fp32_common_percent": 92.798912525177,
+      "bf16_common_percent": 92.9347813129425,
+      "deficit_common_pp": -0.13586878776550293,
+      "deficit_own_pp": 0.0,
+      "complete_saving_percent": 35.973713581780586
+    }
+  ],
+  "archives": {
+    "images": {
+      "bytes": 791918971,
+      "md5": "5c4f3ee8e5d25df40f4fd59a7f44e54c"
+    },
+    "annotations": {
+      "bytes": 19173078,
+      "md5": "95a8c909bbe2e81eed6a22bccdf3f68f"
+    }
+  },
+  "baseline_files_unchanged": 45,
+  "audit_repeated_without_training": true,
+  "saved_checkpoint_rescores": {
+    "count": 12,
+    "max_error": 0,
+    "origin": "original completed-run audit; not repeated in this review"
+  },
+  "test_access": false,
+  "training_runs_this_review": 0,
+  "cache_preparation_seconds": 8.92145109991543,
+  "download_seconds_note": "Metadata download_seconds excludes the separate recovery downloader and its failed attempts.",
+  "next_step": "Prepare fixed BF16 full/frozen/periodic-r4 trainval development comparison; official test remains disabled."
+}

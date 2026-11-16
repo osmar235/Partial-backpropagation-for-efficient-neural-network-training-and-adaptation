@@ -1,0 +1,2 @@
+seed,baseline,candidate,baseline_eval_accuracy,candidate_eval_accuracy,accuracy_delta_pp,baseline_training_seconds,candidate_training_seconds,training_time_reduction,candidate_partial_fraction
+40,adam,loss_gated_moment_continuation_adam,0.8511,0.8452,-0.5900000000000016,270.99529479816556,246.86423700116575,0.08904603976601277,0.3629251700680272

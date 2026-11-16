@@ -1,0 +1,43 @@
+{
+  "suite": "transfer",
+  "dataset": "cifar10",
+  "data_dir": "data",
+  "train_subset": 50000,
+  "eval_subset": 10000,
+  "batch_size": 256,
+  "epochs": 30,
+  "schedule_epochs": 30,
+  "seed": 69,
+  "device": "cuda",
+  "optimizer": "adamw",
+  "weight_decay": 0.0005,
+  "lr": 0.0003,
+  "rho": 0.95,
+  "matched_q": 0.35990173847316703,
+  "match_policy": "epoch",
+  "warmup_steps": 196,
+  "eval_batch_size": 512,
+  "min_lr_ratio": 0.01,
+  "log_steps": true,
+  "tiny_model": false,
+  "variants": [
+    "adam",
+    "lgpb"
+  ],
+  "out": "results\\stage7E_adamw_optional",
+  "force": false,
+  "rotate_order": true,
+  "rotation_start": 69,
+  "num_classes": 10,
+  "device_resolved": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "implementation_version": "stage7-local-v1.1",
+  "source_sha256": {
+    "scripts\\stage7_review_experiments.py": "efb69b1aa36b6f26c3e40267def840f16481d78f0b8bb41beadd25dea880a589",
+    "agrls_stage6a_cifar10_augmented_schedule.py": "556bd1b69f06acf8e1787521b40a32dd65b3166ee1f7966de323c4fa603cad53",
+    "agrls_stage5a1_cifar10_fggr_microprobe.py": "8e90fa73a179ee75b2dd4e650222dccc553f9ce9f7988a977c4ddf2c7573db61"
+  },
+  "torch_version": "2.11.0+cu128",
+  "python_version": "3.14.3",
+  "config_fingerprint": "08d8030e4b4899ae11a9aed75b7dab08383a62abb04f8b0b65de42aab5c0dc55"
+}

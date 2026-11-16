@@ -1,0 +1,2018 @@
+[
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5726245408828702,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5636779306696444,
+    "accuracy": 0.8434
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5618235956104336,
+    "accuracy": 0.848
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5582031481137057,
+    "accuracy": 0.8476
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.568002361073104,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675289813933149,
+    "accuracy": 0.8408
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613627418994427,
+    "accuracy": 0.847
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5633093252449691,
+    "accuracy": 0.844
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5611538240747748,
+    "accuracy": 0.846
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611827419666835,
+    "accuracy": 0.8462
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5680397494094293,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675372429900614,
+    "accuracy": 0.841
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613730593479318,
+    "accuracy": 0.847
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.563315892277567,
+    "accuracy": 0.8442
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.561139203321962,
+    "accuracy": 0.8458
+  },
+  {
+    "session": 0,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611528988097861,
+    "accuracy": 0.8468
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5850729738826992,
+    "accuracy": 0.8314
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.581322777132003,
+    "accuracy": 0.834
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5741214032926067,
+    "accuracy": 0.8382
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5714042586004263,
+    "accuracy": 0.8386
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5780508032946674,
+    "accuracy": 0.832
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787325309112764,
+    "accuracy": 0.8354
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707708669369517,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671820327136664,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5670211401417917,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5670135065980828,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5779903424179925,
+    "accuracy": 0.832
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787996922974002,
+    "accuracy": 0.8356
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707565216463157,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671240925910137,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5669611682894385,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5669408113611476,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5726245408828702,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5636779306696444,
+    "accuracy": 0.8434
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5618235956104336,
+    "accuracy": 0.848
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5582031481137057,
+    "accuracy": 0.8476
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.568002361073104,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675289813933149,
+    "accuracy": 0.8408
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613627418994427,
+    "accuracy": 0.847
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5633093252449691,
+    "accuracy": 0.844
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5611538240747748,
+    "accuracy": 0.846
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611827419666835,
+    "accuracy": 0.8462
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5680397494094293,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675372429900614,
+    "accuracy": 0.841
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613730593479318,
+    "accuracy": 0.847
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.563315892277567,
+    "accuracy": 0.8442
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.561139203321962,
+    "accuracy": 0.8458
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611528988097861,
+    "accuracy": 0.8468
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5850729738826992,
+    "accuracy": 0.8314
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.581322777132003,
+    "accuracy": 0.834
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5741214032926067,
+    "accuracy": 0.8382
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5714042586004263,
+    "accuracy": 0.8386
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5780508032946674,
+    "accuracy": 0.832
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787325309112764,
+    "accuracy": 0.8354
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707708669369517,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671820327136664,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5670211401417917,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5670135065980828,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5779903424179925,
+    "accuracy": 0.832
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787996922974002,
+    "accuracy": 0.8356
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707565216463157,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671240925910137,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5669611682894385,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5669408113611476,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5726245408828702,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5636779306696444,
+    "accuracy": 0.8434
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5618235956104336,
+    "accuracy": 0.848
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5582031481137057,
+    "accuracy": 0.8476
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.568002361073104,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675289813933149,
+    "accuracy": 0.8408
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613627418994427,
+    "accuracy": 0.847
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5633093252449691,
+    "accuracy": 0.844
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5611538240747748,
+    "accuracy": 0.846
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611827419666835,
+    "accuracy": 0.8462
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5680397494094293,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675372429900614,
+    "accuracy": 0.841
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613730593479318,
+    "accuracy": 0.847
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.563315892277567,
+    "accuracy": 0.8442
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.561139203321962,
+    "accuracy": 0.8458
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611528988097861,
+    "accuracy": 0.8468
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5850729738826992,
+    "accuracy": 0.8314
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.581322777132003,
+    "accuracy": 0.834
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5741214032926067,
+    "accuracy": 0.8382
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5714042586004263,
+    "accuracy": 0.8386
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5780508032946674,
+    "accuracy": 0.832
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787325309112764,
+    "accuracy": 0.8354
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707708669369517,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671820327136664,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5670211401417917,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5670135065980828,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5779903424179925,
+    "accuracy": 0.832
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787996922974002,
+    "accuracy": 0.8356
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707565216463157,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671240925910137,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5669611682894385,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5669408113611476,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5726245408828702,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5636779306696444,
+    "accuracy": 0.8434
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5618235956104336,
+    "accuracy": 0.848
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5582031481137057,
+    "accuracy": 0.8476
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.568002361073104,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675289813933149,
+    "accuracy": 0.8408
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613627418994427,
+    "accuracy": 0.847
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5633093252449691,
+    "accuracy": 0.844
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5611538240747748,
+    "accuracy": 0.846
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611827419666835,
+    "accuracy": 0.8462
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5680397494094293,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675372429900614,
+    "accuracy": 0.841
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613730593479318,
+    "accuracy": 0.847
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.563315892277567,
+    "accuracy": 0.8442
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.561139203321962,
+    "accuracy": 0.8458
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611528988097861,
+    "accuracy": 0.8468
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5850729738826992,
+    "accuracy": 0.8314
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.581322777132003,
+    "accuracy": 0.834
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5741214032926067,
+    "accuracy": 0.8382
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5714042586004263,
+    "accuracy": 0.8386
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5780508032946674,
+    "accuracy": 0.832
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787325309112764,
+    "accuracy": 0.8354
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707708669369517,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671820327136664,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5670211401417917,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5670135065980828,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5779903424179925,
+    "accuracy": 0.832
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787996922974002,
+    "accuracy": 0.8356
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707565216463157,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671240925910137,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5669611682894385,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5669408113611476,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5726245408828702,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5636779306696444,
+    "accuracy": 0.8434
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5618235956104336,
+    "accuracy": 0.848
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5582031481137057,
+    "accuracy": 0.8476
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.568002361073104,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675289813933149,
+    "accuracy": 0.8408
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613627418994427,
+    "accuracy": 0.847
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5633093252449691,
+    "accuracy": 0.844
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5611538240747748,
+    "accuracy": 0.846
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611827419666835,
+    "accuracy": 0.8462
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5680397494094293,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675372429900614,
+    "accuracy": 0.841
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613730593479318,
+    "accuracy": 0.847
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.563315892277567,
+    "accuracy": 0.8442
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.561139203321962,
+    "accuracy": 0.8458
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611528988097861,
+    "accuracy": 0.8468
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5850729738826992,
+    "accuracy": 0.8314
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.581322777132003,
+    "accuracy": 0.834
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5741214032926067,
+    "accuracy": 0.8382
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5714042586004263,
+    "accuracy": 0.8386
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5780508032946674,
+    "accuracy": 0.832
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787325309112764,
+    "accuracy": 0.8354
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707708669369517,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671820327136664,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5670211401417917,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5670135065980828,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5779903424179925,
+    "accuracy": 0.832
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787996922974002,
+    "accuracy": 0.8356
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707565216463157,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671240925910137,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5669611682894385,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5669408113611476,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5726245408828702,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5636779306696444,
+    "accuracy": 0.8434
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5618235956104336,
+    "accuracy": 0.848
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5582031481137057,
+    "accuracy": 0.8476
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5590477616957048,
+    "accuracy": 0.847
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.568002361073104,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675289813933149,
+    "accuracy": 0.8408
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613627418994427,
+    "accuracy": 0.847
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5633093252449691,
+    "accuracy": 0.844
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5611538240747748,
+    "accuracy": 0.846
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611827419666835,
+    "accuracy": 0.8462
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.6180185190187484,
+    "accuracy": 0.8246
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5680397494094293,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5675372429900614,
+    "accuracy": 0.841
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5613730593479318,
+    "accuracy": 0.847
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.563315892277567,
+    "accuracy": 0.8442
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.561139203321962,
+    "accuracy": 0.8458
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5611528988097861,
+    "accuracy": 0.8468
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5850729738826992,
+    "accuracy": 0.8314
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.581322777132003,
+    "accuracy": 0.834
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5741214032926067,
+    "accuracy": 0.8382
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5714042586004263,
+    "accuracy": 0.8386
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_fp32_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5694069639950352,
+    "accuracy": 0.8388
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5780508032946674,
+    "accuracy": 0.832
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787325309112764,
+    "accuracy": 0.8354
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707708669369517,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671820327136664,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5670211401417917,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_math",
+    "evaluation": "own_policy_final",
+    "loss": 0.5670135065980828,
+    "accuracy": 0.8392
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_0",
+    "loss": 0.615706967990542,
+    "accuracy": 0.8274
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_1",
+    "loss": 0.5779903424179925,
+    "accuracy": 0.832
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_2",
+    "loss": 0.5787996922974002,
+    "accuracy": 0.8356
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_3",
+    "loss": 0.5707565216463157,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_4",
+    "loss": 0.5671240925910137,
+    "accuracy": 0.8374
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "common_epoch_5",
+    "loss": 0.5669611682894385,
+    "accuracy": 0.8394
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "arm": "reference_bf16_auto",
+    "evaluation": "own_policy_final",
+    "loss": 0.5669408113611476,
+    "accuracy": 0.8388
+  }
+]

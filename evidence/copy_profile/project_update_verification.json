@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "preserved_immutable_files": 9467,
+  "result_source_copies": 9,
+  "master": "v7.51",
+  "paper_memory": "v40",
+  "model_forwards": 0,
+  "backwards": 0,
+  "optimizer_updates": 0,
+  "qualified_new_method": false,
+  "diagnostic_closed": true,
+  "next_experiment_prepared": false,
+  "external_publication": false
+}

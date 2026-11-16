@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "preserved_immutable_files": 8939,
+  "result_source_copies": 9,
+  "master": "v7.49",
+  "paper_memory": "v38",
+  "training_rerun": false,
+  "optimizer_updates": 0,
+  "checkpoint_inference_rescores": 72,
+  "qualified_partial_arms": [],
+  "tested_recipe_closed": true,
+  "next_experiment_prepared": false
+}

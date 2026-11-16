@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-24",
+  "cpu": "PASS",
+  "cuda": "PASS",
+  "tests_per_device": 7,
+  "cpu_seconds": 1.250,
+  "cuda_seconds": 2.352,
+  "artificial_only": true,
+  "real_parameter_updates": false,
+  "real_scoring": false,
+  "logs": ["unit_cpu.log", "unit_cuda.log"]
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 2808,
+  "arm": "frozen",
+  "fingerprint": "a93655fb3479002993e1fcf74c751ca7857f817cc08a36e146b4910c471e09fc",
+  "checkpoint_sha256": "b2fa9fb3ef13f63be73a0c465326bc5c0862ce0d229254c17907784d7d47680d",
+  "cache_sha256": "661749d2fa69e57e06470547956f0af1fa25005ce90f554feebdeb9fd376e691",
+  "test_assessment_seconds": 2.0118575000669807,
+  "examples": 3669,
+  "common_accuracy": 0.9043335914611816,
+  "own_accuracy": 0.9043335914611816,
+  "common_loss": 0.40807658433914185,
+  "own_loss": 0.4087875187397003,
+  "smoke": false
+}

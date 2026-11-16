@@ -1,0 +1,23 @@
+{
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\COMPLETE.json": "90a2caa0cc19789621eb67b9a9fafd4eab6944ffad16a0134b8fcda9d6155933",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\configuration.json": "1e8fa7fb6f3147d59337fc1681cfd79aa341c2d321759fb09159f0621ca0084e",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\SYNTHETIC_FREEZE.json": "ef0b94f048a1bfde157c9898f13d0dc5f1fa0a242d16464ad7d2f303186799d4",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\audit.json": "14ac1c74f70d519bd287de4a2a8b7f2647b00d3bc4856603e8bcaa0e7c7eed7a",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\cold_steps.csv": "7c62bc6af04dd28a0b3a5783ff7c784a42b736ef3993e24469e2c92bfd9bf627",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\data_loading.json": "e492723fa632ef2ae789bec4c0ad0dc3b74c2c8e33eb1b25d5f36a703db8820e",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\equivalence.csv": "56320a45c741f699d61e36d5be7582b1d1b6e78a74aec909d5d2aadc89ad797c",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\input_states.json": "44bf68121bfc954964c9a1f75f663f2b46102ccd00c1c9047e565a87f3188347",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\liveness.csv": "26825f2f1484e0206271423e61a96ab4f051fe4e1aa3568c6c0127220f6faf38",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\liveness_9961_full.pt": "ec4d341ec2fd8d42d533847280cf74389086ebfb0c3802ddfc29daddc5596a2d",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\liveness_9961_grown.pt": "52fa57ac90ad6fd299aedd9a0d3f4b08c1c0e6b7a35ba25ceefb717c5b1a35cb",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\liveness_9961_small.pt": "044778fdd54664861572a82bd360d5c17613fee2b95c383b69668e4603a5450e",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\liveness_9962_full.pt": "f72d511f431eba7c96abfa8bd50f4288096ec6d3cd5c325fab090a9e77414fb8",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\liveness_9962_grown.pt": "2f10a04aa01bb1b16e5ad7ac93f048d5ad50b86dc77a9aaf966627ce3cfb3b56",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\liveness_9962_small.pt": "733369b54bdc5be3c8f5ed400d455f3745342c73de6a0c7f914e72a6a8a54261",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\liveness_summary.json": "7d380f2ad3d6331c75194fb6d15973ada3159ebb22cea19781e972dc30c89236",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\measurements.csv": "2b127b5020ac3d397cedf2d7271baceede0ef41580345b3758a73617862e83d5",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\preflight.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\probe_indices.json": "a9a7e93c579bad0d0cfc2d04244db4c63ebc8f94eb0ed10beaa7dee1f3571c27",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\REPORT.md": "1ac7f0f263e3e3391b04eda7059af6806d4457198781b46e82c902bd33986de6",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11_sanity_growth_v1_final_cpu\\attempt_001\\summary.csv": "b9e98706faf90cf8c508f1efc2c5a60669f59edea5c16bfd62069681ca428ae8"
+}

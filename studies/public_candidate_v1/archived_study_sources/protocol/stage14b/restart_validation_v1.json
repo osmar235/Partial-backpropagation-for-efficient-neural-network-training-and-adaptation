@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "synthetic": true,
+  "incomplete_attempt_preserved": true,
+  "restarted_in_new_attempt": true,
+  "completed_arm_files_unchanged": 11,
+  "corrupted_completed_file_rejected": true,
+  "real_training_performed": false
+}

@@ -1,0 +1,7 @@
+AGRLS frozen held-out loss-gated optimizer comparison
+candidate_mechanism=loss_gated_moment_continuation_adam
+seed=37; order=baseline_first; strongest=adam
+adam_accuracy=59.81%; wall=21.758
+adan_accuracy=58.31%; wall=22.031
+fixed_accuracy=58.34%; delta_pp=-1.470; wall_reduction=0.0940
+equal_accuracy=62.25%; delta_pp=2.440; wall_reduction=0.0360

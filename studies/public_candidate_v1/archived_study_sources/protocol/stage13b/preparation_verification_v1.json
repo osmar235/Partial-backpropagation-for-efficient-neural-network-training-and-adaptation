@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "prior_immutable_files_verified": 1215,
+  "cpu_resume_files_unchanged": 35,
+  "source_files_frozen": 33,
+  "freeze_hash": "010e740c4ce5d1113c9dde28d33a605b3cf87a7ea434b4f4c2b17c210ee3064d",
+  "source_checkpoints": 2,
+  "real_output_absent": true,
+  "stage14_queued": true
+}

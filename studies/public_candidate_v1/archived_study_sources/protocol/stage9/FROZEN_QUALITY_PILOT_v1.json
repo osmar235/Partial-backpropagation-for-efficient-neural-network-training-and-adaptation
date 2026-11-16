@@ -1,0 +1,99 @@
+{
+  "version": "stage9E-quality-pilot-v1",
+  "prepared_date": "2026-10-21",
+  "synthetic": false,
+  "spec": {
+    "version": "stage9E-quality-pilot-v1",
+    "development_seeds": [
+      1301,
+      1302
+    ],
+    "variants": [
+      "full_adamw",
+      "periodic",
+      "random",
+      "mixup_only",
+      "boundary_rms"
+    ],
+    "orders": [
+      [
+        "full_adamw",
+        "periodic",
+        "random",
+        "mixup_only",
+        "boundary_rms"
+      ],
+      [
+        "boundary_rms",
+        "mixup_only",
+        "random",
+        "periodic",
+        "full_adamw"
+      ]
+    ],
+    "epochs": 100,
+    "schedule_horizon_epochs": 300,
+    "full_warmup_epochs": 5,
+    "cut": 4,
+    "batch_size": 256,
+    "eval_batch_size": 512,
+    "learning_rate": 0.001,
+    "weight_decay": 0.05,
+    "mixup_alpha": 0.2,
+    "label_smoothing": 0.1,
+    "quota_window": 20,
+    "omission_fraction": 0.4,
+    "history_size": 128,
+    "calibration_quantile": 0.4,
+    "hardware_warmup_steps": 16,
+    "telemetry_every_epochs": 5,
+    "primary_target": 0.8,
+    "secondary_target": 0.82,
+    "sustained_epochs": 3,
+    "minimum_time_gain": 0.05,
+    "final_accuracy_margin_pp": 0.2,
+    "expected_batches_per_epoch": 176,
+    "expected_regular_batches_per_epoch": 175,
+    "expected_partial_updates_per_active_epoch": 70,
+    "expected_total_partial_updates_per_arm": 6650,
+    "expected_total_updates_per_arm": 17600,
+    "expected_omitted_examples_per_arm": 1702400,
+    "state_handling": "prefix_grad_none_no_parameter_moment_counter_or_decay_update; suffix_fresh_every_step",
+    "primary_clock": "observed_seconds_since_training_start_through_validation_confirming_target_including_calibration_gate_logging_and_telemetry; excludes_common_hardware_warmup_model_setup_and_final_checkpoint_write",
+    "inference": "bounded development screen on reused training-derived validation; two new run seeds; no confirmatory test, optimal-cut claim, automatic extension or publication claim"
+  },
+  "source_sha256": {
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage8_vit_v2.py": "2cb7d41d21fd6e906efa5dab69f03d5638aa06ca7586f69c73152ae7c93452e5",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage8_workflow_v2.py": "b34f2dccd2bbc012f7dae7c3d3caf65251a239edcd801101133c16e865db6f3e",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage8_audit_v2.py": "ceda4bb8545fe6b5edc8da945363f84040f02880eea8f95cf6c1688c2c65135d",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage8\\study_spec_v2.json": "191967df463ec4f29638070ca6e87400859281a31ac62e25feb2f92683feba4b",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\agrls_stage6a_cifar10_augmented_schedule.py": "556bd1b69f06acf8e1787521b40a32dd65b3166ee1f7966de323c4fa603cad53",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\agrls_stage5a1_cifar10_fggr_microprobe.py": "8e90fa73a179ee75b2dd4e650222dccc553f9ce9f7988a977c4ddf2c7573db61",
+    "C:\\Users\\osmar\\projects\\.venv\\Lib\\site-packages\\torchvision\\models\\vision_transformer.py": "a832238318b4c406a9051cab8941538ee22c4de5a2410d369d96a4b3b4a10a81",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage8\\STAGE8_PROTOCOL_v2.md": "2c46afd62260a8cd4615dcee451fa678535bf63a9ed148fa25a79ff338a2eb59",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage9_boundary_diagnostic.py": "c979f9ead6924941107f006285a1429a82fef928317ff71240c94d6cf17b76fd",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage9\\boundary_diagnostic_spec_v1.json": "60030c91d4784ad2500dba168aefaca2766ab40a350a5097f0d67e7752159149",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage9_split_backward_proof.py": "bac39c7906f3dfda7f13d8835c5fee0c5c174dd75efd460a0a5cbeed645a21ee",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage9\\BOUNDARY_DIAGNOSTIC_v1.md": "e10b2ddcb7ac28820a55e80dac456b80c444ac61fd461583056ac6f82c9bd78e",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage9_quality_pilot.py": "595748700fea9a247c3da0f679ff31c372aba5856ab2680fe26870df981d7bae",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage9\\quality_pilot_spec_v1.json": "1fa2c400ff8ed832416259ae6069f4098442649b70801d62b7ca180912466156",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage9\\QUALITY_PILOT_v1.md": "d1392b1b97ed5b9fa34cd08f93fb678decc2f6790160c5cd97717a8df6af023f",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage9_deployment_cost.py": "a306d4d3756725587e8022fa457b369d92537f5f8a4ff4bca1d7f4b27dc170b8",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\review_stage9E.py": "cc5ce1ce3f2aebdb068080392452c19e5ebc207c6675527acd9683cab4b9d036",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\test_stage9_quality_pilot.py": "d59a001604ce42a5b6498c3196449ea657e495ff4635461da70fbc3a6a77ce22",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\run_stage9E_quality_pilot.cmd": "c41d8618070290e2db2c4b2e5a2b1e90c26634ebb09ff777b3a60d0da38b5b14"
+  },
+  "evidence_sha256": {
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage9C_review_v1\\REPORT.md": "57a7453ed338a26ce300ab3148e3222d21e27a544e4df230592481ce46098486",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage9C_review_v1\\audit.json": "5eeb7d4606e24e102db0faf4da09e803ade53655f77604af96243231b6576522",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage9D_review_v1\\REPORT.md": "02f041a4ceb8a7077d4e1912b18345c955e0631eff0c3c5f8cde91a72a951139",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage9D_review_v1\\audit.json": "26c82b87e428f5b9ef0e40a5381195a226266f7ffb5dad379fb86a3ba4d7d5ce"
+  },
+  "expected_split": {
+    "kind": "train_only_stratified_45000_5000",
+    "train_index_sha256": "00491c95abbca7f58eb0dd3b4837d9454346be33a85fa35bdeac50548bf8f30f",
+    "validation_index_sha256": "da760376f97d0ecaa9ce13819d1953983cd5b3646b1df6c82140004b78ecdfde"
+  },
+  "role": "development only; reused validation; no confirmatory or publication inference",
+  "freeze_hash": "fae32bbcff5a97ae0f23afe3fe67e75b7a36308075d248a54efc8c98fa6a4947"
+}

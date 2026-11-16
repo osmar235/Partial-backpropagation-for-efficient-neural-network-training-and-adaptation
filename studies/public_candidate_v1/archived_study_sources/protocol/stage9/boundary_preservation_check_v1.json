@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "manifest": "protocol/stage7/frozen_files_before.csv",
+      "verified": 218,
+      "changed": []
+    },
+    {
+      "manifest": "results/stage8A_review_v1/preserved_v1_sha256.csv",
+      "verified": 35,
+      "changed": []
+    },
+    {
+      "manifest": "protocol/stage8/stage8_v2_preparation_sha256.csv",
+      "verified": 13,
+      "changed": []
+    },
+    {
+      "manifest": "results/stage8A_review_v2/preserved_development_sha256.csv",
+      "verified": 36,
+      "changed": []
+    },
+    {
+      "manifest": "results/stage8B_review_v2/preserved_evaluation_sha256.csv",
+      "verified": 160,
+      "changed": []
+    }
+  ],
+  "manuscript_v7_preserved": true,
+  "real_stage9C_not_started": true,
+  "cpu_cuda_synthetic_source_hashes_match": true
+}

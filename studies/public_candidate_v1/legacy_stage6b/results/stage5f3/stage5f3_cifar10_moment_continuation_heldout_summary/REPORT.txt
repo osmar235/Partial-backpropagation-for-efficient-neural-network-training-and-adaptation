@@ -1,0 +1,13 @@
+AGRLS held-out CIFAR-10 aggregate
+seeds=31;32;33;34;35;36;37;38;39
+median_fixed_accuracy_delta_pp=-1.470
+median_fixed_wall_reduction=0.1246
+fixed_accuracy_passes=2/9
+fixed_speed_passes=9/9
+median_equal_accuracy_delta_pp=-0.210
+median_equal_wall_reduction=0.0559
+equal_accuracy_passes=6/9
+equal_speed_passes=9/9
+fixed_mode_pass=False
+equal_wall_mode_pass=False
+frozen_aggregate_pass=False

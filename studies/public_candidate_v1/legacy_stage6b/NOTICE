@@ -1,0 +1,11 @@
+Loss-Gated Partial Backpropagation with Adam Moment Continuation
+Copyright 2026 Osmar Pinto Neto
+
+Original software in this repository is licensed under the Apache License,
+Version 2.0. Research artifacts are licensed under Creative Commons
+Attribution 4.0 International as mapped in LICENSE.md.
+
+This product includes the Adan optimizer implementation distributed under the
+Apache License, Version 2.0. See src/third_party/Adan/LICENSE and the retained
+upstream copyright notices.
+

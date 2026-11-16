@@ -1,0 +1,13 @@
+{
+  "version": "key-bias-functional-impact-v1",
+  "trained_seeds": [1501, 1502],
+  "anchors": [0, 2],
+  "candidate_arms": ["native_fp32_math", "native_bf16_math", "reference_bf16_math", "native_bf16_auto", "reference_bf16_auto"],
+  "evaluation_policies": ["reference_fp32_math", "reference_bf16_math", "reference_bf16_auto"],
+  "batch_size": 256,
+  "second_batch_seed": 394001,
+  "label_smoothing": 0.1,
+  "score_reconstruction_atol": 0.00001,
+  "score_reconstruction_rtol": 0.000001,
+  "interpretation": "Prospective functional diagnostic of previously observed updates. No new gradients, training, timing benchmark, quality gate, accuracy noninferiority claim or exemption from historical parameter gates."
+}

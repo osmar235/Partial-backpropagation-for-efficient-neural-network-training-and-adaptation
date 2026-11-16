@@ -1,0 +1,21 @@
+{
+  "version": "optimizer-sensitivity-v1",
+  "initialized_seeds": [99201, 99202],
+  "trained_seeds": [1501, 1502],
+  "batch_size": 256,
+  "anchors": [0, 2],
+  "arms": ["native_fp32_math", "reference_fp32_math", "native_bf16_math", "reference_bf16_math", "native_bf16_auto", "reference_bf16_auto"],
+  "reference": "reference_fp32_math",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.05,
+  "betas": [0.9, 0.999],
+  "epsilon": 1e-08,
+  "label_smoothing": 0.1,
+  "input_seed_offset": 381001,
+  "dropout_seed_offset": 382001,
+  "training_batch_seed": 393001,
+  "gradient_bin_upper_bounds": [1e-10, 1e-08, 1e-06, 0.0001, 0.01],
+  "top_coordinates": 32,
+  "historical_three_update_parameter_limit": 0.0003,
+  "interpretation": "Descriptive mechanism diagnostic. No gate relaxation, epsilon tuning, timing comparison or quality claim. One-step replay differences do not retest the historical three-update limit."
+}

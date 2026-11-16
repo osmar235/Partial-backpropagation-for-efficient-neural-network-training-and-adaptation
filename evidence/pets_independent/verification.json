@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "seeds": 24,
+  "trajectories": 72,
+  "test_examples": 3669,
+  "training_checkpoint_rescores": 144,
+  "test_checkpoint_rescores": 144,
+  "max_training_logit_error": 0.0,
+  "max_test_logit_error": 0.0,
+  "unchanged_files": 728,
+  "fragmented": false,
+  "training_updates_this_review": 0,
+  "portable_analysis": "PASS"
+}

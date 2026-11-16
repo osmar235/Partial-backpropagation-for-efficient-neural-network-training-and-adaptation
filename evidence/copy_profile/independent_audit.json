@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "plain_blocks": 64,
+  "primary_updates": 4096,
+  "profiles": 16,
+  "paired_contrasts": 32,
+  "instrumented_event_updates": 1024,
+  "short_plain_updates": 64,
+  "profile_updates": 64,
+  "trace_gpu_activities": 23131,
+  "unresolved_gpu_activities": 355,
+  "cross_thread_gpu_activities": 14304,
+  "prior_immutable_files": 9467,
+  "model_forwards": 0,
+  "backwards": 0,
+  "optimizer_updates": 0,
+  "phase_attribution_caveat": "Frozen parent-chain attribution places autograd worker operations outside main-thread phases; new correlated interval reconstruction is kept separate."
+}

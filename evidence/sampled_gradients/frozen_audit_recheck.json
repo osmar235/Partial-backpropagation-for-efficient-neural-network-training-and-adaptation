@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "synthetic": true,
+  "smoke": false,
+  "trials": 72,
+  "retained_artificial_updates": 648,
+  "discarded_warmup_updates": 216,
+  "all_inputs_states_first_losses_and_pairings_verified": true,
+  "operation_cost_gate": false,
+  "passing_seed_batch_conditions": 0,
+  "total_seed_batch_conditions": 4,
+  "task_quality_measured": false,
+  "complete_adaptation_measured": false,
+  "real_checkpoint_or_data_used": false,
+  "decision": "park_fixed_implementation"
+}

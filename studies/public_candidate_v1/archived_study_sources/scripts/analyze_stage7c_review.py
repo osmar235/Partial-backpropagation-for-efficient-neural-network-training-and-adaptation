@@ -1,0 +1,148 @@
+"""Independent, read-only audit of Stage 7C sensitivity records."""
+import csv
+import hashlib
+import json
+import math
+import statistics as st
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+DATA=ROOT/'results/stage7C_sensitivity'
+OUT=ROOT/'results/stage7C_review_v1'
+SEEDS=range(57,63)
+VARIANTS=['lgpb','rho_090','rho_099','no_forced_full','prefix_stem','prefix_stem_layer12']
+T5=2.570581835636314
+
+def records(path):
+    with path.open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
+
+def close(a,b):
+    assert math.isclose(float(a),float(b),rel_tol=1e-9,abs_tol=1e-8),(a,b)
+
+def estimate(vs,log=False):
+    values=[math.log(v) for v in vs] if log else vs
+    mu=st.mean(values);half=T5*st.stdev(values)/math.sqrt(len(values))
+    return [math.exp(v) for v in (mu,mu-half,mu+half)] if log else [mu,mu-half,mu+half]
+
+def main():
+    assert {p.name for p in DATA.glob('seed_*')}=={f'seed_{s:03d}' for s in SEEDS}
+    runs={}; input_hashes={}
+    for path in sorted(DATA.rglob('*')):
+        if path.is_file():input_hashes[str(path.relative_to(DATA))]=hashlib.sha256(path.read_bytes()).hexdigest()
+    for seed in SEEDS:
+        folder=DATA/f'seed_{seed:03d}'
+        assert {p.name for p in folder.iterdir() if p.is_dir()}==set(VARIANTS)
+        config=json.loads((folder/'run_config.json').read_text())
+        fingerprint=config.pop('config_fingerprint')
+        hashed={k:v for k,v in config.items() if k not in ('force','out')}
+        assert hashlib.sha256(json.dumps(hashed,sort_keys=True).encode()).hexdigest()==fingerprint
+        for path,h in config['source_sha256'].items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==h
+        for key,value in dict(suite='sensitivity',dataset='cifar10',train_subset=50000,eval_subset=10000,
+            batch_size=256,epochs=30,schedule_epochs=30,seed=seed,device='cuda',optimizer='adam',
+            lr=.0003,rho=.95,warmup_steps=196,eval_batch_size=512,min_lr_ratio=.01,
+            log_steps=True,tiny_model=False,rotate_order=True,rotation_start=57,num_classes=10).items():
+            assert config[key]==value,(seed,key)
+        offset=(seed-57)%6
+        order=VARIANTS[offset:]+VARIANTS[:offset]
+        assert config['variants']==order
+        for variant in order:
+            d=folder/variant
+            r=json.loads((d/'summary.json').read_text())
+            epochs=records(d/'epoch_trace.csv');steps=records(d/'step_trace.csv')
+            assert r['status']=='complete' and r['config_fingerprint']==fingerprint
+            assert r['seed']==seed and r['variant']==variant and r['dataset']=='cifar10'
+            assert r['updates']==5880 and len(epochs)==30 and len(steps)==5880
+            assert r['run_order_position']==order.index(variant)
+            prefix={'prefix_stem':1856,'prefix_stem_layer12':675392}.get(variant,149824)
+            assert r['prefix_parameter_count']==prefix and r['suffix_parameter_count']==11173962-prefix
+            rho={'rho_090':.90,'rho_099':.99}.get(variant,.95)
+            close(r['rho'],rho)
+            ema=None;previous=False;streak=0;max_streak=0
+            for i,s in enumerate(steps):
+                loss=float(s['loss']);partial=bool(int(s['partial']))
+                assert int(s['step'])==i+1 and int(s['epoch'])==i//196+1
+                assert math.isfinite(loss)
+                if variant!='no_forced_full':assert not(partial and previous)
+                if ema is None:assert s['ema_before_update']==''
+                else:close(s['ema_before_update'],ema)
+                expected=ema is not None and (variant=='no_forced_full' or not previous) and loss<=ema
+                assert partial==expected,(seed,variant,i)
+                ema=loss if ema is None else rho*ema+(1-rho)*loss
+                streak=streak+1 if partial else 0;max_streak=max(max_streak,streak)
+                previous=partial
+                close(s['lr'],.0003*(.01+.99*.5*(1+math.cos(math.pi*i/5879))))
+                for key in ('aug_ms','forward_ms','backward_ms','optimizer_ms'):
+                    assert math.isfinite(float(s[key])) and float(s[key])>=0
+            for i,e in enumerate(epochs):
+                batch=steps[i*196:(i+1)*196];partial=sum(int(s['partial']) for s in batch)
+                assert int(e['epoch'])==i+1 and int(e['updates'])==(i+1)*196
+                assert int(e['partial_updates'])==partial and int(e['full_updates'])==196-partial
+                close(e['partial_fraction'],partial/196)
+                close(e['cumulative_training_seconds'],sum(float(x['epoch_seconds']) for x in epochs[:i+1]))
+                for flag,label in ((0,'full'),(1,'partial')):
+                    mode=[s for s in batch if int(s['partial'])==flag]
+                    close(e[f'mean_backward_{label}_seconds'],st.mean(float(s['backward_ms'])/1000 for s in mode) if mode else 0)
+            assert max_streak==r['max_consecutive_partials']
+            assert sum(int(s['partial']) for s in steps)==r['partial_updates']
+            assert r['full_updates']+r['partial_updates']==5880
+            close(r['partial_fraction'],r['partial_updates']/5880)
+            close(r['final_eval_accuracy'],epochs[-1]['eval_accuracy'])
+            close(r['final_eval_loss'],epochs[-1]['eval_loss'])
+            close(r['training_wall_seconds'],sum(float(e['epoch_seconds']) for e in epochs))
+            for key,field in [('aug_ms','augmentation_seconds'),('forward_ms','forward_seconds'),
+                              ('backward_ms','backward_seconds'),('optimizer_ms','optimizer_seconds')]:
+                close(r[field],sum(float(s[key])/1000 for s in steps))
+            for flag,label in ((0,'full'),(1,'partial')):
+                close(r[f'backward_{label}_seconds'],sum(float(s['backward_ms'])/1000 for s in steps if int(s['partial'])==flag))
+            close(r['timing_unattributed_seconds'],r['training_wall_seconds']-sum(r[k] for k in
+                ('augmentation_seconds','forward_seconds','backward_seconds','optimizer_seconds')))
+            for target in (60,70,80):
+                first=next((e for e in epochs if float(e['eval_accuracy'])>=target/100),None)
+                assert r[f'epoch_to_{target}pct']==(int(first['epoch']) if first else None)
+                if first:close(r[f'time_to_{target}pct_seconds'],first['cumulative_training_seconds'])
+                else:assert r[f'time_to_{target}pct_seconds'] is None
+            runs[seed,variant]=r
+
+    reported=records(DATA/'stage7_descriptive_paired_estimates.csv')
+    assert {e['variant'] for e in reported}==set(VARIANTS)-{'lgpb'} and len(reported)==5
+    contrasts=[]
+    for e in reported:
+        variant=e['variant']
+        pairs=[(runs[s,variant],runs[s,'lgpb']) for s in SEEDS]
+        delta=estimate([100*(a['final_eval_accuracy']-b['final_eval_accuracy']) for a,b in pairs])
+        wall=estimate([a['training_wall_seconds']/b['training_wall_seconds'] for a,b in pairs],True)
+        assert e['reference']=='lgpb' and int(e['n_paired_seeds'])==6
+        for key,value in zip(('mean_accuracy_delta_pp','ci95_accuracy_low_pp','ci95_accuracy_high_pp'),delta):close(e[key],value)
+        for key,value in zip(('geometric_wall_ratio','ci95_wall_ratio_low','ci95_wall_ratio_high'),wall):close(e[key],value)
+        contrasts.append(dict(variant=variant,accuracy_delta_pp_ci95=delta,wall_ratio_ci95=wall,
+            wall_reduction_pct=100*(1-wall[0]),
+            seeds_more_accurate=sum(a['final_eval_accuracy']>b['final_eval_accuracy'] for a,b in pairs),
+            seeds_faster=sum(a['training_wall_seconds']<b['training_wall_seconds'] for a,b in pairs)))
+    aggregate={}
+    for variant in VARIANTS:
+        rs=[runs[s,variant] for s in SEEDS]
+        aggregate[variant]=dict(mean_accuracy_pct=100*st.mean(r['final_eval_accuracy'] for r in rs),
+            mean_wall_seconds=st.mean(r['training_wall_seconds'] for r in rs),
+            min_wall_seconds=min(r['training_wall_seconds'] for r in rs),
+            max_wall_seconds=max(r['training_wall_seconds'] for r in rs),
+            mean_q_pct=100*st.mean(r['partial_fraction'] for r in rs),
+            max_partial_streaks=[r['max_consecutive_partials'] for r in rs],
+            mean_full_backward_ms=st.mean(r['avg_backward_full_ms'] for r in rs),
+            mean_partial_backward_ms=st.mean(r['avg_backward_partial_ms'] for r in rs),
+            mean_unattributed_seconds=st.mean(r['timing_unattributed_seconds'] for r in rs),
+            targets_reached={str(t):sum(r[f'time_to_{t}pct_seconds'] is not None for r in rs) for t in (60,70,80)})
+    frozen=records(ROOT/'protocol/stage7/frozen_files_before.csv')
+    for row in frozen:assert hashlib.sha256(Path(row['Path']).read_bytes()).hexdigest().upper()==row['Hash'],row['Path']
+    OUT.mkdir(exist_ok=True)
+    (OUT/'audit.json').write_text(json.dumps(dict(status='PASS',completed_runs=36,epochs=1080,
+        steps=211680,original_files_unchanged=len(frozen),input_sha256=input_hashes,
+        checks=['configurations, code hashes, fingerprints and six cyclic orders',
+        'variant-specific rho, partitions, gate decisions, EMA history and max skip streak',
+        'cosine rates, mode counts and timing reconciliation','final metrics and all target crossings',
+        'all five paired effects and intervals independently reproduced']),indent=2)+'\n')
+    (OUT/'independent_results.json').write_text(json.dumps(dict(contrasts=contrasts,aggregate=aggregate),indent=2)+'\n')
+    print(json.dumps(dict(contrasts=contrasts,aggregate=aggregate),indent=2))
+    print('PASS: 36 runs, 211,680 steps; frozen files unchanged')
+
+if __name__=='__main__':main()
+

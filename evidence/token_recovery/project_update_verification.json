@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "date": "2026-10-24",
+  "preserved_immutable_files": 1634,
+  "current_master": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\adaptive_gradient_refresh_project_master_v7.14.md",
+  "paper_memory": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\paper\\RESEARCH_DISCUSSION_MEMORY_v5.md",
+  "source_final_scoring_conditions": 12,
+  "parameter_updates_performed": false,
+  "test_scoring_performed": false,
+  "reference_qualified": true,
+  "both_seed_spatial_pass": false,
+  "both_seed_similarity_pass": false,
+  "decision": "park_fixed_recipe",
+  "new_experiment_prepared": false,
+  "publication_on_hold": true
+}

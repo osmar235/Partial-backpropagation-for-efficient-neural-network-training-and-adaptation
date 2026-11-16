@@ -1,0 +1,5874 @@
+[
+  {
+    "session": 0,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 64, 65], [256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 65, 64], [256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 3, 64], [256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 64], [256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 64, 65], [200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 65, 64], [200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 3, 64], [200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 64], [200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 64, 65], [256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 65, 64], [256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 3, 64], [256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 64], [256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 0,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 64, 65], [200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 65, 64], [200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 3, 64], [200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 64], [200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 64, 65], [256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 65, 64], [256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 3, 64], [256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 64], [256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 64, 65], [200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 65, 64], [200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 3, 64], [200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 64], [200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 64, 65], [256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 65, 64], [256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 3, 64], [256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 64], [256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 1,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 64, 65], [200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 65, 64], [200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 3, 64], [200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 64], [200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 64, 65], [256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 65, 64], [256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 3, 64], [256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 64], [256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 64, 65], [200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 65, 64], [200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 3, 64], [200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 64], [200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 64, 65], [256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 65, 64], [256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 3, 64], [256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 64], [256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 2,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 64, 65], [200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 65, 64], [200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 3, 64], [200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 64], [200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99171,
+    "batch": 256,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 64, 65], [256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 65, 64], [256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 3, 64], [256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 64], [256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99171,
+    "batch": 200,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 64, 65], [200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 65, 64], [200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 3, 64], [200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 64], [200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 768, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 256, 192], [3, 65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 192], [65, 256, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 3, 64], [65, 256, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 768, 64], [65, 768, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99172,
+    "batch": 256,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[256], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 256, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192, 8, 8], [256, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 192], [256, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 64, 65], [256, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 3, 65, 64], [256, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 192], [256, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 3, 64], [256, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256, 65, 3, 64], [256, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[256], [256], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 256, 192], [65, 256, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "math",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 19,
+    "unbind_backward_nodes": 0,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "qkv_unbind",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 600, 64], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 30
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[3, 65, 200, 192], [3, 65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 12
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 192], [65, 200, 3, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 3, 64], [65, 200, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 600, 64], [65, 600, 64], []]",
+        "count": 12
+      }
+    ],
+    "full_finite_gradients": true
+  },
+  {
+    "session": 3,
+    "seed": 99172,
+    "batch": 200,
+    "arm": "timm_reference",
+    "policy": {
+      "deterministic": true,
+      "warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "flash_sdp": false,
+      "mem_efficient_sdp": false,
+      "math_sdp": true,
+      "cudnn_sdp": false,
+      "cublas_workspace": ":4096:8",
+      "cpu_threads": 1,
+      "tf32_matmul": false,
+      "tf32_cudnn": false
+    },
+    "attention_operators": {
+      "aten::scaled_dot_product_attention": 6,
+      "aten::_scaled_dot_product_attention_math": 6
+    },
+    "select_backward_nodes": 1,
+    "unbind_backward_nodes": 6,
+    "copy_operations": [
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[200], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::clone",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::contiguous",
+        "shapes": "[[65, 200, 192], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192, 8, 8], [200, 192, 8, 8], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 192], [200, 192], []]",
+        "count": 1
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 64, 65], [200, 3, 64, 65], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 3, 65, 64], [200, 3, 65, 64], []]",
+        "count": 18
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 192], [200, 65, 192], []]",
+        "count": 24
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 3, 64], [200, 65, 3, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200, 65, 3, 64], [200, 65, 3, 64], []]",
+        "count": 6
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[200], [200], []]",
+        "count": 2
+      },
+      {
+        "operator": "aten::copy_",
+        "shapes": "[[65, 200, 192], [65, 200, 192], []]",
+        "count": 6
+      }
+    ],
+    "full_finite_gradients": true
+  }
+]

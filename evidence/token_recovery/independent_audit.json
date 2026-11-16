@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "training_updates_verified": 5280,
+  "discarded_warmup_updates": 18,
+  "independent_curve_points": 36,
+  "saved_model_scoring_conditions": 12,
+  "max_abs_rescored_logit_error": 0.0,
+  "both_seed_reference_qualified": true,
+  "both_seed_spatial_pass": false,
+  "both_seed_similarity_pass": false,
+  "decision": "park_fixed_recipe",
+  "prior_and_raw_files_preserved": 1634,
+  "parameter_updates_performed": false,
+  "test_scoring_performed": false,
+  "development_scoring_performed": true
+}

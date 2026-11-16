@@ -1,0 +1,22 @@
+{
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\checkpoint_validation_rescore.csv": "0e4467a56ed818a0a5aa0c09151cd35b88431885dcfc8c6ddead89c5599d391a",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\frozen_audit_recheck.json": "4e761a591e3dce6806f08edb86435de4d126f9596647c3129fa967083a30d38c",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\independent_audit.json": "0b08604f68d02dbe125c50fa1a833c5a003452f68a1d2353aa2133735f4ef3b2",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\independent_mean_results.csv": "74252c00468a54203a5559a67b9c5ae6255d184f680ff8cb7ce3e130c54a9c17",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\independent_screen.csv": "74565ff9c813e25165bfe4a519847aaa407c3bd7b7200b0009dba1a3b5744125",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\independent_seed_results.csv": "f99036513481b53eed1b6498296d42e77d7feada7fb3710a456a2f00051e2c7e",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\independent_targets.csv": "3f3756fbd26dbbb1eded46f6fe3a821c6045b15cea589d3c6e2084e365b0242f",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\mutable_pointers_after.json": "44f6863666f9cde4231d91d0c8efd326ee753ed4193e952ca10b9243baaf7fce",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\mutable_pointers_before.json": "863899b15b6715ba0b1a93926040507e6ff1469a6e108966cb11592ff014c496",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\preserved_inputs_sha256.csv": "e24f26e440e65a502ce8a7f89b53f00e5a147c078138173e9efa7358f03f6aa5",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\project_update_verification.json": "af843d7d6aaa8f4fd93c6f8289d04503dadb2dd69486587b863e3df7ba10162e",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\REPORT.md": "a49b9a85fbb0ac72a064135862cbd69ab2869fad4341dbb4762b73458785af99",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\rescore_metadata.json": "0c7bcd3803cde63d5a5a2d62a642a6ea5d2333734f7c425c3465328e58041c71",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\transition_curve_samples.csv": "7c31eb6cb2b902512b3acfc7a4848e3a8399643bb637f6a8369a7e377d63145e",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\adaptive_gradient_refresh_project_master_v7.3.md": "e123c19f3e8e70f8828ffe6233fa4900aaefed04740d46bf708d9493fb788775",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\review_stage11B_results.py": "1872a43a8afa482994e0254bf9cbf4bd74607474f51055fee999a276645d302d",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage11\\record_pilot_review.py": "efe2df11501f2b6732d2733de3912f64d029e72b5c6ef22a29fbc20de3e0abc8",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage11\\POST_PILOT_DECISION_v1.md": "065327144264a8a16eb4849d30d3ae3c023874f3c5d75f00f3aa2062d16c686f",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\CURRENT_RELEASE.md": "b69cf14fb1770f389ac4060931a6ef143e17205c6742c5bbf7c59f4abda60f9a",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\README_STAGE9.md": "0cc26ba58bce198afe65f7500ab6098da287a0749d401c63a7d2478c4074f168"
+}

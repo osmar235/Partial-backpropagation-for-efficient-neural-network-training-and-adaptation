@@ -1,0 +1,23 @@
+{
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\audit.json": "381c7a721b3a404d4c4f8911670e4b8f0c7936f0ff316ba9b2d39c35fe3bb699",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\COMPLETE.json": "8d1b8a0e12397812d87dfbdc4eced9118af9198552c5dc02fcfe378e1678231d",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\configuration.json": "98b192376686f947ed46b5873e2474a340f9709ed5b84743fd03d0c61179f811",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\RAW_COMPLETE.json": "c94696a95bed429d6d5a167e4f4ae3f174f1a2fcbaa109d9fa273eea7c12dc35",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\REPORT.md": "92660aeafd90022019677a057e52cc7c4c14ec3cd14fba99c129958a98ba54c1",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\summary.csv": "64391a7fc2623578e8cbdd42ae95935dfc0ba7a9a80719532487d0200a6a24d5",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\SYNTHETIC_FREEZE.json": "706959b0c257b03ccded9e1ca354de0f18262a515da9404f974bd44ad593f7b7",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\data.json": "4ba24f1947e8784c9f9975f8acb55b7e6779e0f655526b56489443c8638fb2ef",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\measurements_9951.csv": "376aa66ea7f6d641ea1074d0fb32883364d26a95ed231b491b0f68ac31ac4f8b",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\measurements_9952.csv": "f15718eb1feec8579b9a798bbb148a4e6be85b21fd75b096ffe8af35043b3803",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\predictions_9951.npz": "26e7e8d1bfdfe9128cdf38ec66e98ae7549d9537150f32076a763cfb66200731",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\predictions_9952.npz": "971af48cf981bd3ae2152ec36619f4e46f9709f1f036f4c9f55a2020a7ba45bf",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\preflight.json": "a3a54a0a947040417ae26b29feffd053f30cc3858248eea946c3a459bb8ca1b1",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\seed_9951.json": "f7336c4053b77431add99f0cfd76039640b459812b2b68361c8d41bc80ccb720",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\seed_9952.json": "50cde67573749c71328c9a27c974cbef9e3137b9dea07be64f6f81ad01f85de2",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\streams_9951.json": "9d16ddb17892f08409b8e9edc25f212689ccad4e9d57822cbf981f0e73d3fc44",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\streams_9952.json": "8dc1750ced9dfeba8d1972fd8233fc1c1e5410fd82a375bb12032dedcac5ac96",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\telemetry_9951.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\telemetry_9952.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\warmups_9951.csv": "724d5b3aebd5a3d8e98637e37786b6d23027d31160ae82efb699e3de0fa7c8e2",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage14_sanity_tokens_v1_final_cpu\\attempt_001\\warmups_9952.csv": "88012eeaf071de51a2770d7696e3b3c4162f73040ca2fc478d85c9907c032102"
+}

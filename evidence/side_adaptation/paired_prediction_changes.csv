@@ -1,0 +1,11 @@
+seed,comparison,corrected,regressed,net_correct,delta_accuracy_pp,changed_predictions,loss_difference
+1501,multi_side_minus_full,102,207,-105,-2.1,386,0.03429868823681581
+1501,multi_side_minus_head,27,30,-3,-0.06,74,-0.007838467990976095
+1501,multi_side_minus_lp_full,96,202,-106,-2.12,376,0.03396292713963567
+1501,multi_side_minus_final_side,14,28,-14,-0.28,51,-0.0015981738248399546
+1501,multi_side_minus_source,65,58,7,0.14,159,-0.024672065465248583
+1502,multi_side_minus_full,120,180,-60,-1.2,405,0.03821348735113905
+1502,multi_side_minus_head,13,16,-3,-0.06,39,-0.00717066713451775
+1502,multi_side_minus_lp_full,122,178,-56,-1.12,401,0.038966427285426875
+1502,multi_side_minus_final_side,20,16,4,0.08,47,-0.0008693929418630564
+1502,multi_side_minus_source,35,38,-3,-0.06,93,-0.008086525335046058

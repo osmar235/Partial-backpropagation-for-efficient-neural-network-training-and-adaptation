@@ -1,0 +1,21 @@
+{
+  "version": "attention-copy-profile-v1",
+  "seeds": [1501, 1502],
+  "batch_sizes": [256, 200],
+  "dropout_modes": ["original", "disabled"],
+  "arms": ["compatible", "native_layout_control"],
+  "sessions": 4,
+  "anchor_updates": 4,
+  "hardware_warmup_updates": 8,
+  "plain_updates": 64,
+  "profile_warmup_updates": 1,
+  "profile_active_updates": 3,
+  "instrument_session": 0,
+  "execution_policy": "reference_bf16_auto",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "mixup_alpha": 0.2,
+  "input_seed_offset": 301001,
+  "dropout_seed_offset": 302001
+}

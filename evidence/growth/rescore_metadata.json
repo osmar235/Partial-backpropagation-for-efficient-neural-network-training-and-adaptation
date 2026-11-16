@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "device": "NVIDIA GeForce RTX 5080",
+  "test_dataset_loaded": false,
+  "training_performed": false,
+  "preflight": [
+    {
+      "available": true,
+      "gpus": [
+        {
+          "timestamp": "2026/10/22 16:53:29.640",
+          "index": "0",
+          "name": "NVIDIA GeForce RTX 5080",
+          "driver_version": "610.88",
+          "pstate": "P3",
+          "temperature.gpu": "47",
+          "utilization.gpu": "5",
+          "clocks.sm": "862",
+          "clocks.mem": "7001",
+          "power.draw": "44.51",
+          "power.limit": "360.00"
+        }
+      ]
+    },
+    {
+      "available": true,
+      "gpus": [
+        {
+          "timestamp": "2026/10/22 16:53:30.199",
+          "index": "0",
+          "name": "NVIDIA GeForce RTX 5080",
+          "driver_version": "610.88",
+          "pstate": "P3",
+          "temperature.gpu": "46",
+          "utilization.gpu": "2",
+          "clocks.sm": "705",
+          "clocks.mem": "7001",
+          "power.draw": "44.25",
+          "power.limit": "360.00"
+        }
+      ]
+    },
+    {
+      "available": true,
+      "gpus": [
+        {
+          "timestamp": "2026/10/22 16:53:30.762",
+          "index": "0",
+          "name": "NVIDIA GeForce RTX 5080",
+          "driver_version": "610.88",
+          "pstate": "P3",
+          "temperature.gpu": "47",
+          "utilization.gpu": "4",
+          "clocks.sm": "592",
+          "clocks.mem": "7001",
+          "power.draw": "43.02",
+          "power.limit": "360.00"
+        }
+      ]
+    }
+  ],
+  "execution": {
+    "deterministic": true,
+    "warn_only": false,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "flash_sdp": false,
+    "mem_efficient_sdp": false,
+    "math_sdp": true,
+    "cudnn_sdp": false,
+    "cublas_workspace": ":4096:8",
+    "cpu_threads": 1,
+    "tf32_matmul": false,
+    "tf32_cudnn": false
+  }
+}

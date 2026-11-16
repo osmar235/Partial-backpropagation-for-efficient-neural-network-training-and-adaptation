@@ -1,0 +1,113 @@
+{
+  "integrity": "PASS",
+  "smoke": false,
+  "test_access": false,
+  "independent_development_seeds": 3,
+  "full_baseline_ready": true,
+  "bf16_quality_ready": true,
+  "bf16_faster_every_pair": true,
+  "fragmented": false,
+  "qualified": true,
+  "pairs": [
+    {
+      "seed": 2601,
+      "fp32_common_percent": 92.3913061618805,
+      "bf16_common_percent": 92.3913061618805,
+      "deficit_common_pp": 0.0,
+      "deficit_own_pp": 0.27173757553100586,
+      "complete_saving_percent": 35.43335859537222
+    },
+    {
+      "seed": 2602,
+      "fp32_common_percent": 91.9836938381195,
+      "bf16_common_percent": 92.9347813129425,
+      "deficit_common_pp": -0.951087474822998,
+      "deficit_own_pp": -1.086956262588501,
+      "complete_saving_percent": 34.66799642702452
+    },
+    {
+      "seed": 2603,
+      "fp32_common_percent": 92.798912525177,
+      "bf16_common_percent": 92.9347813129425,
+      "deficit_common_pp": -0.13586878776550293,
+      "deficit_own_pp": 0.0,
+      "complete_saving_percent": 35.973713581780586
+    }
+  ],
+  "rescores": [
+    {
+      "seed": 2601,
+      "policy": "fp32_tf32",
+      "score": "common",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2601,
+      "policy": "fp32_tf32",
+      "score": "own",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2601,
+      "policy": "bf16",
+      "score": "common",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2601,
+      "policy": "bf16",
+      "score": "own",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2602,
+      "policy": "fp32_tf32",
+      "score": "common",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2602,
+      "policy": "fp32_tf32",
+      "score": "own",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2602,
+      "policy": "bf16",
+      "score": "common",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2602,
+      "policy": "bf16",
+      "score": "own",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2603,
+      "policy": "fp32_tf32",
+      "score": "common",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2603,
+      "policy": "fp32_tf32",
+      "score": "own",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2603,
+      "policy": "bf16",
+      "score": "common",
+      "max_error": 0.0
+    },
+    {
+      "seed": 2603,
+      "policy": "bf16",
+      "score": "own",
+      "max_error": 0.0
+    }
+  ],
+  "source_fingerprint": "0bdbcdf1d6a403f877ccf208a45946bfb24bf1a809a5aa3b1ca142d26ad5ae20",
+  "next_phase": "review baseline; official-test evaluation remains disabled"
+}

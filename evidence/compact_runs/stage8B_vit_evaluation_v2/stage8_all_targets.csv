@@ -1,0 +1,16 @@
+variant,reference,target,variant_reached,reference_reached,paired_n,training_only_time_ratio,ci95_low,ci95_high
+lgpb,full_adamw,0.7,6,6,6,7.611335850407069,6.445699240884371,8.98776552592351
+lgpb,full_adamw,0.8,0,6,0,,,
+lgpb,full_adamw,0.85,0,6,0,,,
+periodic_matched,full_adamw,0.7,6,6,6,1.1689430238857041,1.091115376398118,1.252322002464826
+periodic_matched,full_adamw,0.8,6,6,6,1.2194748415963164,1.0635815659498382,1.3982179993485313
+periodic_matched,full_adamw,0.85,5,6,5,,,
+replay_prefix,full_adamw,0.7,6,6,6,7.389493704949119,5.399668594269642,10.112586774942338
+replay_prefix,full_adamw,0.8,0,6,0,,,
+replay_prefix,full_adamw,0.85,0,6,0,,,
+lgpb,periodic_matched,0.7,6,6,6,6.5112975524727394,5.776300665198345,7.3398180382602485
+lgpb,periodic_matched,0.8,0,6,0,,,
+lgpb,periodic_matched,0.85,0,5,0,,,
+lgpb,replay_prefix,0.7,6,6,6,1.0300212916223705,0.7427823923409611,1.4283373867435576
+lgpb,replay_prefix,0.8,0,0,0,,,
+lgpb,replay_prefix,0.85,0,0,0,,,

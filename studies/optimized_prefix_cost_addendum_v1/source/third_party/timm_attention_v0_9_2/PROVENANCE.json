@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/huggingface/pytorch-image-models",
+  "tag": "v0.9.2",
+  "commit": "3d05c0e86f2f4c57bf495468aa3f8a7d3487c986",
+  "files": {
+    "vision_transformer.py": {
+      "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/3d05c0e86f2f4c57bf495468aa3f8a7d3487c986/timm/models/vision_transformer.py",
+      "sha256": "5436d90273f2d8089c1b9a1efe322c6c3f0418ee0cb724748087ede65477d75f"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/3d05c0e86f2f4c57bf495468aa3f8a7d3487c986/LICENSE",
+      "sha256": "71b111620fa32c17a80ccd6db2da759d31a591e497d8b5f382174f59d1b59d49"
+    }
+  },
+  "usage": "Only the upstream Attention class is loaded; source and license remain unmodified."
+}

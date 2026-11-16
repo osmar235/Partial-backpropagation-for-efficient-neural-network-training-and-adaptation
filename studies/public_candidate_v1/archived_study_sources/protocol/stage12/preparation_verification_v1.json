@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "date": "2026-10-22",
+  "prior_immutable_files_verified": 960,
+  "cpu_resume_files_unchanged": 80,
+  "source_files_frozen": 27,
+  "freeze_hash": "4448fbf8945ec4f468aec644f513e63007f5c73515cf009e86ceddfc41275626",
+  "pretrained_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "real_output_absent": true
+}

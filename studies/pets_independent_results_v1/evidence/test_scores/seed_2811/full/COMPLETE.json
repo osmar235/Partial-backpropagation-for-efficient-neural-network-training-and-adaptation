@@ -1,0 +1,8 @@
+{
+  "fingerprint": "a93655fb3479002993e1fcf74c751ca7857f817cc08a36e146b4910c471e09fc",
+  "attempt": "attempt_3b370cc601c947cd960715522f8d4dbb",
+  "sha256": {
+    "logits.npz": "3727e6419a963e846544582eedad7b0fa1ca51ba1728f39d92a54a23f46ea615",
+    "summary.json": "9fb73070fdaf2b6fa00fc67055f08cc2e1931cf16c2706e5edb5262aa5f160d3"
+  }
+}

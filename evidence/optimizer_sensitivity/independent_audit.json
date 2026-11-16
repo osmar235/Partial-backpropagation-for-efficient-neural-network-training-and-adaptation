@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "trajectories": 6,
+  "anchors": 12,
+  "captures": 72,
+  "comparisons": 132,
+  "bf16_comparisons": 88,
+  "fresh_bf16_comparisons": 48,
+  "fresh_top32_all_flip": true,
+  "retained_two_improves_l2": 24,
+  "retained_two_comparisons": 24,
+  "archived_training_worsens_l2": 8,
+  "archived_training_comparisons": 8,
+  "archived_maxima_all_key_bias": true,
+  "max_top32_analytic_error": 4.3740676270139834e-08,
+  "exploratory_partition": "Post hoc Q/K/V packed-bias slicing; no excluded coordinates or changed historical gate",
+  "model_forward_backward_rerun": false,
+  "optimizer_step_rerun": false,
+  "quality_established": false,
+  "performance_measured": false
+}

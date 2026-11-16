@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "functional_tests": 12,
+  "synthetic_training_trajectories": 12,
+  "synthetic_test_scorings": 12,
+  "training_checkpoint_rescores": 48,
+  "completed_restart_checks": 2,
+  "real_test_access": false,
+  "real_training_updates": 0
+}

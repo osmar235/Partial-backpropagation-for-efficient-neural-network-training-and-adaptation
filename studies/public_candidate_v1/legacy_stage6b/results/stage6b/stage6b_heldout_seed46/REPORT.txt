@@ -1,0 +1,5 @@
+Stage 6A augmented CIFAR-10 development run
+Controller frozen from Stage 5F; seed=46.
+adan: eval=82.92%; train_s=241.18; partial=0.00%
+adam: eval=85.18%; train_s=236.45; partial=0.00%
+loss_gated_moment_continuation_adam: eval=84.46%; train_s=211.55; partial=36.04%

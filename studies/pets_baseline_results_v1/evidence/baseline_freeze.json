@@ -1,0 +1,73 @@
+{
+  "spec": {
+    "version": "pets-transfer-baseline-v1",
+    "date": "2026-10-29",
+    "dataset": "OxfordIIITPet",
+    "accessible_split": "trainval",
+    "test_access": false,
+    "validation_fraction_per_class": 0.2,
+    "split_seed": 291029,
+    "architecture": "resnet18",
+    "weights": "IMAGENET1K_V1",
+    "classes": 37,
+    "cache_size": 256,
+    "image_size": 224,
+    "seeds": [
+      2601,
+      2602,
+      2603
+    ],
+    "policies": [
+      "fp32_tf32",
+      "bf16"
+    ],
+    "epochs": 15,
+    "batch_size": 64,
+    "eval_batch_size": 128,
+    "backbone_lr": 0.0001,
+    "head_lr": 0.001,
+    "lr_warmup_epochs": 1,
+    "min_lr_ratio": 0.1,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.0,
+    "warmup_steps": 3,
+    "baseline_min_mean_accuracy_percent": 85.0,
+    "baseline_min_seed_accuracy_percent": 82.0,
+    "precision_max_deficit_pp": 0.3,
+    "batchnorm": "fixed running statistics; trainable affine parameters",
+    "memory_format": "channels_last",
+    "cuda_optimizer": "fused_adamw",
+    "compile": false,
+    "primary_scope": "development baseline qualification only"
+  },
+  "smoke": false,
+  "tiny": false,
+  "source_hashes": {
+    "scripts/pets_transfer.py": "adfa5bae57d65feca71ab3be9ed7ad4d3ceb098da1a9ea0ab747410f4417626d",
+    "scripts/test_pets_transfer.py": "8e155b4ff0e0f64fb5be1e426df4ac86ee31f590f0fe510900bb655f3c5b778b",
+    "scripts/run_pets_baseline.cmd": "707537e99af1fceca5011d660c69332224a0c038afc7fb8e53aa854735c4374c",
+    "protocol/pets_transfer/baseline_spec_v1.json": "4d814d02774d1cd661d8f5df46a1212dcc0b409d41ac562f07f6b43f6a17ed81",
+    "protocol/pets_transfer/PROTOCOL_v1.md": "687d76c9da40fcb8ee49f0d0ccc03c578ddec9c80b5a89bb0eca8355ad231adc",
+    "README_PETS_TRANSFER.md": "5507694ddc9dcc102d8783d9ce85723b14fbd932d30207cd846fa4b9b2c7e583"
+  },
+  "runtime": {
+    "python": "3.14.3",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.4.3",
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5080"
+  },
+  "inputs": {
+    "cache_sha256": "51236f1c019ba075cfc0af9fe9798bc558fcff91430ca0332c84ccf49ff1a638",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "split_hash": "840fcffa423ab6f2eb454e4075dc8e4c4e74d824841605c3001454f8a0b19fa9",
+    "examples": 3680,
+    "train": 2944,
+    "validation": 736
+  },
+  "cache_metadata_sha256": "a56ce51ca8a127f891b7d3946212be21a3ad1ece356e4bb6e1b6b77900cb0d87",
+  "fingerprint": "0bdbcdf1d6a403f877ccf208a45946bfb24bf1a809a5aa3b1ca142d26ad5ae20"
+}

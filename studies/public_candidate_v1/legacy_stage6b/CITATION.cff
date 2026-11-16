@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its research artifacts, please cite the associated manuscript and archived repository."
+title: "Loss-Gated Partial Backpropagation with Adam Moment Continuation for Efficient Neural Network Training"
+type: software
+authors:
+  - given-names: Osmar
+    family-names: Pinto Neto
+    affiliation: "Department of Kinesiology, California State University San Marcos"
+    email: osmar@csusm.edu
+    orcid: "https://orcid.org/0000-0002-3978-8320"
+version: 1.0.0
+date-released: 2026-10-12
+abstract: >-
+  Code, frozen protocols, experiment summaries, confirmatory analysis, figures,
+  bibliography, and manuscript-support materials for loss-gated partial
+  backpropagation with Adam moment continuation (LGPB-MC).
+keywords:
+  - partial backpropagation
+  - efficient deep learning
+  - Adam
+  - training systems
+  - CIFAR-10
+license: Apache-2.0

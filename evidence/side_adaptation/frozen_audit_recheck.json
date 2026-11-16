@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "synthetic": false,
+  "trajectories": 10,
+  "training_updates": 8800,
+  "discarded_hardware_warmup_updates": 30,
+  "curve_points": 60,
+  "frozen_backbones_and_optimizer_ages_verified": true,
+  "streams_labels_predictions_and_costs_verified": true,
+  "paired_side_initial_states_identical": true,
+  "frozen_initial_logits_identical": true,
+  "initial_classes_identical": true,
+  "historical_full_trajectory_reproduced": true,
+  "retained_arms_share_one_launch": true,
+  "both_seed_reference_qualified": true,
+  "practical_candidate": false,
+  "decision": "close_fixed_side_recipe",
+  "test_scoring_performed": false,
+  "automatic_followup": false
+}

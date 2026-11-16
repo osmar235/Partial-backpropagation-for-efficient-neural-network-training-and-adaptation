@@ -1,0 +1,14 @@
+{
+  "vision_transformer.py": {
+    "sha256": "a832238318b4c406a9051cab8941538ee22c4de5a2410d369d96a4b3b4a10a81",
+    "note": "Installed third-party dependency; not vendored"
+  },
+  "functional.py": {
+    "sha256": "c219715dca0f64f7d27f95c75d79c2642258752f693670cbb75e39416ab46085",
+    "note": "Installed third-party dependency; not vendored"
+  },
+  "__init__.py": {
+    "sha256": "2f5f75445ccdddc78bf62a043c1d6de3d47f00bafa2733a3b068fc7d7eb6a64c",
+    "note": "Installed third-party dependency; not vendored"
+  }
+}

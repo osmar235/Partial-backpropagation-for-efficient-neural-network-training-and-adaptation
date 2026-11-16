@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "date": "2026-10-25",
+  "checkpoints": [
+    {
+      "seed": 1501,
+      "path": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1501\\full\\attempt_001\\final_checkpoint.pt",
+      "sha256": "b62dc07c108121c2bcf9f7fa763eb78c54c9681877008d845e33e7eb201da96d",
+      "source_optimizer_age": 17600,
+      "body_sha256": "c0269722701d8b2c9ac4efe43eae1dd4be615c05a4881347329c05816dab8a0d",
+      "head_sha256": "878a2535e9e4701d58b9d8312c83d6a1b7eb68b047f2fb9bec4370a3ea55af22",
+      "arms": [
+        {
+          "mode": "full",
+          "trainable_parameters": 2693578,
+          "fresh_optimizer_empty": true
+        },
+        {
+          "mode": "head",
+          "trainable_parameters": 1930,
+          "fresh_optimizer_empty": true
+        },
+        {
+          "mode": "lp_full",
+          "trainable_parameters": 1930,
+          "fresh_optimizer_empty": true
+        },
+        {
+          "mode": "final_side",
+          "trainable_parameters": 125002,
+          "fresh_optimizer_empty": true
+        },
+        {
+          "mode": "multi_side",
+          "trainable_parameters": 125002,
+          "fresh_optimizer_empty": true
+        }
+      ],
+      "paired_side_initial_states_identical": true
+    },
+    {
+      "seed": 1502,
+      "path": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1502\\full\\attempt_001\\final_checkpoint.pt",
+      "sha256": "a57ea7c165463f3de57bb6fea4306459142cd94356f183faf2ea929c2c0308dc",
+      "source_optimizer_age": 17600,
+      "body_sha256": "204348aa165efd148454c9d54138617905452156286ca8707a1c66d954d67c31",
+      "head_sha256": "3eeb201349f736a53d6f166b1324b5a5a3ed8c1fd475ef5289b9059b29b9b6a1",
+      "arms": [
+        {
+          "mode": "full",
+          "trainable_parameters": 2693578,
+          "fresh_optimizer_empty": true
+        },
+        {
+          "mode": "head",
+          "trainable_parameters": 1930,
+          "fresh_optimizer_empty": true
+        },
+        {
+          "mode": "lp_full",
+          "trainable_parameters": 1930,
+          "fresh_optimizer_empty": true
+        },
+        {
+          "mode": "final_side",
+          "trainable_parameters": 125002,
+          "fresh_optimizer_empty": true
+        },
+        {
+          "mode": "multi_side",
+          "trainable_parameters": 125002,
+          "fresh_optimizer_empty": true
+        }
+      ],
+      "paired_side_initial_states_identical": true
+    }
+  ],
+  "parameter_updates_performed": false,
+  "real_scoring_performed": false
+}

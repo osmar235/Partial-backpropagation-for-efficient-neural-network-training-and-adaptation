@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "trials": 192,
+  "measured_postrestore_updates": 6336,
+  "discarded_startup_updates": 192,
+  "discarded_warmup_updates": 960,
+  "qualification_updates": 624,
+  "profiled_updates": 96,
+  "eligibility_counts": {
+    "PASS": 32,
+    "FAIL_NUMERICAL_SANITY": 64
+  },
+  "summary": [
+    {
+      "seed": 99201,
+      "batch": 200,
+      "session_medians": [
+        9.547313884066778,
+        6.907464203899733,
+        7.027253467183874,
+        5.528344220929354
+      ],
+      "median_saving_percent": 6.967358835541804,
+      "positive_sessions": 4,
+      "faster_pairs": 22,
+      "pairs": 24,
+      "peak_memory_reduction_bytes_min": 113564160,
+      "peak_memory_reduction_bytes_max": 113564160
+    },
+    {
+      "seed": 99201,
+      "batch": 256,
+      "session_medians": [
+        10.874878564568327,
+        8.24998090031501,
+        8.127545638289005,
+        9.136039510397293
+      ],
+      "median_saving_percent": 8.693010205356153,
+      "positive_sessions": 4,
+      "faster_pairs": 24,
+      "pairs": 24,
+      "peak_memory_reduction_bytes_min": 153154560,
+      "peak_memory_reduction_bytes_max": 154065920
+    },
+    {
+      "seed": 99202,
+      "batch": 200,
+      "session_medians": [
+        8.111705920121413,
+        6.22787462008176,
+        4.969696743765152,
+        5.338696258783722
+      ],
+      "median_saving_percent": 5.783285439432741,
+      "positive_sessions": 4,
+      "faster_pairs": 19,
+      "pairs": 24,
+      "peak_memory_reduction_bytes_min": 112092160,
+      "peak_memory_reduction_bytes_max": 114567680
+    },
+    {
+      "seed": 99202,
+      "batch": 256,
+      "session_medians": [
+        8.685379248249905,
+        7.763810632590966,
+        10.269537791283483,
+        11.028906126993991
+      ],
+      "median_saving_percent": 9.477458519766694,
+      "positive_sessions": 4,
+      "faster_pairs": 24,
+      "pairs": 24,
+      "peak_memory_reduction_bytes_min": 153154560,
+      "peak_memory_reduction_bytes_max": 154065920
+    }
+  ],
+  "fp32_reference_faster_pairs": 89,
+  "total_pairs": 96,
+  "reference_positive_session_conditions": 16,
+  "max_timed_fp32_loss_difference": 4.76837158203125e-07,
+  "exact_crossarm_learning_records": 0,
+  "bf16_failed_checks": 128,
+  "worst_bf16_parameter_difference": 0.0005756542086601257,
+  "bf16_parameter_limit": 0.0003,
+  "lowest_bf16_gradient_cosine": 0.9997922506904734,
+  "max_bf16_gradient_relative_l2": 0.02039976686360117,
+  "max_bf16_loss_difference": 0.0005288124084472656,
+  "failed_parameter_tensor_counts": {
+    "body.encoder.layers.encoder_layer_1.self_attention.out_proj.weight": 8,
+    "body.encoder.layers.encoder_layer_1.mlp.0.weight": 8,
+    "body.encoder.layers.encoder_layer_0.mlp.0.weight": 32,
+    "body.encoder.layers.encoder_layer_0.mlp.3.weight": 4,
+    "body.encoder.layers.encoder_layer_1.mlp.3.weight": 8,
+    "body.encoder.layers.encoder_layer_5.mlp.0.weight": 16,
+    "body.encoder.layers.encoder_layer_4.mlp.0.weight": 12,
+    "body.encoder.layers.encoder_layer_0.self_attention.out_proj.bias": 4,
+    "body.encoder.layers.encoder_layer_3.mlp.0.weight": 20,
+    "body.encoder.layers.encoder_layer_0.self_attention.in_proj_weight": 8,
+    "body.encoder.layers.encoder_layer_4.mlp.3.weight": 4,
+    "body.encoder.layers.encoder_layer_4.self_attention.in_proj_weight": 4
+  },
+  "process_ids": [
+    46192,
+    34236,
+    60328,
+    61376
+  ],
+  "fragmented_sessions": 0,
+  "numerical_tensors_recomputed": false,
+  "real_data_quality_established": false,
+  "bf16_performance_measured": false,
+  "experiment_rerun": false
+}

@@ -1,0 +1,12 @@
+{
+  "version": "stage9D-deployment-cost-v1",
+  "development_seeds": [1201, 1202],
+  "checkpoint_epochs": [15, 30],
+  "cut": 4,
+  "batch_size": 256,
+  "probe_batches": 32,
+  "warmup_batches": 4,
+  "assumed_omission_fractions": [0.2, 0.4],
+  "state_handling": "freeze_prefix_grad_none",
+  "inference": "operation cost only; forced choices at reset saved states; no adaptive policy, learning trajectory or time-to-quality claim"
+}

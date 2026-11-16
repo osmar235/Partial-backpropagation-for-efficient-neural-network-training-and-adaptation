@@ -1,0 +1,38 @@
+{
+  "REPORT.md": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\prefix_adaptation_review_v1\\REPORT.md",
+    "sha256": "cd90b2d3da2288c424230254daefebfae9ba4e56b3d06f6a1d60db1d4f79950c"
+  },
+  "frozen_audit_recheck.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\prefix_adaptation_review_v1\\frozen_audit_recheck.json",
+    "sha256": "879327e3d40b5cd6e03f51d4b5d2894b16f6ccf956886632dfd6c93c1c968cdc"
+  },
+  "independent_audit.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\prefix_adaptation_review_v1\\independent_audit.json",
+    "sha256": "ba1a681048a6eddc380845088580d0022832428e29a68aa6e1c41960f6528d77"
+  },
+  "review_data.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\prefix_adaptation_review_v1\\review_data.json",
+    "sha256": "05eeb8b95a2edca736c01a236f600a621f590474d31546d1aa358fcf5c3b5e0d"
+  },
+  "group_summary.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\prefix_adaptation_review_v1\\group_summary.json",
+    "sha256": "bc5f46e4532a90718894b6d6a1898317f70f111822d545e74f7d67c127c2859c"
+  },
+  "validation_scores.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\prefix_adaptation_review_v1\\validation_scores.json",
+    "sha256": "cba10c73f2823564eff122d372a7d476361768fcfee6ab65028299b3beb83be0"
+  },
+  "source_metadata.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\prefix_adaptation_review_v1\\source_metadata.json",
+    "sha256": "98bcf562fd3e888d06e82f5a1a0ee6009889186aede18c4775219857684dde25"
+  },
+  "historical_full_reproduction.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\prefix_adaptation_review_v1\\historical_full_reproduction.json",
+    "sha256": "0bec767bd00af369f978cfd196e0b0eed068d8aaf23820609e746854863acad4"
+  },
+  "analysis/summarize_results_v1.py": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\prefix_adaptation\\summarize_results_v1.py",
+    "sha256": "1bf85ad777cb8e678b21c9db7ba5cc568840fe57db0389dd2754097b8f187222"
+  }
+}

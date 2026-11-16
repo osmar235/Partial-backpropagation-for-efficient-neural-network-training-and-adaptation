@@ -1,0 +1,87 @@
+{
+  "command": "python -B scripts/review_qkv_training.py results/qkv_training_v1",
+  "exit_code": 0,
+  "returned_audit": {
+    "status": "PASS",
+    "smoke": false,
+    "sessions": 8,
+    "trajectories": 32,
+    "training_updates": 28160,
+    "discarded_warmup_updates": 96,
+    "final_checkpoints_rescored": 32,
+    "fragmented_sessions": [],
+    "conditions": [
+      {
+        "seed": 1501,
+        "deterministic_across_sessions": true,
+        "statistics": {
+          "sessions": 8,
+          "positive_sessions": 8,
+          "session_savings_percent": [
+            9.318302919803967,
+            5.245252800330191,
+            5.362933506359724,
+            6.519113809387267,
+            6.156282618241626,
+            8.746029896585917,
+            5.446432640083698,
+            13.210462429683478
+          ],
+          "median_saving_percent": 6.337698213814447,
+          "median_interval_percent": [
+            5.245252800330191,
+            13.210462429683478
+          ],
+          "marginal_interval_coverage": 0.9921875,
+          "simultaneous_interval_coverage_lower_bound": 0.984375,
+          "one_sided_sign_p": 0.00390625,
+          "bonferroni_p": 0.0078125,
+          "directional_pass": true
+        },
+        "identity_pass": true,
+        "reference_pass": true,
+        "unfragmented": true,
+        "confirmed": true
+      },
+      {
+        "seed": 1502,
+        "deterministic_across_sessions": true,
+        "statistics": {
+          "sessions": 8,
+          "positive_sessions": 8,
+          "session_savings_percent": [
+            5.3075345886047565,
+            6.641940732706997,
+            6.164938754612614,
+            8.36965404972675,
+            6.0415627771226665,
+            3.235914068217216,
+            8.649887111800359,
+            7.688432692913427
+          ],
+          "median_saving_percent": 6.403439743659806,
+          "median_interval_percent": [
+            3.235914068217216,
+            8.649887111800359
+          ],
+          "marginal_interval_coverage": 0.9921875,
+          "simultaneous_interval_coverage_lower_bound": 0.984375,
+          "one_sided_sign_p": 0.00390625,
+          "bonferroni_p": 0.0078125,
+          "directional_pass": true
+        },
+        "identity_pass": true,
+        "reference_pass": true,
+        "unfragmented": true,
+        "confirmed": true
+      }
+    ],
+    "complete_adaptation_saving_confirmed": true,
+    "decision": "review_complete_adaptation_saving",
+    "original_ten_percent_screen": "FAILED_UNCHANGED",
+    "automatic_followup": false
+  },
+  "training_rerun": false,
+  "validation_only": true,
+  "note": "Torchvision emitted an existing NumPy 2.4 dtype align deprecation warning while loading CIFAR; audit and rescoring succeeded."
+}

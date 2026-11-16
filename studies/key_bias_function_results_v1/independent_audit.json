@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "independent_within_policy_comparisons": 240,
+  "independent_precision_comparisons": 48,
+  "bitwise_exact_reference_repeats": 48,
+  "finite_outputs": 840,
+  "full_model_forwards_during_review": 0,
+  "backwards_during_review": 0,
+  "optimizer_steps_this_independent_audit": 0,
+  "optimizer_replays_frozen_auditor_run_separately": 48,
+  "preserved_immutable_files": 6401,
+  "quality_established": false
+}

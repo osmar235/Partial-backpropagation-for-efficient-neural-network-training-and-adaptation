@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "smoke": false,
+  "sessions": 4,
+  "arms": 14,
+  "timed_blocks": 112,
+  "measured_updates": 10752,
+  "paired_comparisons": 104,
+  "retried_sessions": [],
+  "routed_full_exact": true,
+  "scope": "training-block cost only; no validation, quality qualification or complete adaptation speedup",
+  "groups": [
+    {
+      "arm": "routed_full",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 2.727309259471905,
+        "minimum": -6.909819850683241,
+        "maximum": 20.661341458876738
+      },
+      "positive_sessions": 2,
+      "sessions": 4,
+      "descriptive_consistent_headroom": false
+    },
+    {
+      "arm": "routed_full",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 0.7568832692215088,
+        "minimum": -7.950393284583623,
+        "maximum": 9.670220356882664
+      },
+      "positive_sessions": 2,
+      "sessions": 4,
+      "descriptive_consistent_headroom": false
+    },
+    {
+      "arm": "cut1_r0",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 18.383053245630805,
+        "minimum": 11.195248709995731,
+        "maximum": 22.315107863274587
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut1_r0",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 7.892500929107743,
+        "minimum": 2.2518190239367297,
+        "maximum": 17.843725310234927
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut1_r4",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 14.221296785154436,
+        "minimum": 2.6525731119669382,
+        "maximum": 32.61497298568903
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut1_r4",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 11.670539307220801,
+        "minimum": 4.263632886924096,
+        "maximum": 19.705139343216526
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut1_r16",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 10.062152202085201,
+        "minimum": 5.683910367287481,
+        "maximum": 30.241464250614804
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut1_r16",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 8.924064230437107,
+        "minimum": -3.461267151606773,
+        "maximum": 12.69535352545008
+      },
+      "positive_sessions": 3,
+      "sessions": 4,
+      "descriptive_consistent_headroom": false
+    },
+    {
+      "arm": "cut3_r0",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 31.260971332591694,
+        "minimum": 21.744119081421687,
+        "maximum": 43.38760813708562
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut3_r0",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 30.37848020910235,
+        "minimum": 22.485223557908405,
+        "maximum": 37.878364511241244
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut3_r4",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 25.784701024619153,
+        "minimum": 20.326868442541112,
+        "maximum": 42.82933269979776
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut3_r4",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 17.007725712533016,
+        "minimum": 14.75649936181357,
+        "maximum": 21.45041670354756
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut3_r16",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 33.26608306883075,
+        "minimum": 24.941449745044597,
+        "maximum": 48.83873352207439
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut3_r16",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 33.749794329919396,
+        "minimum": 28.54693929407316,
+        "maximum": 37.41767815310511
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut5_r0",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 50.147135445061366,
+        "minimum": 42.380126662417396,
+        "maximum": 52.66841615593538
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut5_r0",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 48.023348353075406,
+        "minimum": 45.33457144444416,
+        "maximum": 53.68853529355366
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut5_r4",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 35.80855714648107,
+        "minimum": 17.244626322713906,
+        "maximum": 46.69324684044176
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut5_r4",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 38.109021399394706,
+        "minimum": 29.5908513574073,
+        "maximum": 44.19801761566813
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut5_r16",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 39.91585895872663,
+        "minimum": 29.518073953798073,
+        "maximum": 51.003495522673546
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut5_r16",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 45.42759295473773,
+        "minimum": 35.69058922299787,
+        "maximum": 52.59078117129275
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut6_r0",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 55.841179884465674,
+        "minimum": 50.73909452010854,
+        "maximum": 61.897280335127846
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut6_r0",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 52.29417148734218,
+        "minimum": 46.855802327500285,
+        "maximum": 57.43724506243319
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut6_r4",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 44.39345390950837,
+        "minimum": 40.24777073484886,
+        "maximum": 48.25785981226921
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut6_r4",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 46.7828757965633,
+        "minimum": 43.93129442207551,
+        "maximum": 48.82300869934538
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut6_r16",
+      "seed": 1501,
+      "saving_percent": {
+        "median": 55.311902611031684,
+        "minimum": 51.335716042258106,
+        "maximum": 61.87637672709692
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    },
+    {
+      "arm": "cut6_r16",
+      "seed": 1502,
+      "saving_percent": {
+        "median": 57.39035494161181,
+        "minimum": 53.766297077795834,
+        "maximum": 59.38101746447384
+      },
+      "positive_sessions": 4,
+      "sessions": 4,
+      "descriptive_consistent_headroom": true
+    }
+  ]
+}

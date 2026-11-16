@@ -1,0 +1,3 @@
+seed,lp_full_accuracy,full_accuracy,lp_full_minus_full_pp,quality_qualified,saving_vs_full_percent,meets_10_percent_time_rule
+1501,0.8472,0.847,0.019999999999997797,True,4.2815034438985595,False
+1502,0.838,0.8388,-0.08000000000000229,True,8.542599062782108,False

@@ -1,0 +1,20 @@
+{
+  "version": "stage14A-intermediate-token-diagnostic-v1",
+  "seeds": [1501, 1502],
+  "modes": ["full", "spatial", "similarity"],
+  "after_blocks": 3,
+  "original_patch_tokens": 64,
+  "merged_patch_tokens": 32,
+  "batch_size": 256,
+  "eval_batch_size": 512,
+  "trials": 12,
+  "warmups": 3,
+  "accuracy_margin_pp": 0.3,
+  "minimum_time_saving": 0.1,
+  "minimum_incremental_memory_saving": 0.2,
+  "baseline_min_accuracy": 0.8,
+  "source_loss_tolerance": 0.00001,
+  "stream_seed_offset": 214001,
+  "dropout_seed_offset": 215001,
+  "operations": ["inference", "forward_backward"]
+}

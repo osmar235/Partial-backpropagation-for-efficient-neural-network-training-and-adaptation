@@ -1,0 +1,42 @@
+{
+  "version": "prefix-adaptation-v1",
+  "seeds": [
+    1501,
+    1502
+  ],
+  "arms": [
+    "full",
+    "frozen_cut3",
+    "periodic_cut3_r4"
+  ],
+  "sessions": 6,
+  "original_tokens": 65,
+  "head_epochs": 1,
+  "epochs": 5,
+  "batch_size": 256,
+  "eval_batch_size": 512,
+  "expected_batches_per_epoch": 176,
+  "source_optimizer_age": 17600,
+  "optimizer_history": "fresh_common_reset",
+  "learning_rate": 0.0001,
+  "lr_warmup_epochs": 1,
+  "min_lr_ratio": 0.1,
+  "weight_decay": 0.05,
+  "mixup_alpha": 0.2,
+  "label_smoothing": 0.1,
+  "hardware_warmup_steps": 3,
+  "batch_seed_offset": 241001,
+  "augmentation_seed_offset": 242001,
+  "mixup_seed_offset": 243001,
+  "permutation_seed_offset": 244001,
+  "dropout_seed_offset": 245001,
+  "accuracy_margin_pp": 0.3,
+  "baseline_min_accuracy": 0.8,
+  "source_logit_tolerance": 1e-05,
+  "reproduction_logit_tolerance": 1e-05,
+  "candidate_policies": 2,
+  "timing_family_alpha": 0.05,
+  "boundary": 3,
+  "refresh_interval": 4,
+  "execution_policy": "reference_bf16_auto"
+}

@@ -1,0 +1,36 @@
+{
+  "n_seeds": 9,
+  "accuracy_delta_pp_mean": -0.5477777777777779,
+  "accuracy_delta_pp_ci95": [
+    -0.758769027495044,
+    -0.3367865280605118
+  ],
+  "accuracy_noninferiority_margin_pp": -1.0,
+  "accuracy_noninferiority_pass": true,
+  "candidate_adam_time_ratio_geomean": 0.8975618887871378,
+  "candidate_adam_time_ratio_ci95": [
+    0.8742921854502984,
+    0.9214509263721788
+  ],
+  "speed_claim_pass": true,
+  "candidate_adam_wall_reduction_percent": 10.243811121286218,
+  "candidate_minus_adan_pp_mean": 2.4244444444444437,
+  "candidate_minus_adan_pp_ci95": [
+    1.6414860342105562,
+    3.2074028546783313
+  ],
+  "candidate_adan_time_ratio_geomean": 0.8790812310634097,
+  "candidate_adan_time_ratio_ci95": [
+    0.8613030151949165,
+    0.8972264083309585
+  ],
+  "candidate_adan_wall_reduction_percent": 12.091876893659027,
+  "candidate_adam_time_to_80_ratio_geomean": 0.9208066505154882,
+  "candidate_adam_time_to_80_ratio_ci95": [
+    0.8713829622390742,
+    0.9730335849749209
+  ],
+  "candidate_partial_fraction_mean": 0.35990173847316703,
+  "seeds_within_1pp_of_adam": 9,
+  "seeds_faster_than_adam": 9
+}

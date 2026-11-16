@@ -1,0 +1,146 @@
+{
+  "command": "python -B scripts/review_qkv_confirmation.py results/qkv_confirmation_v1",
+  "exit_code": 0,
+  "returned_audit": {
+    "status": "PASS",
+    "smoke": false,
+    "sessions": 8,
+    "conditions": [
+      {
+        "seed": 99101,
+        "batch": 256,
+        "identity_across_sessions": true,
+        "valid_for_confirmation": true,
+        "statistics": {
+          "sessions": 8,
+          "positive_sessions": 8,
+          "session_savings_percent": [
+            6.838332787144674,
+            8.314975427890436,
+            6.992475537635445,
+            5.515406882774498,
+            7.4592703474189115,
+            7.278512321501962,
+            3.6113787406733877,
+            8.634533128671418
+          ],
+          "median_saving_percent": 7.135493929568703,
+          "median_interval_percent": [
+            3.6113787406733877,
+            8.634533128671418
+          ],
+          "marginal_interval_coverage": 0.9921875,
+          "simultaneous_interval_coverage_lower_bound": 0.96875,
+          "one_sided_sign_p": 0.00390625,
+          "bonferroni_p": 0.015625,
+          "directional_pass": true
+        },
+        "confirmed": true
+      },
+      {
+        "seed": 99101,
+        "batch": 200,
+        "identity_across_sessions": true,
+        "valid_for_confirmation": true,
+        "statistics": {
+          "sessions": 8,
+          "positive_sessions": 8,
+          "session_savings_percent": [
+            4.795473283395246,
+            2.2644564060589456,
+            4.27636163709455,
+            2.9769483694932264,
+            5.950646409483951,
+            5.668569739738083,
+            5.836385828385482,
+            7.598128392803893
+          ],
+          "median_saving_percent": 5.232021511566664,
+          "median_interval_percent": [
+            2.2644564060589456,
+            7.598128392803893
+          ],
+          "marginal_interval_coverage": 0.9921875,
+          "simultaneous_interval_coverage_lower_bound": 0.96875,
+          "one_sided_sign_p": 0.00390625,
+          "bonferroni_p": 0.015625,
+          "directional_pass": true
+        },
+        "confirmed": true
+      },
+      {
+        "seed": 99102,
+        "batch": 256,
+        "identity_across_sessions": true,
+        "valid_for_confirmation": true,
+        "statistics": {
+          "sessions": 8,
+          "positive_sessions": 8,
+          "session_savings_percent": [
+            9.794459174170168,
+            5.842132808999545,
+            6.71287468844699,
+            4.857860620645072,
+            5.94048807863321,
+            8.227068330470056,
+            4.160947070228804,
+            6.393727130882077
+          ],
+          "median_saving_percent": 6.167107604757644,
+          "median_interval_percent": [
+            4.160947070228804,
+            9.794459174170168
+          ],
+          "marginal_interval_coverage": 0.9921875,
+          "simultaneous_interval_coverage_lower_bound": 0.96875,
+          "one_sided_sign_p": 0.00390625,
+          "bonferroni_p": 0.015625,
+          "directional_pass": true
+        },
+        "confirmed": true
+      },
+      {
+        "seed": 99102,
+        "batch": 200,
+        "identity_across_sessions": true,
+        "valid_for_confirmation": true,
+        "statistics": {
+          "sessions": 8,
+          "positive_sessions": 8,
+          "session_savings_percent": [
+            6.631965964671704,
+            4.604199673193065,
+            1.5304605821949702,
+            6.937244584927738,
+            8.092974407221787,
+            7.383352501662754,
+            2.946679618271286,
+            1.82917463622021
+          ],
+          "median_saving_percent": 5.618082818932384,
+          "median_interval_percent": [
+            1.5304605821949702,
+            8.092974407221787
+          ],
+          "marginal_interval_coverage": 0.9921875,
+          "simultaneous_interval_coverage_lower_bound": 0.96875,
+          "one_sided_sign_p": 0.00390625,
+          "bonferroni_p": 0.015625,
+          "directional_pass": true
+        },
+        "confirmed": true
+      }
+    ],
+    "trials": 256,
+    "timed_updates": 33024,
+    "discarded_warmup_updates": 5120,
+    "correctness_updates": 320,
+    "mechanism_updates": 64,
+    "directional_saving_confirmed": true,
+    "decision": "review_confirmed_operation_saving",
+    "original_ten_percent_screen": "FAILED_UNCHANGED",
+    "real_training_run": false,
+    "automatic_followup": false
+  },
+  "training_or_benchmark_performed": false
+}

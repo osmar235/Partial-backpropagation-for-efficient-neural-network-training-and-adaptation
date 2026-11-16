@@ -1,0 +1,4211 @@
+{
+  "groups": [
+    {
+      "arm": "full",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 17.12255885407406,
+        "minimum": 16.167163542074075,
+        "maximum": 22.7129895829421
+      },
+      "saving_vs_full_percent": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "saving_vs_routed_percent": {
+        "median": -3.312723320834663,
+        "minimum": -26.04195966858633,
+        "maximum": 6.4632227987418975
+      },
+      "saving_vs_faster_control_percent": {
+        "median": -5.281987052964754,
+        "minimum": -26.04195966858633,
+        "maximum": 0.0
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 0,
+      "positive_vs_both_controls": 0,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.013224999041995,
+          "minimum": 0.8161812511389144,
+          "maximum": 1.1093562643509358
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5175906298973132,
+          "minimum": 0.5077124878880568,
+          "maximum": 0.5953437503194436
+        },
+        "forward_loss": {
+          "median": 5.423312490165699,
+          "minimum": 4.9711624888004735,
+          "maximum": 5.728856245696079
+        },
+        "loss_readback": {
+          "median": 0.06277499778661877,
+          "minimum": 0.05983126175124198,
+          "maximum": 0.06936875433893874
+        },
+        "backward": {
+          "median": 9.048815634741914,
+          "minimum": 8.609331263869535,
+          "maximum": 9.135106251051184
+        },
+        "optimizer": {
+          "median": 1.254771872481797,
+          "minimum": 1.1502812412800267,
+          "maximum": 1.385637508064974
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "full",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 17.190088542217076,
+        "minimum": 16.133151042595273,
+        "maximum": 18.919290625490248
+      },
+      "saving_vs_full_percent": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "saving_vs_routed_percent": {
+        "median": -0.8670839701902779,
+        "minimum": -10.705462135619726,
+        "maximum": 7.3648581007245
+      },
+      "saving_vs_faster_control_percent": {
+        "median": -2.05630019759419,
+        "minimum": -10.705462135619726,
+        "maximum": 0.0
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 0,
+      "positive_vs_both_controls": 0,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.185909361083759,
+          "minimum": 0.8380249928450212,
+          "maximum": 1.4515499860863201
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5864000049768947,
+          "minimum": 0.5225374989095144,
+          "maximum": 0.703043733665254
+        },
+        "forward_loss": {
+          "median": 5.989321860397467,
+          "minimum": 4.822837487154175,
+          "maximum": 7.7658562222495675
+        },
+        "loss_readback": {
+          "median": 0.06314685742836446,
+          "minimum": 0.06181875505717471,
+          "maximum": 0.06417500844690949
+        },
+        "backward": {
+          "median": 9.496503131231293,
+          "minimum": 8.673924989125226,
+          "maximum": 11.39876247907523
+        },
+        "optimizer": {
+          "median": 1.4427906316996086,
+          "minimum": 1.1584937310544774,
+          "maximum": 1.744924986269325
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "routed_full",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 17.632878646206034,
+        "minimum": 15.350254166454155,
+        "maximum": 18.02018124969133
+      },
+      "saving_vs_full_percent": {
+        "median": 2.7273092594719075,
+        "minimum": -6.909819850683251,
+        "maximum": 20.66134145887674
+      },
+      "saving_vs_routed_percent": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "saving_vs_faster_control_percent": {
+        "median": -2.050003690498731,
+        "minimum": -6.909819850683251,
+        "maximum": 0.0
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 2,
+      "positive_vs_both_controls": 0,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.1061468758271076,
+          "minimum": 0.9048687352333218,
+          "maximum": 1.2655124955927022
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5400843729148619,
+          "minimum": 0.5178312640055083,
+          "maximum": 0.6268374854698777
+        },
+        "forward_loss": {
+          "median": 5.7086250017164275,
+          "minimum": 5.268581247946713,
+          "maximum": 6.272762504522689
+        },
+        "loss_readback": {
+          "median": 0.06804064469179139,
+          "minimum": 0.06495002162409946,
+          "maximum": 0.07212500349851325
+        },
+        "backward": {
+          "median": 9.388403123011813,
+          "minimum": 9.13407501502661,
+          "maximum": 9.798749997571576
+        },
+        "optimizer": {
+          "median": 1.2479906181397382,
+          "minimum": 1.173124990600627,
+          "maximum": 1.3596687640529126
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "routed_full",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 16.98706718768032,
+        "minimum": 15.483305207453668,
+        "maximum": 19.380236459255684
+      },
+      "saving_vs_full_percent": {
+        "median": 0.7568832692215102,
+        "minimum": -7.950393284583613,
+        "maximum": 9.67022035688266
+      },
+      "saving_vs_routed_percent": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "saving_vs_faster_control_percent": {
+        "median": -1.218190055034084,
+        "minimum": -7.950393284583613,
+        "maximum": 0.0
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 2,
+      "positive_vs_both_controls": 0,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.0636250117386226,
+          "minimum": 0.7740750006632879,
+          "maximum": 1.162156266218517
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5435312523331959,
+          "minimum": 0.4833562488784082,
+          "maximum": 0.5891187611268833
+        },
+        "forward_loss": {
+          "median": 5.602778117463458,
+          "minimum": 4.665918757382315,
+          "maximum": 6.21706875244854
+        },
+        "loss_readback": {
+          "median": 0.06268125071073882,
+          "minimum": 0.055350006732624024,
+          "maximum": 0.06973750714678317
+        },
+        "backward": {
+          "median": 9.02890625729924,
+          "minimum": 8.702618753886782,
+          "maximum": 10.031800004071556
+        },
+        "optimizer": {
+          "median": 1.2592687489814125,
+          "minimum": 1.2335687424638309,
+          "maximum": 1.4204500330379233
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut1_r0",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 14.262342187066679,
+        "minimum": 13.783558333670953,
+        "maximum": 17.644561458534252
+      },
+      "saving_vs_full_percent": {
+        "median": 18.383053245630805,
+        "minimum": 11.19524870999573,
+        "maximum": 22.315107863274584
+      },
+      "saving_vs_routed_percent": {
+        "median": 13.570608077368131,
+        "minimum": 2.0844395844437584,
+        "maximum": 21.210704558915268
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 10.700783611497332,
+        "minimum": 2.0844395844437584,
+        "maximum": 17.980337630394896
+      },
+      "peak_allocated_mib": {
+        "median": 1384.91748046875,
+        "minimum": 1384.91748046875,
+        "maximum": 1384.91748046875
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.0203843703493476,
+          "minimum": 0.7446937379427254,
+          "maximum": 1.2041062509524636
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5934343644184992,
+          "minimum": 0.4565124836517498,
+          "maximum": 0.7371624960796908
+        },
+        "forward_loss": {
+          "median": 6.033178135112394,
+          "minimum": 4.626631263818126,
+          "maximum": 7.690962498600129
+        },
+        "loss_readback": {
+          "median": 0.0644281244603917,
+          "minimum": 0.05780623177997768,
+          "maximum": 0.07145627751015127
+        },
+        "backward": {
+          "median": 7.828446883650031,
+          "minimum": 7.16934375668643,
+          "maximum": 9.12886873993557
+        },
+        "optimizer": {
+          "median": 1.174031258415198,
+          "minimum": 0.9100562529056333,
+          "maximum": 1.426643764716573
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut1_r0",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 15.60749531260323,
+        "minimum": 15.011277083734361,
+        "maximum": 16.754883334215265
+      },
+      "saving_vs_full_percent": {
+        "median": 7.89250092910774,
+        "minimum": 2.2518190239367315,
+        "maximum": 17.84372531023493
+      },
+      "saving_vs_routed_percent": {
+        "median": 9.679040533708225,
+        "minimum": -8.212575478712765,
+        "maximum": 19.797756811117367
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 6.101960150161195,
+        "minimum": -8.212575478712765,
+        "maximum": 17.84372531023493
+      },
+      "peak_allocated_mib": {
+        "median": 1384.91748046875,
+        "minimum": 1384.91748046875,
+        "maximum": 1384.91748046875
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 3,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.2395187477522995,
+          "minimum": 1.0418500169180334,
+          "maximum": 1.412481266015675
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5747874965891242,
+          "minimum": 0.5388312565628439,
+          "maximum": 0.7496437610825524
+        },
+        "forward_loss": {
+          "median": 6.361359381116927,
+          "minimum": 5.7413000031374395,
+          "maximum": 6.846675009001046
+        },
+        "loss_readback": {
+          "median": 0.07239062324515544,
+          "minimum": 0.06148123793536797,
+          "maximum": 0.07918749906821176
+        },
+        "backward": {
+          "median": 8.3853468822781,
+          "minimum": 7.236106263007969,
+          "maximum": 8.612006233306602
+        },
+        "optimizer": {
+          "median": 1.31303749003564,
+          "minimum": 1.1575312455534004,
+          "maximum": 1.9866124930558726
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut1_r4",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 15.15026770781939,
+        "minimum": 14.382753124664305,
+        "maximum": 15.738317708989294
+      },
+      "saving_vs_full_percent": {
+        "median": 14.221296785154435,
+        "minimum": 2.65257311196694,
+        "maximum": 32.61497298568903
+      },
+      "saving_vs_routed_percent": {
+        "median": 12.00547281426953,
+        "minimum": 6.302834020196151,
+        "maximum": 16.606486087577867
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 9.745089941045782,
+        "minimum": 2.65257311196694,
+        "maximum": 15.066591427956165
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.8744062542973552,
+          "minimum": 0.7729624994681217,
+          "maximum": 1.2342687623458914
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.4722875055449549,
+          "minimum": 0.4626812515198253,
+          "maximum": 0.5071250125183724
+        },
+        "forward_loss": {
+          "median": 4.734940612252103,
+          "minimum": 4.656424993299879,
+          "maximum": 6.089249967772048
+        },
+        "loss_readback": {
+          "median": 0.05931248961132951,
+          "minimum": 0.056287506595253944,
+          "maximum": 0.06939998274901882
+        },
+        "backward": {
+          "median": 7.809737497154856,
+          "minimum": 7.593737500428688,
+          "maximum": 8.072774995525833
+        },
+        "optimizer": {
+          "median": 1.0372250071668532,
+          "minimum": 0.9455062681809068,
+          "maximum": 1.2451687580323778
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": 0.04096393179982745,
+        "minimum": -2.4333122401003493,
+        "maximum": 0.6493393238997669
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut1_r4",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 15.637334896382526,
+        "minimum": 13.763233332914146,
+        "maximum": 16.050658333066774
+      },
+      "saving_vs_full_percent": {
+        "median": 11.6705393072208,
+        "minimum": 4.2636328869240945,
+        "maximum": 19.70513934321653
+      },
+      "saving_vs_routed_percent": {
+        "median": 11.211841957173384,
+        "minimum": 4.4023588087135535,
+        "maximum": 17.18027606726521
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 7.755781123734755,
+        "minimum": 4.2636328869240945,
+        "maximum": 15.162472786154693
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.1000781196344178,
+          "minimum": 0.8251937470049597,
+          "maximum": 1.4314562431536615
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5445687493192963,
+          "minimum": 0.496893742820248,
+          "maximum": 0.6194249945110641
+        },
+        "forward_loss": {
+          "median": 5.7942718849517405,
+          "minimum": 4.729768748802599,
+          "maximum": 6.3882749891490676
+        },
+        "loss_readback": {
+          "median": 0.06011561708874069,
+          "minimum": 0.05615622649202123,
+          "maximum": 0.07123751129256561
+        },
+        "backward": {
+          "median": 8.080846873781411,
+          "minimum": 7.634800007508602,
+          "maximum": 10.202506273344625
+        },
+        "optimizer": {
+          "median": 1.1156281143485103,
+          "minimum": 1.029081249726005,
+          "maximum": 1.574375004565809
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -0.5571505207626615,
+        "minimum": -2.6737554696107204,
+        "maximum": 0.43133567699745373
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut1_r16",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 15.397961979033425,
+        "minimum": 15.248236457409803,
+        "maximum": 15.8442489579708
+      },
+      "saving_vs_full_percent": {
+        "median": 10.062152202085198,
+        "minimum": 5.683910367287485,
+        "maximum": 30.241464250614804
+      },
+      "saving_vs_routed_percent": {
+        "median": 11.92737194033717,
+        "minimum": -0.6852560298229925,
+        "maximum": 14.687288358189063
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 8.436685625616608,
+        "minimum": -0.6852560298229925,
+        "maximum": 12.074974505363535
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 3,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.24441563457367,
+          "minimum": 1.0429499961901456,
+          "maximum": 1.3395812493399717
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5488500100909732,
+          "minimum": 0.46841250150464475,
+          "maximum": 0.8184187681763433
+        },
+        "forward_loss": {
+          "median": 6.3022562353580724,
+          "minimum": 5.513375021109823,
+          "maximum": 6.5645687354844995
+        },
+        "loss_readback": {
+          "median": 0.06482499520643614,
+          "minimum": 0.062481252825818956,
+          "maximum": 0.071162503445521
+        },
+        "backward": {
+          "median": 7.683534382522339,
+          "minimum": 7.103537485818379,
+          "maximum": 9.608581247448456
+        },
+        "optimizer": {
+          "median": 1.3333249880815856,
+          "minimum": 1.0654312500264496,
+          "maximum": 1.4891624960000627
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": 0.82135813761397,
+        "minimum": -1.8237887375107675,
+        "maximum": 1.5739658855030332
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut1_r16",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 16.35342812490611,
+        "minimum": 15.050720833338952,
+        "maximum": 16.78490416694937
+      },
+      "saving_vs_full_percent": {
+        "median": 8.924064230437104,
+        "minimum": -3.4612671516067683,
+        "maximum": 12.69535352545008
+      },
+      "saving_vs_routed_percent": {
+        "median": 6.631685326420239,
+        "minimum": -3.435884877801923,
+        "maximum": 13.391644099712861
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 2.834488705858999,
+        "minimum": -3.4612671516067683,
+        "maximum": 11.281535342901215
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 3,
+      "positive_vs_both_controls": 2,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.9659749921411276,
+          "minimum": 0.8590687357354909,
+          "maximum": 1.1150000063935295
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5284750041028019,
+          "minimum": 0.4873499783570878,
+          "maximum": 0.5935999870416708
+        },
+        "forward_loss": {
+          "median": 5.256874988845084,
+          "minimum": 4.802031260624062,
+          "maximum": 6.1931937671033666
+        },
+        "loss_readback": {
+          "median": 0.06283748007263057,
+          "minimum": 0.05749999399995431,
+          "maximum": 0.06974999996600673
+        },
+        "backward": {
+          "median": 7.593753121909685,
+          "minimum": 7.314981245144736,
+          "maximum": 7.843831248464994
+        },
+        "optimizer": {
+          "median": 1.1268875059613492,
+          "minimum": 0.9554187490721233,
+          "maximum": 1.264087506569922
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": 0.42684840502715815,
+        "minimum": -0.6601159516321786,
+        "maximum": 1.0017165360901952
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut3_r0",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 12.253213020206505,
+        "minimum": 11.68174583290238,
+        "maximum": 12.858366666478105
+      },
+      "saving_vs_full_percent": {
+        "median": 31.260971332591694,
+        "minimum": 21.744119081421687,
+        "maximum": 43.387608137085614
+      },
+      "saving_vs_routed_percent": {
+        "median": 27.72330144951548,
+        "minimum": 22.772159584676775,
+        "maximum": 35.03454047388832
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 25.70839573270009,
+        "minimum": 21.744119081421687,
+        "maximum": 32.37095183821882
+      },
+      "peak_allocated_mib": {
+        "median": 1126.21435546875,
+        "minimum": 1126.21435546875,
+        "maximum": 1126.21435546875
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.8872687540133484,
+          "minimum": 0.7905250022304244,
+          "maximum": 1.058750000083819
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.4765656376548577,
+          "minimum": 0.47240003186743706,
+          "maximum": 0.5103374714963138
+        },
+        "forward_loss": {
+          "median": 5.032831249991432,
+          "minimum": 4.68355627526762,
+          "maximum": 5.8327812439529225
+        },
+        "loss_readback": {
+          "median": 0.058012512454297394,
+          "minimum": 0.05453125049825758,
+          "maximum": 0.0715374990249984
+        },
+        "backward": {
+          "median": 4.805859374755528,
+          "minimum": 4.5243437634781,
+          "maximum": 5.028943749493919
+        },
+        "optimizer": {
+          "median": 0.8633999968878925,
+          "minimum": 0.7225000081234612,
+          "maximum": 1.1180687288288027
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut3_r0",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 11.585719270442496,
+        "minimum": 10.648185416357592,
+        "maximum": 14.665245832778359
+      },
+      "saving_vs_full_percent": {
+        "median": 30.378480209102346,
+        "minimum": 22.485223557908405,
+        "maximum": 37.87836451124125
+      },
+      "saving_vs_routed_percent": {
+        "median": 30.729954636993,
+        "minimum": 24.328860158078843,
+        "maximum": 33.4427319251808
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 27.956537572395145,
+        "minimum": 22.485223557908405,
+        "maximum": 33.4427319251808
+      },
+      "peak_allocated_mib": {
+        "median": 1126.21435546875,
+        "minimum": 1126.21435546875,
+        "maximum": 1126.21435546875
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.9541406252537854,
+          "minimum": 0.802643749921117,
+          "maximum": 1.3624937491840683
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5046906117058825,
+          "minimum": 0.45880625111749396,
+          "maximum": 0.5826437773066573
+        },
+        "forward_loss": {
+          "median": 5.250168745988049,
+          "minimum": 4.5309250126592815,
+          "maximum": 7.070212501275819
+        },
+        "loss_readback": {
+          "median": 0.06125939398771152,
+          "minimum": 0.05476875230669975,
+          "maximum": 0.07182498666225001
+        },
+        "backward": {
+          "median": 4.933481235639192,
+          "minimum": 4.332225005782675,
+          "maximum": 5.648181264405139
+        },
+        "optimizer": {
+          "median": 0.7970968872541562,
+          "minimum": 0.7537375204265118,
+          "maximum": 1.0431500268168747
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut3_r4",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 12.694470833594096,
+        "minimum": 12.387526040887073,
+        "maximum": 13.522005208263485
+      },
+      "saving_vs_full_percent": {
+        "median": 25.784701024619157,
+        "minimum": 20.326868442541112,
+        "maximum": 42.82933269979777
+      },
+      "saving_vs_routed_percent": {
+        "median": 28.135836238591892,
+        "minimum": 11.910219455428003,
+        "maximum": 31.019139894185557
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 25.659726545042055,
+        "minimum": 11.910219455428003,
+        "maximum": 28.19091953837163
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.9568843706801999,
+          "minimum": 0.8324499867740087,
+          "maximum": 1.7029187438311055
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5128781231178436,
+          "minimum": 0.4898624902125448,
+          "maximum": 0.7384437558357604
+        },
+        "forward_loss": {
+          "median": 5.002268750104122,
+          "minimum": 4.666356231609825,
+          "maximum": 7.690006248594727
+        },
+        "loss_readback": {
+          "median": 0.0610687566222623,
+          "minimum": 0.05551874346565455,
+          "maximum": 0.06724998820573092
+        },
+        "backward": {
+          "median": 5.828131248563295,
+          "minimum": 5.623331257083919,
+          "maximum": 7.605856240843423
+        },
+        "optimizer": {
+          "median": 0.9032656271301676,
+          "minimum": 0.8367937407456338,
+          "maximum": 1.4659499865956604
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -1.0082779942119184,
+        "minimum": -1.4223625006100822,
+        "maximum": 0.7934393233881565
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut3_r4",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 14.266758854622214,
+        "minimum": 12.672522916545859,
+        "maximum": 16.127465625080124
+      },
+      "saving_vs_full_percent": {
+        "median": 17.007725712533023,
+        "minimum": 14.756499361813573,
+        "maximum": 21.450416703547564
+      },
+      "saving_vs_routed_percent": {
+        "median": 14.85781613528011,
+        "minimum": 8.82790892148422,
+        "maximum": 27.23548205204168
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 13.84408659288364,
+        "minimum": 8.82790892148422,
+        "maximum": 21.450416703547564
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.9176093772111926,
+          "minimum": 0.8848562647472136,
+          "maximum": 1.5427437610924244
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5410781304817647,
+          "minimum": 0.49506875802762806,
+          "maximum": 0.7593874979647808
+        },
+        "forward_loss": {
+          "median": 5.379415611969307,
+          "minimum": 5.272143767797388,
+          "maximum": 7.017118739895523
+        },
+        "loss_readback": {
+          "median": 0.0632906230748631,
+          "minimum": 0.0596562385908328,
+          "maximum": 0.07856877346057445
+        },
+        "backward": {
+          "median": 5.950590621068841,
+          "minimum": 5.579618737101555,
+          "maximum": 8.885187482519541
+        },
+        "optimizer": {
+          "median": 0.9661656185926404,
+          "minimum": 0.8979750055004843,
+          "maximum": 1.3625437568407506
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": 1.147685937970285,
+        "minimum": -0.7944247396759844,
+        "maximum": 2.259487761572624
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut3_r16",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 11.492790104360514,
+        "minimum": 10.720948957896326,
+        "maximum": 12.965063541438818
+      },
+      "saving_vs_full_percent": {
+        "median": 33.26608306883075,
+        "minimum": 24.941449745044597,
+        "maximum": 48.83873352207439
+      },
+      "saving_vs_routed_percent": {
+        "median": 32.2012896088018,
+        "minimum": 27.897651361111546,
+        "maximum": 35.51533713995503
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 29.929504551162907,
+        "minimum": 24.941449745044597,
+        "maximum": 35.51533713995503
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.9155718908004928,
+          "minimum": 0.7680562339373864,
+          "maximum": 1.1552125070011243
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.45537812911788933,
+          "minimum": 0.4284875249140896,
+          "maximum": 0.608506248681806
+        },
+        "forward_loss": {
+          "median": 5.150612527359044,
+          "minimum": 4.574075013806578,
+          "maximum": 6.5664624780765735
+        },
+        "loss_readback": {
+          "median": 0.05973125735181384,
+          "minimum": 0.05377500201575458,
+          "maximum": 0.06830624624853954
+        },
+        "backward": {
+          "median": 5.156206239917083,
+          "minimum": 4.777456269948743,
+          "maximum": 5.558831231610384
+        },
+        "optimizer": {
+          "median": 0.828446885861922,
+          "minimum": 0.6870062570669688,
+          "maximum": 1.005912505206652
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -1.4564609044403671,
+        "minimum": -1.5759622393337243,
+        "maximum": 0.8895848309293797
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut3_r16",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 11.19970677063975,
+        "minimum": 10.727151041161656,
+        "maximum": 13.136894791387022
+      },
+      "saving_vs_full_percent": {
+        "median": 33.749794329919396,
+        "minimum": 28.54693929407316,
+        "maximum": 37.4176781531051
+      },
+      "saving_vs_routed_percent": {
+        "median": 33.012174022623334,
+        "minimum": 30.717951384194098,
+        "maximum": 34.342530556691344
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 30.640721579314715,
+        "minimum": 28.54693929407316,
+        "maximum": 34.342530556691344
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.0591249883873388,
+          "minimum": 0.847324998176191,
+          "maximum": 1.7543062422191724
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5428125077742152,
+          "minimum": 0.49196874169865623,
+          "maximum": 0.6802812567912042
+        },
+        "forward_loss": {
+          "median": 5.888099993171636,
+          "minimum": 4.403206257848069,
+          "maximum": 6.397087505320087
+        },
+        "loss_readback": {
+          "median": 0.06454062895500101,
+          "minimum": 0.0525625073350966,
+          "maximum": 0.07219374674605206
+        },
+        "backward": {
+          "median": 5.061875013780082,
+          "minimum": 4.801093775313348,
+          "maximum": 5.652806263242383
+        },
+        "optimizer": {
+          "median": 0.9255093755200505,
+          "minimum": 0.7499624916817993,
+          "maximum": 1.0873312421608716
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -0.7235967446301098,
+        "minimum": -1.8230379555461695,
+        "maximum": -0.22322936213943953
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut5_r0",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 9.344282291446387,
+        "minimum": 7.798045833624201,
+        "maximum": 10.750417707943901
+      },
+      "saving_vs_full_percent": {
+        "median": 50.147135445061366,
+        "minimum": 42.38012666241739,
+        "maximum": 52.66841615593539
+      },
+      "saving_vs_routed_percent": {
+        "median": 43.87007449513221,
+        "minimum": 40.34234418076096,
+        "maximum": 54.8836087513635
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 42.7353872269959,
+        "minimum": 40.34234418076096,
+        "maximum": 51.76614739295329
+      },
+      "peak_allocated_mib": {
+        "median": 867.51123046875,
+        "minimum": 867.51123046875,
+        "maximum": 867.51123046875
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.0137406243302394,
+          "minimum": 0.8746687453822233,
+          "maximum": 1.0727625121944584
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.4545562660496216,
+          "minimum": 0.40903125773184,
+          "maximum": 0.5529812478926033
+        },
+        "forward_loss": {
+          "median": 4.926853122015018,
+          "minimum": 4.75777497922536,
+          "maximum": 5.104543750348967
+        },
+        "loss_readback": {
+          "median": 0.06216249676072039,
+          "minimum": 0.057168748753611,
+          "maximum": 0.06565001967828721
+        },
+        "backward": {
+          "median": 2.0284000092942733,
+          "minimum": 1.8989437230629846,
+          "maximum": 2.310756222868804
+        },
+        "optimizer": {
+          "median": 0.5940531227679458,
+          "minimum": 0.5168874922674149,
+          "maximum": 0.6554562496603467
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut5_r0",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 8.8377546871925,
+        "minimum": 7.983778124374415,
+        "maximum": 9.927534375795707
+      },
+      "saving_vs_full_percent": {
+        "median": 48.023348353075406,
+        "minimum": 45.33457144444416,
+        "maximum": 53.688535293553656
+      },
+      "saving_vs_routed_percent": {
+        "median": 50.279443623121054,
+        "minimum": 39.48238468915488,
+        "maximum": 52.31122146735759
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 48.023348353075406,
+        "minimum": 39.48238468915488,
+        "maximum": 51.78392981301882
+      },
+      "peak_allocated_mib": {
+        "median": 867.51123046875,
+        "minimum": 867.51123046875,
+        "maximum": 867.51123046875
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.8125843705784064,
+          "minimum": 0.7148625008994713,
+          "maximum": 1.0471000205143355
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.44773125046049245,
+          "minimum": 0.4142187608522363,
+          "maximum": 0.5489375034812838
+        },
+        "forward_loss": {
+          "median": 4.869084386882605,
+          "minimum": 4.383350009447895,
+          "maximum": 5.504862492671236
+        },
+        "loss_readback": {
+          "median": 0.054981239372864366,
+          "minimum": 0.05411249730968848,
+          "maximum": 0.07386876677628607
+        },
+        "backward": {
+          "median": 2.1914500030106865,
+          "minimum": 1.8168562382925302,
+          "maximum": 2.5208375009242445
+        },
+        "optimizer": {
+          "median": 0.5364124990592245,
+          "minimum": 0.46522499906132,
+          "maximum": 0.6823312578490004
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut5_r4",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 11.666251562928664,
+        "minimum": 10.249720834205315,
+        "maximum": 14.045118749587951
+      },
+      "saving_vs_full_percent": {
+        "median": 35.80855714648107,
+        "minimum": 17.24462632271391,
+        "maximum": 46.69324684044176
+      },
+      "saving_vs_routed_percent": {
+        "median": 35.193028428845935,
+        "minimum": 8.5023700761802,
+        "maximum": 40.69919243724297
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 33.91331225515138,
+        "minimum": 8.5023700761802,
+        "maximum": 36.60161346465611
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.0783187353808898,
+          "minimum": 0.8970562703325413,
+          "maximum": 1.1581999715417624
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.6005843679304235,
+          "minimum": 0.49640626821201295,
+          "maximum": 0.6341625121422112
+        },
+        "forward_loss": {
+          "median": 5.7135312345053535,
+          "minimum": 4.9531937766005285,
+          "maximum": 7.284931234607939
+        },
+        "loss_readback": {
+          "median": 0.06838125045760535,
+          "minimum": 0.05556876567425206,
+          "maximum": 0.087181237176992
+        },
+        "backward": {
+          "median": 3.985218772868393,
+          "minimum": 3.8843124857521616,
+          "maximum": 4.588387477269862
+        },
+        "optimizer": {
+          "median": 0.923821862670593,
+          "minimum": 0.7386125071207061,
+          "maximum": 0.9643437297199853
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -0.19009309835382737,
+        "minimum": -0.7350479157442654,
+        "maximum": 3.6557575516174743
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut5_r4",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 10.283370833955512,
+        "minimum": 9.619878124794923,
+        "maximum": 13.320911458625536
+      },
+      "saving_vs_full_percent": {
+        "median": 38.109021399394706,
+        "minimum": 29.590851357407296,
+        "maximum": 44.19801761566813
+      },
+      "saving_vs_routed_percent": {
+        "median": 37.31619149991285,
+        "minimum": 31.265485399876603,
+        "maximum": 41.90310506760714
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 34.93890252111146,
+        "minimum": 29.590851357407296,
+        "maximum": 41.90310506760714
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.1253187512920704,
+          "minimum": 0.823493734060321,
+          "maximum": 1.295043752179481
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.5632999927911442,
+          "minimum": 0.45004376443102956,
+          "maximum": 0.6372749921865761
+        },
+        "forward_loss": {
+          "median": 5.756428134191083,
+          "minimum": 4.515712498687208,
+          "maximum": 7.239487487822771
+        },
+        "loss_readback": {
+          "median": 0.06841874346719123,
+          "minimum": 0.0615562530583702,
+          "maximum": 0.08309997792821378
+        },
+        "backward": {
+          "median": 3.722834368090844,
+          "minimum": 3.516106247843709,
+          "maximum": 6.113062503573019
+        },
+        "optimizer": {
+          "median": 0.8418593752139714,
+          "minimum": 0.7329624932026491,
+          "maximum": 1.1184062386746518
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -0.33767278591767536,
+        "minimum": -0.7468601552318432,
+        "maximum": 1.0302015619648348
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut5_r16",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 10.723794791677694,
+        "minimum": 8.463296875561355,
+        "maximum": 13.96777916670544
+      },
+      "saving_vs_full_percent": {
+        "median": 39.91585895872663,
+        "minimum": 29.518073953798073,
+        "maximum": 51.00349552267355
+      },
+      "saving_vs_routed_percent": {
+        "median": 33.80439489231128,
+        "minimum": 22.072381536916915,
+        "maximum": 52.93323630804052
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 31.908363063244742,
+        "minimum": 22.072381536916915,
+        "maximum": 51.00349552267355
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 1.139321884693345,
+          "minimum": 0.6960187602089718,
+          "maximum": 1.2363062633085065
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.45060312550049275,
+          "minimum": 0.3954812418669462,
+          "maximum": 0.6189749910845421
+        },
+        "forward_loss": {
+          "median": 6.135603125585476,
+          "minimum": 4.536424996331334,
+          "maximum": 6.577493739314377
+        },
+        "loss_readback": {
+          "median": 0.07181874389061704,
+          "minimum": 0.052706265705637634,
+          "maximum": 0.07504376844735816
+        },
+        "backward": {
+          "median": 2.4238343903562054,
+          "minimum": 2.24451873509679,
+          "maximum": 2.790124992316123
+        },
+        "optimizer": {
+          "median": 0.70206248346949,
+          "minimum": 0.525537492649164,
+          "maximum": 0.758162495912984
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": 1.928783756587412,
+        "minimum": -1.9913273426179028,
+        "maximum": 2.8129495440983496
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut5_r16",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 9.396746353862303,
+        "minimum": 8.126349999656668,
+        "maximum": 11.410693750804057
+      },
+      "saving_vs_full_percent": {
+        "median": 45.42759295473773,
+        "minimum": 35.690589222997865,
+        "maximum": 52.59078117129275
+      },
+      "saving_vs_routed_percent": {
+        "median": 44.318707429224034,
+        "minimum": 40.4268860721361,
+        "maximum": 49.15938921471082
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 43.601461606269666,
+        "minimum": 35.690589222997865,
+        "maximum": 49.15938921471082
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.8392343697778415,
+          "minimum": 0.7213687567855231,
+          "maximum": 1.2885124888271093
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.45298124678083695,
+          "minimum": 0.4093500101589598,
+          "maximum": 0.5240499885985628
+        },
+        "forward_loss": {
+          "median": 4.6842749979987275,
+          "minimum": 4.46179999562446,
+          "maximum": 6.615456244617235
+        },
+        "loss_readback": {
+          "median": 0.05569374479819089,
+          "minimum": 0.05211249663261697,
+          "maximum": 0.07740625005681068
+        },
+        "backward": {
+          "median": 2.2568499989574775,
+          "minimum": 2.2099250127212144,
+          "maximum": 2.337862490094267
+        },
+        "optimizer": {
+          "median": 0.5893593806831632,
+          "minimum": 0.5014625057810917,
+          "maximum": 0.7693687512073666
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": 0.39551796858935023,
+        "minimum": -1.6258507159818691,
+        "maximum": 1.5003509769636973
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut6_r0",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 8.030707812091956,
+        "minimum": 6.581584374847201,
+        "maximum": 9.240665624626368
+      },
+      "saving_vs_full_percent": {
+        "median": 55.84117988446569,
+        "minimum": 50.739094520108544,
+        "maximum": 61.897280335127846
+      },
+      "saving_vs_routed_percent": {
+        "median": 52.082977778624695,
+        "minimum": 45.535185220866396,
+        "maximum": 63.3979664137589
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 50.54365970050581,
+        "minimum": 45.535185220866396,
+        "maximum": 61.897280335127846
+      },
+      "peak_allocated_mib": {
+        "median": 802.42578125,
+        "minimum": 802.42578125,
+        "maximum": 802.42578125
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.996115635643946,
+          "minimum": 0.6727374857291579,
+          "maximum": 1.1296062366454862
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.4131812493142206,
+          "minimum": 0.35689998185262084,
+          "maximum": 0.5637437498080544
+        },
+        "forward_loss": {
+          "median": 5.6353312502324115,
+          "minimum": 4.468268758500926,
+          "maximum": 7.1722750217304565
+        },
+        "loss_readback": {
+          "median": 0.06677499550278299,
+          "minimum": 0.05211248935665935,
+          "maximum": 0.08114374941214919
+        },
+        "backward": {
+          "median": 0.6728812404617202,
+          "minimum": 0.6219499846338294,
+          "maximum": 1.1294187424937263
+        },
+        "optimizer": {
+          "median": 0.4256718784745317,
+          "minimum": 0.3100124959019013,
+          "maximum": 0.5681750044459477
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut6_r0",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 8.199405208263972,
+        "minimum": 6.866713541967329,
+        "maximum": 10.054505208245246
+      },
+      "saving_vs_full_percent": {
+        "median": 52.294171487342176,
+        "minimum": 46.855802327500285,
+        "maximum": 57.437245062433206
+      },
+      "saving_vs_routed_percent": {
+        "median": 50.567979567873394,
+        "minimum": 44.33314699924477,
+        "maximum": 60.57193156734411
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 49.93598014522841,
+        "minimum": 44.33314699924477,
+        "maximum": 57.437245062433206
+      },
+      "peak_allocated_mib": {
+        "median": 802.42578125,
+        "minimum": 802.42578125,
+        "maximum": 802.42578125
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.8809156315692235,
+          "minimum": 0.7489812487619929,
+          "maximum": 0.992587512882892
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.4510031212703325,
+          "minimum": 0.3665312397060916,
+          "maximum": 0.5240749960648827
+        },
+        "forward_loss": {
+          "median": 5.050850009865826,
+          "minimum": 4.49311250122264,
+          "maximum": 5.501581224962138
+        },
+        "loss_readback": {
+          "median": 0.05800000872113742,
+          "minimum": 0.05207498179515824,
+          "maximum": 0.08092499774647877
+        },
+        "backward": {
+          "median": 0.6159375006973278,
+          "minimum": 0.5434437480289489,
+          "maximum": 0.73656250606291
+        },
+        "optimizer": {
+          "median": 0.44727500062435865,
+          "minimum": 0.3641062503447756,
+          "maximum": 0.5202250031288713
+        }
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut6_r4",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 9.375410416396335,
+        "minimum": 8.781598958497247,
+        "maximum": 13.306418749076935
+      },
+      "saving_vs_full_percent": {
+        "median": 44.39345390950837,
+        "minimum": 40.24777073484885,
+        "maximum": 48.25785981226921
+      },
+      "saving_vs_routed_percent": {
+        "median": 43.45076198022711,
+        "minimum": 26.158241336752017,
+        "maximum": 49.44473805676652
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 41.51980212791622,
+        "minimum": 26.158241336752017,
+        "maximum": 47.37196858561134
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.9549843744025566,
+          "minimum": 0.7665187440579757,
+          "maximum": 1.1726812517736107
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.48728124238550663,
+          "minimum": 0.3929625090677291,
+          "maximum": 0.6821062488597818
+        },
+        "forward_loss": {
+          "median": 5.4736218735342845,
+          "minimum": 4.581300003337674,
+          "maximum": 6.194856257934589
+        },
+        "loss_readback": {
+          "median": 0.06428437336580828,
+          "minimum": 0.05450000026030466,
+          "maximum": 0.0748812744859606
+        },
+        "backward": {
+          "median": 2.7563531184569,
+          "minimum": 2.5924062574631535,
+          "maximum": 3.1425250199390575
+        },
+        "optimizer": {
+          "median": 0.6564687500940636,
+          "minimum": 0.5701937407138757,
+          "maximum": 0.8977187535492703
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -0.38875143233478104,
+        "minimum": -1.326330208030413,
+        "maximum": 1.8708742181843263
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut6_r4",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 9.060853645981599,
+        "minimum": 8.822561458752412,
+        "maximum": 10.118872915578928
+      },
+      "saving_vs_full_percent": {
+        "median": 46.7828757965633,
+        "minimum": 43.9312944220755,
+        "maximum": 48.82300869934538
+      },
+      "saving_vs_routed_percent": {
+        "median": 47.252987032643944,
+        "minimum": 41.3816480922989,
+        "maximum": 48.06067502680265
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 45.22343706192778,
+        "minimum": 41.3816480922989,
+        "maximum": 46.71830355286913
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.8171031186066102,
+          "minimum": 0.7863624996389262,
+          "maximum": 1.0398812519269995
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.43955937144346535,
+          "minimum": 0.4252874932717532,
+          "maximum": 0.4633625067071989
+        },
+        "forward_loss": {
+          "median": 4.911440613796003,
+          "minimum": 4.319074978411663,
+          "maximum": 5.905831239942927
+        },
+        "loss_readback": {
+          "median": 0.05775624595116824,
+          "minimum": 0.05512499046744779,
+          "maximum": 0.06796873640269041
+        },
+        "backward": {
+          "median": 2.691128131118603,
+          "minimum": 2.609906245197635,
+          "maximum": 3.097906221228186
+        },
+        "optimizer": {
+          "median": 0.611359384492971,
+          "minimum": 0.5846000130986795,
+          "maximum": 0.7319687647395767
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -1.2054489579895744,
+        "minimum": -2.267065105418927,
+        "maximum": -0.45833619788027136
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut6_r16",
+      "seed": 1501,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 8.00922447888297,
+        "minimum": 7.160210416865691,
+        "maximum": 8.659014582614569
+      },
+      "saving_vs_full_percent": {
+        "median": 55.31190261103169,
+        "minimum": 51.3357160422581,
+        "maximum": 61.876376727096904
+      },
+      "saving_vs_routed_percent": {
+        "median": 53.917723782199005,
+        "minimum": 51.948238130163695,
+        "maximum": 54.67103782952776
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 52.38039258248627,
+        "minimum": 51.3357160422581,
+        "maximum": 53.35445042653864
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.7922968652565032,
+          "minimum": 0.7818187805241905,
+          "maximum": 1.1024500054190867
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.4048343835165724,
+          "minimum": 0.38621250132564455,
+          "maximum": 0.42226872756145895
+        },
+        "forward_loss": {
+          "median": 4.738859377539484,
+          "minimum": 4.557225001917686,
+          "maximum": 4.925493740302045
+        },
+        "loss_readback": {
+          "median": 0.05728749601985328,
+          "minimum": 0.056618730013724416,
+          "maximum": 0.06105627107899636
+        },
+        "backward": {
+          "median": 1.1666968748613726,
+          "minimum": 1.0406749861431308,
+          "maximum": 1.255837494682055
+        },
+        "optimizer": {
+          "median": 0.46771561028435826,
+          "minimum": 0.4053187294630334,
+          "maximum": 0.5344125020201318
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -0.7813121748464861,
+        "minimum": -1.637137499680345,
+        "maximum": 0.8567372401557805
+      },
+      "identical_across_sessions": true
+    },
+    {
+      "arm": "cut6_r16",
+      "seed": 1502,
+      "n": 4,
+      "milliseconds_per_update": {
+        "median": 7.2552171877759974,
+        "minimum": 7.002433333885468,
+        "maximum": 8.339787501123888
+      },
+      "saving_vs_full_percent": {
+        "median": 57.39035494161181,
+        "minimum": 53.76629707779584,
+        "maximum": 59.381017464473835
+      },
+      "saving_vs_routed_percent": {
+        "median": 57.06945474896838,
+        "minimum": 54.457519527978896,
+        "maximum": 57.71052102819628
+      },
+      "saving_vs_faster_control_percent": {
+        "median": 55.18832583279446,
+        "minimum": 53.76629707779584,
+        "maximum": 57.71052102819628
+      },
+      "peak_allocated_mib": {
+        "median": 1513.2958984375,
+        "minimum": 1513.2958984375,
+        "maximum": 1513.2958984375
+      },
+      "positive_vs_full": 4,
+      "positive_vs_both_controls": 4,
+      "components_mean_ms": {
+        "augmentation": {
+          "median": 0.7900187629275024,
+          "minimum": 0.6723750047967769,
+          "maximum": 0.9527187648927793
+        },
+        "routing_rng_zero_grad": {
+          "median": 0.3864999962388538,
+          "minimum": 0.37362501461757347,
+          "maximum": 0.5415875057224184
+        },
+        "forward_loss": {
+          "median": 4.552640639303718,
+          "minimum": 4.477268783375621,
+          "maximum": 5.355674991733395
+        },
+        "loss_readback": {
+          "median": 0.05900313408346847,
+          "minimum": 0.05408750439528376,
+          "maximum": 0.06659998325631022
+        },
+        "backward": {
+          "median": 1.2786812440026551,
+          "minimum": 1.0375062411185354,
+          "maximum": 1.4222062673070468
+        },
+        "optimizer": {
+          "median": 0.41362812407896854,
+          "minimum": 0.40013126272242516,
+          "maximum": 0.5154625105205923
+        }
+      },
+      "measured_minus_mixture_ms_per_update": {
+        "median": -1.6612863275137593,
+        "minimum": -2.2975759103095093,
+        "maximum": -0.0670783205502327
+      },
+      "identical_across_sessions": true
+    }
+  ],
+  "pairings": [
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "full",
+      "boundary": 0,
+      "interval": 1,
+      "milliseconds_per_update": 16.971851041792736,
+      "saving_vs_full_percent": 0.0,
+      "saving_vs_routed_percent": -10.563974105929509,
+      "saving_vs_faster_control_percent": -10.563974105929509,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8161812511389144,
+        "routing_rng_zero_grad": 0.5077124878880568,
+        "forward_loss": 4.9711624888004735,
+        "loss_readback": 0.05983126175124198,
+        "backward": 8.609331263869535,
+        "optimizer": 1.1502812412800267
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "routed_full",
+      "boundary": 6,
+      "interval": 1,
+      "milliseconds_per_update": 15.350254166454155,
+      "saving_vs_full_percent": 9.554625899941277,
+      "saving_vs_routed_percent": 0.0,
+      "saving_vs_faster_control_percent": 0.0,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.2655124955927022,
+        "routing_rng_zero_grad": 0.5503124993992969,
+        "forward_loss": 6.272762504522689,
+        "loss_readback": 0.06676877819700167,
+        "backward": 9.382037496834528,
+        "optimizer": 1.306993726757355
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut1_r0",
+      "boundary": 1,
+      "interval": 0,
+      "milliseconds_per_update": 13.783558333670953,
+      "saving_vs_full_percent": 18.785768860866717,
+      "saving_vs_routed_percent": 10.206318512998937,
+      "saving_vs_faster_control_percent": 10.206318512998937,
+      "peak_allocated_mib": 1384.91748046875,
+      "components_mean_ms": {
+        "augmentation": 1.2041062509524636,
+        "routing_rng_zero_grad": 0.7371624960796908,
+        "forward_loss": 7.690962498600129,
+        "loss_readback": 0.07145627751015127,
+        "backward": 8.319856264279224,
+        "optimizer": 1.426643764716573
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut1_r4",
+      "boundary": 1,
+      "interval": 4,
+      "milliseconds_per_update": 14.382753124664305,
+      "saving_vs_full_percent": 15.255247708413457,
+      "saving_vs_routed_percent": 6.302834020196151,
+      "saving_vs_faster_control_percent": 6.302834020196151,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7729624994681217,
+        "routing_rng_zero_grad": 0.4628312453860417,
+        "forward_loss": 4.656424993299879,
+        "loss_readback": 0.05709372635465115,
+        "backward": 7.977250003023073,
+        "optimizer": 0.9455062681809068
+      },
+      "measured_minus_mixture_ms_per_update": 0.2075208327975512
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut1_r16",
+      "boundary": 1,
+      "interval": 16,
+      "milliseconds_per_update": 15.455442708722936,
+      "saving_vs_full_percent": 8.934843520224662,
+      "saving_vs_routed_percent": -0.6852560298229925,
+      "saving_vs_faster_control_percent": -0.6852560298229925,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.261612502275966,
+        "routing_rng_zero_grad": 0.5951375133008696,
+        "forward_loss": 6.5645687354844995,
+        "loss_readback": 0.062481252825818956,
+        "backward": 7.969656246132217,
+        "optimizer": 1.4359499837155454
+      },
+      "measured_minus_mixture_ms_per_update": 1.5739658855030332
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut3_r0",
+      "boundary": 3,
+      "interval": 0,
+      "milliseconds_per_update": 11.854669791015718,
+      "saving_vs_full_percent": 30.150990826964566,
+      "saving_vs_routed_percent": 22.772159584676775,
+      "saving_vs_faster_control_percent": 22.772159584676775,
+      "peak_allocated_mib": 1126.21435546875,
+      "components_mean_ms": {
+        "augmentation": 0.8098999969661236,
+        "routing_rng_zero_grad": 0.4728250205516815,
+        "forward_loss": 4.68355627526762,
+        "loss_readback": 0.05453125049825758,
+        "backward": 4.993862508854363,
+        "optimizer": 0.7225000081234612
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut3_r4",
+      "boundary": 3,
+      "interval": 4,
+      "milliseconds_per_update": 13.522005208263485,
+      "saving_vs_full_percent": 20.326868442541112,
+      "saving_vs_routed_percent": 11.910219455428003,
+      "saving_vs_faster_control_percent": 11.910219455428003,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.7029187438311055,
+        "routing_rng_zero_grad": 0.7384437558357604,
+        "forward_loss": 7.690006248594727,
+        "loss_readback": 0.06724998820573092,
+        "backward": 7.605856240843423,
+        "optimizer": 1.4659499865956604
+      },
+      "measured_minus_mixture_ms_per_update": 0.7934393233881565
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut3_r16",
+      "boundary": 3,
+      "interval": 16,
+      "milliseconds_per_update": 10.720948957896326,
+      "saving_vs_full_percent": 36.83099780043867,
+      "saving_vs_routed_percent": 30.157840765102975,
+      "saving_vs_faster_control_percent": 30.157840765102975,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7680562339373864,
+        "routing_rng_zero_grad": 0.4284875249140896,
+        "forward_loss": 4.574075013806578,
+        "loss_readback": 0.05386250268202275,
+        "backward": 4.824256233405322,
+        "optimizer": 0.6870062570669688
+      },
+      "measured_minus_mixture_ms_per_update": -1.3521948565842952
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut5_r0",
+      "boundary": 5,
+      "interval": 0,
+      "milliseconds_per_update": 8.73573020847592,
+      "saving_vs_full_percent": 48.528123497169446,
+      "saving_vs_routed_percent": 43.090647791574405,
+      "saving_vs_faster_control_percent": 43.090647791574405,
+      "peak_allocated_mib": 867.51123046875,
+      "components_mean_ms": {
+        "augmentation": 0.9946812642738223,
+        "routing_rng_zero_grad": 0.48975001845974475,
+        "forward_loss": 4.961724996974226,
+        "loss_readback": 0.06565001967828721,
+        "backward": 2.0185562534607016,
+        "optimizer": 0.6554562496603467
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut5_r4",
+      "boundary": 5,
+      "interval": 4,
+      "milliseconds_per_update": 14.045118749587951,
+      "saving_vs_full_percent": 17.24462632271391,
+      "saving_vs_routed_percent": 8.5023700761802,
+      "saving_vs_faster_control_percent": 8.5023700761802,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.112793746870011,
+        "routing_rng_zero_grad": 0.6059249935788102,
+        "forward_loss": 5.316099995980039,
+        "loss_readback": 0.06211875734152272,
+        "backward": 3.8843124857521616,
+        "optimizer": 0.9257062411052175
+      },
+      "measured_minus_mixture_ms_per_update": 3.6557575516174743
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut5_r16",
+      "boundary": 5,
+      "interval": 16,
+      "milliseconds_per_update": 11.962087499947907,
+      "saving_vs_full_percent": 29.518073953798073,
+      "saving_vs_routed_percent": 22.072381536916915,
+      "saving_vs_faster_control_percent": 22.072381536916915,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.133356272475794,
+        "routing_rng_zero_grad": 0.6189749910845421,
+        "forward_loss": 6.577493739314377,
+        "loss_readback": 0.06979375029914081,
+        "backward": 2.790124992316123,
+        "optimizer": 0.758162495912984
+      },
+      "measured_minus_mixture_ms_per_update": 2.8129495440983496
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut6_r0",
+      "boundary": 6,
+      "interval": 0,
+      "milliseconds_per_update": 8.360487499885494,
+      "saving_vs_full_percent": 50.739094520108544,
+      "saving_vs_routed_percent": 45.535185220866396,
+      "saving_vs_faster_control_percent": 45.535185220866396,
+      "peak_allocated_mib": 802.42578125,
+      "components_mean_ms": {
+        "augmentation": 1.1296062366454862,
+        "routing_rng_zero_grad": 0.5637437498080544,
+        "forward_loss": 7.1722750217304565,
+        "loss_readback": 0.08114374941214919,
+        "backward": 1.1294187424937263,
+        "optimizer": 0.5681750044459477
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut6_r4",
+      "boundary": 6,
+      "interval": 4,
+      "milliseconds_per_update": 8.781598958497247,
+      "saving_vs_full_percent": 48.25785981226921,
+      "saving_vs_routed_percent": 42.79183352098359,
+      "saving_vs_faster_control_percent": 42.79183352098359,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7665187440579757,
+        "routing_rng_zero_grad": 0.4468749903026037,
+        "forward_loss": 4.581300003337674,
+        "loss_readback": 0.05450000026030466,
+        "backward": 2.5924062574631535,
+        "optimizer": 0.5874374910490587
+      },
+      "measured_minus_mixture_ms_per_update": -1.326330208030413
+    },
+    {
+      "session": 0,
+      "seed": 1501,
+      "arm": "cut6_r16",
+      "boundary": 6,
+      "interval": 16,
+      "milliseconds_per_update": 7.160210416865691,
+      "saving_vs_full_percent": 57.81125818725453,
+      "saving_vs_routed_percent": 53.35445042653864,
+      "saving_vs_faster_control_percent": 53.35445042653864,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7818187805241905,
+        "routing_rng_zero_grad": 0.4165500067756511,
+        "forward_loss": 4.624531255103648,
+        "loss_readback": 0.05745625094277784,
+        "backward": 1.07803749415325,
+        "optimizer": 0.49120623589260504
+      },
+      "measured_minus_mixture_ms_per_update": -1.637137499680345
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "full",
+      "boundary": 0,
+      "interval": 1,
+      "milliseconds_per_update": 17.140864583780058,
+      "saving_vs_full_percent": 0.0,
+      "saving_vs_routed_percent": -10.705462135619726,
+      "saving_vs_faster_control_percent": -10.705462135619726,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8380249928450212,
+        "routing_rng_zero_grad": 0.5332125001586974,
+        "forward_loss": 4.822837487154175,
+        "loss_readback": 0.06417500844690949,
+        "backward": 8.732899994356558,
+        "optimizer": 1.285793747229036
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "routed_full",
+      "boundary": 6,
+      "interval": 1,
+      "milliseconds_per_update": 15.483305207453668,
+      "saving_vs_full_percent": 9.67022035688266,
+      "saving_vs_routed_percent": 0.0,
+      "saving_vs_faster_control_percent": 0.0,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7740750006632879,
+        "routing_rng_zero_grad": 0.5183999965083785,
+        "forward_loss": 4.665918757382315,
+        "loss_readback": 0.055350006732624024,
+        "backward": 8.702618753886782,
+        "optimizer": 1.2607187454705127
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut1_r0",
+      "boundary": 1,
+      "interval": 0,
+      "milliseconds_per_update": 16.754883334215265,
+      "saving_vs_full_percent": 2.2518190239367315,
+      "saving_vs_routed_percent": -8.212575478712765,
+      "saving_vs_faster_control_percent": -8.212575478712765,
+      "peak_allocated_mib": 1384.91748046875,
+      "components_mean_ms": {
+        "augmentation": 1.0418500169180334,
+        "routing_rng_zero_grad": 0.6025624970789067,
+        "forward_loss": 5.7413000031374395,
+        "loss_readback": 0.06148123793536797,
+        "backward": 8.209474995965138,
+        "optimizer": 1.3639187454828061
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut1_r4",
+      "boundary": 1,
+      "interval": 4,
+      "milliseconds_per_update": 13.763233332914146,
+      "saving_vs_full_percent": 19.70513934321653,
+      "saving_vs_routed_percent": 11.109203438755957,
+      "saving_vs_faster_control_percent": 11.109203438755957,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8251937470049597,
+        "routing_rng_zero_grad": 0.5315812522894703,
+        "forward_loss": 4.729768748802599,
+        "loss_readback": 0.05615622649202123,
+        "backward": 7.634800007508602,
+        "optimizer": 1.0857374873012304
+      },
+      "measured_minus_mixture_ms_per_update": -2.6737554696107204
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut1_r16",
+      "boundary": 1,
+      "interval": 16,
+      "milliseconds_per_update": 16.015293749660486,
+      "saving_vs_full_percent": 6.566593117972993,
+      "saving_vs_routed_percent": -3.435884877801923,
+      "saving_vs_faster_control_percent": -3.435884877801923,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8590687357354909,
+        "routing_rng_zero_grad": 0.5178812498343177,
+        "forward_loss": 4.802031260624062,
+        "loss_readback": 0.05868748121429235,
+        "backward": 7.314981245144736,
+        "optimizer": 1.059793765307404
+      },
+      "measured_minus_mixture_ms_per_update": -0.6601159516321786
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut3_r0",
+      "boundary": 3,
+      "interval": 0,
+      "milliseconds_per_update": 10.648185416357592,
+      "saving_vs_full_percent": 37.87836451124125,
+      "saving_vs_routed_percent": 31.22795634596448,
+      "saving_vs_faster_control_percent": 31.22795634596448,
+      "peak_allocated_mib": 1126.21435546875,
+      "components_mean_ms": {
+        "augmentation": 0.8465999999316409,
+        "routing_rng_zero_grad": 0.48246873484458774,
+        "forward_loss": 4.6693624899489805,
+        "loss_readback": 0.05525002779904753,
+        "backward": 4.332225005782675,
+        "optimizer": 0.7589000306325033
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut3_r4",
+      "boundary": 3,
+      "interval": 4,
+      "milliseconds_per_update": 14.116453125704234,
+      "saving_vs_full_percent": 17.644451032754453,
+      "saving_vs_routed_percent": 8.82790892148422,
+      "saving_vs_faster_control_percent": 8.82790892148422,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8936562662711367,
+        "routing_rng_zero_grad": 0.5636749920086004,
+        "forward_loss": 5.340249990695156,
+        "loss_readback": 0.0596562385908328,
+        "backward": 5.723543756175786,
+        "optimizer": 0.9182124922517687
+      },
+      "measured_minus_mixture_ms_per_update": 2.259487761572624
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut3_r16",
+      "boundary": 3,
+      "interval": 16,
+      "milliseconds_per_update": 10.727151041161656,
+      "saving_vs_full_percent": 37.4176781531051,
+      "saving_vs_routed_percent": 30.717951384194098,
+      "saving_vs_faster_control_percent": 30.717951384194098,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.847324998176191,
+        "routing_rng_zero_grad": 0.49196874169865623,
+        "forward_loss": 4.403206257848069,
+        "loss_readback": 0.0525625073350966,
+        "backward": 4.81809376651654,
+        "optimizer": 0.7499624916817993
+      },
+      "measured_minus_mixture_ms_per_update": -0.22322936213943953
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut5_r0",
+      "boundary": 5,
+      "interval": 0,
+      "milliseconds_per_update": 9.370127082850862,
+      "saving_vs_full_percent": 45.33457144444416,
+      "saving_vs_routed_percent": 39.48238468915488,
+      "saving_vs_faster_control_percent": 39.48238468915488,
+      "peak_allocated_mib": 867.51123046875,
+      "components_mean_ms": {
+        "augmentation": 1.0471000205143355,
+        "routing_rng_zero_grad": 0.5489375034812838,
+        "forward_loss": 5.504862492671236,
+        "loss_readback": 0.07386876677628607,
+        "backward": 2.2612250031670555,
+        "optimizer": 0.6823312578490004
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut5_r4",
+      "boundary": 5,
+      "interval": 4,
+      "milliseconds_per_update": 10.15156145876972,
+      "saving_vs_full_percent": 40.7756743590643,
+      "saving_vs_routed_percent": 34.435436602497795,
+      "saving_vs_faster_control_percent": 34.435436602497795,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1018437580787577,
+        "routing_rng_zero_grad": 0.6372749921865761,
+        "forward_loss": 5.55093125149142,
+        "loss_readback": 0.08309997792821378,
+        "backward": 3.850268738460727,
+        "optimizer": 0.914912496227771
+      },
+      "measured_minus_mixture_ms_per_update": -0.7468601552318432
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut5_r16",
+      "boundary": 5,
+      "interval": 16,
+      "milliseconds_per_update": 8.126349999656668,
+      "saving_vs_full_percent": 52.59078117129275,
+      "saving_vs_routed_percent": 47.515405200792394,
+      "saving_vs_faster_control_percent": 47.515405200792394,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7732499943813309,
+        "routing_rng_zero_grad": 0.44522499229060486,
+        "forward_loss": 4.686299987952225,
+        "loss_readback": 0.05263749335426837,
+        "backward": 2.238968743768055,
+        "optimizer": 0.5581812438322231
+      },
+      "measured_minus_mixture_ms_per_update": -1.6258507159818691
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut6_r0",
+      "boundary": 6,
+      "interval": 0,
+      "milliseconds_per_update": 8.619068749491513,
+      "saving_vs_full_percent": 49.716254350159744,
+      "saving_vs_routed_percent": 44.33314699924477,
+      "saving_vs_faster_control_percent": 44.33314699924477,
+      "peak_allocated_mib": 802.42578125,
+      "components_mean_ms": {
+        "augmentation": 0.8067312446655706,
+        "routing_rng_zero_grad": 0.43474997801240534,
+        "forward_loss": 4.632218755432405,
+        "loss_readback": 0.05207498179515824,
+        "backward": 0.5506124944076873,
+        "optimizer": 0.3641062503447756
+      }
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut6_r4",
+      "boundary": 6,
+      "interval": 4,
+      "milliseconds_per_update": 9.0760583334486,
+      "saving_vs_full_percent": 47.05017189134654,
+      "saving_vs_routed_percent": 41.3816480922989,
+      "saving_vs_faster_control_percent": 41.3816480922989,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7932124790386297,
+        "routing_rng_zero_grad": 0.4633625067071989,
+        "forward_loss": 4.879693733528256,
+        "loss_readback": 0.05661249451804906,
+        "backward": 2.609906245197635,
+        "optimizer": 0.6198187547852285
+      },
+      "measured_minus_mixture_ms_per_update": -1.259069530533452
+    },
+    {
+      "session": 0,
+      "seed": 1502,
+      "arm": "cut6_r16",
+      "boundary": 6,
+      "interval": 16,
+      "milliseconds_per_update": 7.051481250528013,
+      "saving_vs_full_percent": 58.861577745613594,
+      "saving_vs_routed_percent": 54.457519527978896,
+      "saving_vs_faster_control_percent": 54.457519527978896,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.9527187648927793,
+        "routing_rng_zero_grad": 0.5415875057224184,
+        "forward_loss": 5.355674991733395,
+        "loss_readback": 0.06659998325631022,
+        "backward": 1.2265374971320853,
+        "optimizer": 0.5154625105205923
+      },
+      "measured_minus_mixture_ms_per_update": -1.9966022775861347
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut6_r16",
+      "boundary": 6,
+      "interval": 16,
+      "milliseconds_per_update": 7.002433333885468,
+      "saving_vs_full_percent": 59.381017464473835,
+      "saving_vs_routed_percent": 57.71052102819628,
+      "saving_vs_faster_control_percent": 57.71052102819628,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.6723750047967769,
+        "routing_rng_zero_grad": 0.37362501461757347,
+        "forward_loss": 4.477268783375621,
+        "loss_readback": 0.05408750439528376,
+        "backward": 1.0375062411185354,
+        "optimizer": 0.4224562580930069
+      },
+      "measured_minus_mixture_ms_per_update": -1.325970377441384
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut6_r4",
+      "boundary": 6,
+      "interval": 4,
+      "milliseconds_per_update": 8.822561458752412,
+      "saving_vs_full_percent": 48.82300869934538,
+      "saving_vs_routed_percent": 46.71830355286913,
+      "saving_vs_faster_control_percent": 46.71830355286913,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8409937581745908,
+        "routing_rng_zero_grad": 0.4384812418720685,
+        "forward_loss": 4.319074978411663,
+        "loss_readback": 0.05512499046744779,
+        "backward": 2.628212510899175,
+        "optimizer": 0.5846000130986795
+      },
+      "measured_minus_mixture_ms_per_update": -1.1518283854456968
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut6_r0",
+      "boundary": 6,
+      "interval": 0,
+      "milliseconds_per_update": 7.779741667036433,
+      "saving_vs_full_percent": 54.87208862452461,
+      "saving_vs_routed_percent": 53.01615796295654,
+      "saving_vs_faster_control_percent": 53.01615796295654,
+      "peak_allocated_mib": 802.42578125,
+      "components_mean_ms": {
+        "augmentation": 0.9551000184728764,
+        "routing_rng_zero_grad": 0.5240749960648827,
+        "forward_loss": 5.501581224962138,
+        "loss_readback": 0.06201249925652519,
+        "backward": 0.73656250606291,
+        "optimizer": 0.511568745423574
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut5_r16",
+      "boundary": 5,
+      "interval": 16,
+      "milliseconds_per_update": 8.41835833246781,
+      "saving_vs_full_percent": 51.167667897728535,
+      "saving_vs_routed_percent": 49.15938921471082,
+      "saving_vs_faster_control_percent": 49.15938921471082,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7213687567855231,
+        "routing_rng_zero_grad": 0.4093500101589598,
+        "forward_loss": 4.46179999562446,
+        "loss_readback": 0.05211249663261697,
+        "backward": 2.2099250127212144,
+        "optimizer": 0.5014625057810917
+      },
+      "measured_minus_mixture_ms_per_update": -0.10132955761340175
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut5_r4",
+      "boundary": 5,
+      "interval": 4,
+      "milliseconds_per_update": 9.619878124794923,
+      "saving_vs_full_percent": 44.19801761566813,
+      "saving_vs_routed_percent": 41.90310506760714,
+      "saving_vs_faster_control_percent": 41.90310506760714,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.823493734060321,
+        "routing_rng_zero_grad": 0.4927812406094745,
+        "forward_loss": 4.515712498687208,
+        "loss_readback": 0.06392499199137092,
+        "backward": 3.5953999977209605,
+        "optimizer": 0.7329624932026491
+      },
+      "measured_minus_mixture_ms_per_update": -0.5075390624066737
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut5_r0",
+      "boundary": 5,
+      "interval": 0,
+      "milliseconds_per_update": 7.983778124374415,
+      "saving_vs_full_percent": 53.688535293553656,
+      "saving_vs_routed_percent": 51.78392981301882,
+      "saving_vs_faster_control_percent": 51.78392981301882,
+      "peak_allocated_mib": 867.51123046875,
+      "components_mean_ms": {
+        "augmentation": 0.7148625008994713,
+        "routing_rng_zero_grad": 0.4215062508592382,
+        "forward_loss": 4.383350009447895,
+        "loss_readback": 0.05411249730968848,
+        "backward": 1.8168562382925302,
+        "optimizer": 0.4949687427142635
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut3_r16",
+      "boundary": 3,
+      "interval": 16,
+      "milliseconds_per_update": 10.871783333035031,
+      "saving_vs_full_percent": 36.93609688540346,
+      "saving_vs_routed_percent": 34.342530556691344,
+      "saving_vs_faster_control_percent": 34.342530556691344,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.949168752413243,
+        "routing_rng_zero_grad": 0.5533312723855488,
+        "forward_loss": 5.400331247074064,
+        "loss_readback": 0.06809376645833254,
+        "backward": 4.801093775313348,
+        "optimizer": 0.9342000048491172
+      },
+      "measured_minus_mixture_ms_per_update": -0.4950891271467602
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut3_r4",
+      "boundary": 3,
+      "interval": 4,
+      "milliseconds_per_update": 14.417064583540196,
+      "saving_vs_full_percent": 16.37100039231159,
+      "saving_vs_routed_percent": 12.931673823953707,
+      "saving_vs_faster_control_percent": 12.931673823953707,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.9415624881512485,
+        "routing_rng_zero_grad": 0.49506875802762806,
+        "forward_loss": 5.272143767797388,
+        "loss_readback": 0.06234998727450147,
+        "backward": 6.177637485961895,
+        "optimizer": 0.8979750055004843
+      },
+      "measured_minus_mixture_ms_per_update": 2.011899740258135
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut3_r0",
+      "boundary": 3,
+      "interval": 0,
+      "milliseconds_per_update": 11.020774999148367,
+      "saving_vs_full_percent": 36.07184161937888,
+      "saving_vs_routed_percent": 33.4427319251808,
+      "saving_vs_faster_control_percent": 33.4427319251808,
+      "peak_allocated_mib": 1126.21435546875,
+      "components_mean_ms": {
+        "augmentation": 0.802643749921117,
+        "routing_rng_zero_grad": 0.45880625111749396,
+        "forward_loss": 4.5309250126592815,
+        "loss_readback": 0.05476875230669975,
+        "backward": 4.665918735554442,
+        "optimizer": 0.7537375204265118
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut1_r16",
+      "boundary": 1,
+      "interval": 16,
+      "milliseconds_per_update": 15.050720833338952,
+      "saving_vs_full_percent": 12.69535352545008,
+      "saving_vs_routed_percent": 9.104862289519922,
+      "saving_vs_faster_control_percent": 9.104862289519922,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.879599989275448,
+        "routing_rng_zero_grad": 0.4873499783570878,
+        "forward_loss": 4.813456231204327,
+        "loss_readback": 0.05749999399995431,
+        "backward": 7.843831248464994,
+        "optimizer": 0.9554187490721233
+      },
+      "measured_minus_mixture_ms_per_update": -0.05724733114220726
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut1_r4",
+      "boundary": 1,
+      "interval": 4,
+      "milliseconds_per_update": 15.82937708371901,
+      "saving_vs_full_percent": 8.178605828286907,
+      "saving_vs_routed_percent": 4.4023588087135535,
+      "saving_vs_faster_control_percent": 4.4023588087135535,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.189056238217745,
+        "routing_rng_zero_grad": 0.496893742820248,
+        "forward_loss": 6.001443754939828,
+        "loss_readback": 0.07123751129256561,
+        "backward": 8.053493751503993,
+        "optimizer": 1.1455187413957901
+      },
+      "measured_minus_mixture_ms_per_update": 0.43133567699745373
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "cut1_r0",
+      "boundary": 1,
+      "interval": 0,
+      "milliseconds_per_update": 15.011277083734361,
+      "saving_vs_full_percent": 12.924154700688913,
+      "saving_vs_routed_percent": 9.343073142795822,
+      "saving_vs_faster_control_percent": 9.343073142795822,
+      "peak_allocated_mib": 1384.91748046875,
+      "components_mean_ms": {
+        "augmentation": 1.3804124973830767,
+        "routing_rng_zero_grad": 0.5388312565628439,
+        "forward_loss": 5.927956248342525,
+        "loss_readback": 0.07044374069664627,
+        "backward": 7.236106263007969,
+        "optimizer": 1.262156234588474
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "routed_full",
+      "boundary": 6,
+      "interval": 1,
+      "milliseconds_per_update": 16.558334375683142,
+      "saving_vs_full_percent": 3.9501466485111885,
+      "saving_vs_routed_percent": 0.0,
+      "saving_vs_faster_control_percent": 0.0,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1014937626896426,
+        "routing_rng_zero_grad": 0.4833562488784082,
+        "forward_loss": 5.812337483803276,
+        "loss_readback": 0.06973750714678317,
+        "backward": 8.826337514619809,
+        "optimizer": 1.2335687424638309
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1502,
+      "arm": "full",
+      "boundary": 0,
+      "interval": 1,
+      "milliseconds_per_update": 17.239312500654098,
+      "saving_vs_full_percent": 0.0,
+      "saving_vs_routed_percent": -4.11260039518838,
+      "saving_vs_faster_control_percent": -4.11260039518838,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.9673999811639078,
+        "routing_rng_zero_grad": 0.5225374989095144,
+        "forward_loss": 5.19259374414105,
+        "loss_readback": 0.06181875505717471,
+        "backward": 8.673924989125226,
+        "optimizer": 1.1584937310544774
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut6_r16",
+      "boundary": 6,
+      "interval": 16,
+      "milliseconds_per_update": 7.867634374027451,
+      "saving_vs_full_percent": 51.3357160422581,
+      "saving_vs_routed_percent": 54.48099713785937,
+      "saving_vs_faster_control_percent": 51.3357160422581,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.802374976046849,
+        "routing_rng_zero_grad": 0.3931187602574937,
+        "forward_loss": 4.85318749997532,
+        "loss_readback": 0.057118741096928716,
+        "backward": 1.2553562555694953,
+        "optimizer": 0.4442249846761115
+      },
+      "measured_minus_mixture_ms_per_update": -0.43225358111461293
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut6_r4",
+      "boundary": 6,
+      "interval": 4,
+      "milliseconds_per_update": 9.660240625332031,
+      "saving_vs_full_percent": 40.24777073484885,
+      "saving_vs_routed_percent": 44.109690439470626,
+      "saving_vs_faster_control_percent": 40.24777073484885,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8728437605896033,
+        "routing_rng_zero_grad": 0.3929625090677291,
+        "forward_loss": 5.103481249534525,
+        "loss_readback": 0.06203750672284514,
+        "backward": 2.6013874958152883,
+        "optimizer": 0.5701937407138757
+      },
+      "measured_minus_mixture_ms_per_update": -0.43652682234096574
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut6_r0",
+      "boundary": 6,
+      "interval": 0,
+      "milliseconds_per_update": 7.700928124298419,
+      "saving_vs_full_percent": 52.36685702932852,
+      "saving_vs_routed_percent": 55.44549318556628,
+      "saving_vs_faster_control_percent": 52.36685702932852,
+      "peak_allocated_mib": 802.42578125,
+      "components_mean_ms": {
+        "augmentation": 0.9618812619009987,
+        "routing_rng_zero_grad": 0.3912250103894621,
+        "forward_loss": 5.217831247136928,
+        "loss_readback": 0.07197500235633925,
+        "backward": 0.6989374887780286,
+        "optimizer": 0.42776876216521487
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut5_r16",
+      "boundary": 5,
+      "interval": 16,
+      "milliseconds_per_update": 9.485502083407482,
+      "saving_vs_full_percent": 41.32859447656337,
+      "saving_vs_routed_percent": 45.120658134696434,
+      "saving_vs_faster_control_percent": 41.32859447656337,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.2363062633085065,
+        "routing_rng_zero_grad": 0.4045749956276268,
+        "forward_loss": 6.2252562420326285,
+        "loss_readback": 0.07384373748209327,
+        "backward": 2.345825014344882,
+        "optimizer": 0.6912624885444529
+      },
+      "measured_minus_mixture_ms_per_update": 1.0945662757724979
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut5_r4",
+      "boundary": 5,
+      "interval": 4,
+      "milliseconds_per_update": 10.249720834205315,
+      "saving_vs_full_percent": 36.60161346465611,
+      "saving_vs_routed_percent": 40.69919243724297,
+      "saving_vs_faster_control_percent": 36.60161346465611,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0438437238917686,
+        "routing_rng_zero_grad": 0.6341625121422112,
+        "forward_loss": 6.110962473030668,
+        "loss_readback": 0.07464374357368797,
+        "backward": 4.047237525810488,
+        "optimizer": 0.9219374842359684
+      },
+      "measured_minus_mixture_ms_per_update": 0.0801151045379811
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut5_r0",
+      "boundary": 5,
+      "interval": 0,
+      "milliseconds_per_update": 7.798045833624201,
+      "saving_vs_full_percent": 51.76614739295329,
+      "saving_vs_routed_percent": 54.8836087513635,
+      "saving_vs_faster_control_percent": 51.76614739295329,
+      "peak_allocated_mib": 867.51123046875,
+      "components_mean_ms": {
+        "augmentation": 0.8746687453822233,
+        "routing_rng_zero_grad": 0.4193625136394985,
+        "forward_loss": 4.75777497922536,
+        "loss_readback": 0.057168748753611,
+        "backward": 1.8989437230629846,
+        "optimizer": 0.5168874922674149
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut3_r16",
+      "boundary": 3,
+      "interval": 16,
+      "milliseconds_per_update": 11.365327083088536,
+      "saving_vs_full_percent": 29.701168337222835,
+      "saving_vs_routed_percent": 34.244738452500634,
+      "saving_vs_faster_control_percent": 29.701168337222835,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7842312552384101,
+        "routing_rng_zero_grad": 0.46728125744266436,
+        "forward_loss": 4.719337513961364,
+        "loss_readback": 0.05377500201575458,
+        "backward": 5.488156246428844,
+        "optimizer": 0.8580624999012798
+      },
+      "measured_minus_mixture_ms_per_update": -1.5759622393337243
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut3_r4",
+      "boundary": 3,
+      "interval": 4,
+      "milliseconds_per_update": 12.387526040887073,
+      "saving_vs_full_percent": 23.378482510866682,
+      "saving_vs_routed_percent": 28.330701897966357,
+      "saving_vs_faster_control_percent": 23.378482510866682,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8512062559020706,
+        "routing_rng_zero_grad": 0.4898624902125448,
+        "forward_loss": 4.666356231609825,
+        "loss_readback": 0.05551874346565455,
+        "backward": 5.789012480818201,
+        "optimizer": 0.874237492098473
+      },
+      "measured_minus_mixture_ms_per_update": -1.4223625006100822
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut3_r0",
+      "boundary": 3,
+      "interval": 0,
+      "milliseconds_per_update": 12.651756249397295,
+      "saving_vs_full_percent": 21.744119081421687,
+      "saving_vs_routed_percent": 26.80197101830755,
+      "saving_vs_faster_control_percent": 21.744119081421687,
+      "peak_allocated_mib": 1126.21435546875,
+      "components_mean_ms": {
+        "augmentation": 0.9646375110605732,
+        "routing_rng_zero_grad": 0.4803062547580339,
+        "forward_loss": 5.206781250308268,
+        "loss_readback": 0.06127501546870917,
+        "backward": 4.5243437634781,
+        "optimizer": 0.8523499927832745
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut1_r16",
+      "boundary": 1,
+      "interval": 16,
+      "milliseconds_per_update": 15.248236457409803,
+      "saving_vs_full_percent": 5.683910367287485,
+      "saving_vs_routed_percent": 11.779769375310805,
+      "saving_vs_faster_control_percent": 5.683910367287485,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0429499961901456,
+        "routing_rng_zero_grad": 0.5025625068810768,
+        "forward_loss": 5.513375021109823,
+        "loss_readback": 0.06673124880762771,
+        "backward": 7.397412518912461,
+        "optimizer": 1.0654312500264496
+      },
+      "measured_minus_mixture_ms_per_update": 0.7080848304970763
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut1_r4",
+      "boundary": 1,
+      "interval": 4,
+      "milliseconds_per_update": 15.738317708989294,
+      "saving_vs_full_percent": 2.65257311196694,
+      "saving_vs_routed_percent": 8.944354200582893,
+      "saving_vs_faster_control_percent": 2.65257311196694,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.899481245141942,
+        "routing_rng_zero_grad": 0.5071250125183724,
+        "forward_loss": 4.7193312348099425,
+        "loss_readback": 0.06153125286800787,
+        "backward": 7.642224991286639,
+        "optimizer": 1.0675625235307962
+      },
+      "measured_minus_mixture_ms_per_update": 0.6493393238997669
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "cut1_r0",
+      "boundary": 1,
+      "interval": 0,
+      "milliseconds_per_update": 14.357209374187127,
+      "saving_vs_full_percent": 11.19524870999573,
+      "saving_vs_routed_percent": 16.934897641737326,
+      "saving_vs_faster_control_percent": 11.19524870999573,
+      "peak_allocated_mib": 1384.91748046875,
+      "components_mean_ms": {
+        "augmentation": 0.877056249009911,
+        "routing_rng_zero_grad": 0.5133999875397421,
+        "forward_loss": 4.954725009156391,
+        "loss_readback": 0.05786876135971397,
+        "backward": 7.337037503020838,
+        "optimizer": 0.9688125210232101
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "routed_full",
+      "boundary": 6,
+      "interval": 1,
+      "milliseconds_per_update": 17.284285417796735,
+      "saving_vs_full_percent": -6.909819850683251,
+      "saving_vs_routed_percent": 0.0,
+      "saving_vs_faster_control_percent": -6.909819850683251,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1785937458625995,
+        "routing_rng_zero_grad": 0.6268374854698777,
+        "forward_loss": 5.639943752612453,
+        "loss_readback": 0.06495002162409946,
+        "backward": 9.13407501502661,
+        "optimizer": 1.3596687640529126
+      }
+    },
+    {
+      "session": 1,
+      "seed": 1501,
+      "arm": "full",
+      "boundary": 0,
+      "interval": 1,
+      "milliseconds_per_update": 16.167163542074075,
+      "saving_vs_full_percent": 0.0,
+      "saving_vs_routed_percent": 6.4632227987418975,
+      "saving_vs_faster_control_percent": 0.0,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0134624899365008,
+        "routing_rng_zero_grad": 0.5953437503194436,
+        "forward_loss": 5.373581247113179,
+        "loss_readback": 0.060349993873387575,
+        "backward": 9.019575016282033,
+        "optimizer": 1.385637508064974
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut3_r16",
+      "boundary": 3,
+      "interval": 16,
+      "milliseconds_per_update": 12.965063541438818,
+      "saving_vs_full_percent": 24.941449745044597,
+      "saving_vs_routed_percent": 27.897651361111546,
+      "saving_vs_faster_control_percent": 24.941449745044597,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0469125263625756,
+        "routing_rng_zero_grad": 0.4434750007931143,
+        "forward_loss": 5.581887540756725,
+        "loss_readback": 0.06560001202160493,
+        "backward": 4.777456269948743,
+        "optimizer": 0.7988312718225643
+      },
+      "measured_minus_mixture_ms_per_update": 0.8895848309293797
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut5_r0",
+      "boundary": 5,
+      "interval": 0,
+      "milliseconds_per_update": 9.952834374416852,
+      "saving_vs_full_percent": 42.38012666241739,
+      "saving_vs_routed_percent": 44.64950119869001,
+      "saving_vs_faster_control_percent": 42.38012666241739,
+      "peak_allocated_mib": 867.51123046875,
+      "components_mean_ms": {
+        "augmentation": 1.0327999843866564,
+        "routing_rng_zero_grad": 0.40903125773184,
+        "forward_loss": 4.89198124705581,
+        "loss_readback": 0.05901874101255089,
+        "backward": 2.038243765127845,
+        "optimizer": 0.533806269231718
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut5_r4",
+      "boundary": 5,
+      "interval": 4,
+      "milliseconds_per_update": 11.224945833722208,
+      "saving_vs_full_percent": 35.01550082830603,
+      "saving_vs_routed_percent": 37.57493317569513,
+      "saving_vs_faster_control_percent": 35.01550082830603,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8970562703325413,
+        "routing_rng_zero_grad": 0.49640626821201295,
+        "forward_loss": 4.9531937766005285,
+        "loss_readback": 0.05556876567425206,
+        "backward": 3.9232000199262984,
+        "optimizer": 0.7386125071207061
+      },
+      "measured_minus_mixture_ms_per_update": -0.7350479157442654
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut5_r16",
+      "boundary": 5,
+      "interval": 16,
+      "milliseconds_per_update": 8.463296875561355,
+      "saving_vs_full_percent": 51.00349552267355,
+      "saving_vs_routed_percent": 52.93323630804052,
+      "saving_vs_faster_control_percent": 51.00349552267355,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.6960187602089718,
+        "routing_rng_zero_grad": 0.3954812418669462,
+        "forward_loss": 4.536424996331334,
+        "loss_readback": 0.052706265705637634,
+        "backward": 2.24451873509679,
+        "optimizer": 0.525537492649164
+      },
+      "measured_minus_mixture_ms_per_update": -1.9913273426179028
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut6_r0",
+      "boundary": 6,
+      "interval": 0,
+      "milliseconds_per_update": 6.581584374847201,
+      "saving_vs_full_percent": 61.897280335127846,
+      "saving_vs_routed_percent": 63.3979664137589,
+      "saving_vs_faster_control_percent": 61.897280335127846,
+      "peak_allocated_mib": 802.42578125,
+      "components_mean_ms": {
+        "augmentation": 0.6727374857291579,
+        "routing_rng_zero_grad": 0.35689998185262084,
+        "forward_loss": 4.468268758500926,
+        "loss_readback": 0.05211248935665935,
+        "backward": 0.6468249921454117,
+        "optimizer": 0.3100124959019013
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut6_r4",
+      "boundary": 6,
+      "interval": 4,
+      "milliseconds_per_update": 9.090580207460638,
+      "saving_vs_full_percent": 47.37196858561134,
+      "saving_vs_routed_percent": 49.44473805676652,
+      "saving_vs_faster_control_percent": 47.37196858561134,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1726812517736107,
+        "routing_rng_zero_grad": 0.6821062488597818,
+        "forward_loss": 6.194856257934589,
+        "loss_readback": 0.0748812744859606,
+        "backward": 3.1425250199390575,
+        "optimizer": 0.8977187535492703
+      },
+      "measured_minus_mixture_ms_per_update": -0.3409760423285964
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut6_r16",
+      "boundary": 6,
+      "interval": 16,
+      "milliseconds_per_update": 8.150814583738489,
+      "saving_vs_full_percent": 52.81254703480885,
+      "saving_vs_routed_percent": 54.67103782952776,
+      "saving_vs_faster_control_percent": 52.81254703480885,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7822187544661574,
+        "routing_rng_zero_grad": 0.38621250132564455,
+        "forward_loss": 4.557225001917686,
+        "loss_readback": 0.06105627107899636,
+        "backward": 1.0406749861431308,
+        "optimizer": 0.4053187294630334
+      },
+      "measured_minus_mixture_ms_per_update": 0.8567372401557805
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "full",
+      "boundary": 0,
+      "interval": 1,
+      "milliseconds_per_update": 17.273266666355386,
+      "saving_vs_full_percent": 0.0,
+      "saving_vs_routed_percent": 3.9385274642601824,
+      "saving_vs_faster_control_percent": 0.0,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0129875081474893,
+        "routing_rng_zero_grad": 0.518137494509574,
+        "forward_loss": 5.473043733218219,
+        "loss_readback": 0.06520000169984996,
+        "backward": 9.078056253201794,
+        "optimizer": 1.2247124905115925
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "routed_full",
+      "boundary": 6,
+      "interval": 1,
+      "milliseconds_per_update": 17.981471874615334,
+      "saving_vs_full_percent": -4.100007380997462,
+      "saving_vs_routed_percent": 0.0,
+      "saving_vs_faster_control_percent": -4.100007380997462,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.9048687352333218,
+        "routing_rng_zero_grad": 0.5178312640055083,
+        "forward_loss": 5.268581247946713,
+        "loss_readback": 0.0693125111865811,
+        "backward": 9.394768749189097,
+        "optimizer": 1.173124990600627
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut1_r0",
+      "boundary": 1,
+      "interval": 0,
+      "milliseconds_per_update": 14.167474999946231,
+      "saving_vs_full_percent": 17.980337630394896,
+      "saving_vs_routed_percent": 21.210704558915268,
+      "saving_vs_faster_control_percent": 17.980337630394896,
+      "peak_allocated_mib": 1384.91748046875,
+      "components_mean_ms": {
+        "augmentation": 0.7446937379427254,
+        "routing_rng_zero_grad": 0.4565124836517498,
+        "forward_loss": 4.626631263818126,
+        "loss_readback": 0.05780623177997768,
+        "backward": 7.16934375668643,
+        "optimizer": 0.9100562529056333
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut1_r4",
+      "boundary": 1,
+      "interval": 4,
+      "milliseconds_per_update": 14.99538124941561,
+      "saving_vs_full_percent": 13.187345861895412,
+      "saving_vs_routed_percent": 16.606486087577867,
+      "saving_vs_faster_control_percent": 13.187345861895412,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.2342687623458914,
+        "routing_rng_zero_grad": 0.4817437657038681,
+        "forward_loss": 6.089249967772048,
+        "loss_readback": 0.06939998274901882,
+        "backward": 7.593737500428688,
+        "optimizer": 1.2451687580323778
+      },
+      "measured_minus_mixture_ms_per_update": -0.1255929691978963
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut1_r16",
+      "boundary": 1,
+      "interval": 16,
+      "milliseconds_per_update": 15.340481249343915,
+      "saving_vs_full_percent": 11.189460883945733,
+      "saving_vs_routed_percent": 14.687288358189063,
+      "saving_vs_faster_control_percent": 11.189460883945733,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.3395812493399717,
+        "routing_rng_zero_grad": 0.46841250150464475,
+        "forward_loss": 6.242218740226235,
+        "loss_readback": 0.071162503445521,
+        "backward": 7.103537485818379,
+        "optimizer": 1.2306999924476258
+      },
+      "measured_minus_mixture_ms_per_update": 0.9346314447308638
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut3_r0",
+      "boundary": 3,
+      "interval": 0,
+      "milliseconds_per_update": 11.68174583290238,
+      "saving_vs_full_percent": 32.37095183821882,
+      "saving_vs_routed_percent": 35.03454047388832,
+      "saving_vs_faster_control_percent": 32.37095183821882,
+      "peak_allocated_mib": 1126.21435546875,
+      "components_mean_ms": {
+        "augmentation": 1.058750000083819,
+        "routing_rng_zero_grad": 0.5103374714963138,
+        "forward_loss": 5.8327812439529225,
+        "loss_readback": 0.0715374990249984,
+        "backward": 5.028943749493919,
+        "optimizer": 1.1180687288288027
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1501,
+      "arm": "cut3_r4",
+      "boundary": 3,
+      "interval": 4,
+      "milliseconds_per_update": 12.403773958794773,
+      "saving_vs_full_percent": 28.19091953837163,
+      "saving_vs_routed_percent": 31.019139894185557,
+      "saving_vs_faster_control_percent": 28.19091953837163,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8324499867740087,
+        "routing_rng_zero_grad": 0.5273499846225604,
+        "forward_loss": 4.865237504418474,
+        "loss_readback": 0.05653750122291967,
+        "backward": 5.86725001630839,
+        "optimizer": 0.8367937407456338
+      },
+      "measured_minus_mixture_ms_per_update": -0.852903384535845
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut3_r16",
+      "boundary": 3,
+      "interval": 16,
+      "milliseconds_per_update": 11.527630208244469,
+      "saving_vs_full_percent": 28.54693929407316,
+      "saving_vs_routed_percent": 33.8093558236892,
+      "saving_vs_faster_control_percent": 28.54693929407316,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.7543062422191724,
+        "routing_rng_zero_grad": 0.6802812567912042,
+        "forward_loss": 6.375868739269208,
+        "loss_readback": 0.07219374674605206,
+        "backward": 5.305656261043623,
+        "optimizer": 1.0873312421608716
+      },
+      "measured_minus_mixture_ms_per_update": -0.9521043621134595
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut5_r0",
+      "boundary": 5,
+      "interval": 0,
+      "milliseconds_per_update": 8.305382291534139,
+      "saving_vs_full_percent": 48.519776021398435,
+      "saving_vs_routed_percent": 52.31122146735759,
+      "saving_vs_faster_control_percent": 48.519776021398435,
+      "peak_allocated_mib": 867.51123046875,
+      "components_mean_ms": {
+        "augmentation": 0.7194812569650821,
+        "routing_rng_zero_grad": 0.4142187608522363,
+        "forward_loss": 4.546637508610729,
+        "loss_readback": 0.05463748675538227,
+        "backward": 2.1216750028543174,
+        "optimizer": 0.46522499906132
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut5_r4",
+      "boundary": 5,
+      "interval": 4,
+      "milliseconds_per_update": 10.415180209141303,
+      "saving_vs_full_percent": 35.442368439725115,
+      "saving_vs_routed_percent": 40.1969463973279,
+      "saving_vs_faster_control_percent": 35.442368439725115,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.295043752179481,
+        "routing_rng_zero_grad": 0.45004376443102956,
+        "forward_loss": 5.961925016890746,
+        "loss_readback": 0.07291249494301155,
+        "backward": 3.516106247843709,
+        "optimizer": 0.7688062542001717
+      },
+      "measured_minus_mixture_ms_per_update": -0.167806509428677
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut5_r16",
+      "boundary": 5,
+      "interval": 16,
+      "milliseconds_per_update": 10.375134375256797,
+      "saving_vs_full_percent": 35.690589222997865,
+      "saving_vs_routed_percent": 40.4268860721361,
+      "saving_vs_faster_control_percent": 35.690589222997865,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.9052187451743521,
+        "routing_rng_zero_grad": 0.46073750127106905,
+        "forward_loss": 4.68225000804523,
+        "loss_readback": 0.05874999624211341,
+        "backward": 2.2747312541469,
+        "optimizer": 0.6205375175341032
+      },
+      "measured_minus_mixture_ms_per_update": 1.5003509769636973
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut6_r0",
+      "boundary": 6,
+      "interval": 0,
+      "milliseconds_per_update": 6.866713541967329,
+      "saving_vs_full_percent": 57.437245062433206,
+      "saving_vs_routed_percent": 60.57193156734411,
+      "saving_vs_faster_control_percent": 57.437245062433206,
+      "peak_allocated_mib": 802.42578125,
+      "components_mean_ms": {
+        "augmentation": 0.7489812487619929,
+        "routing_rng_zero_grad": 0.3665312397060916,
+        "forward_loss": 4.49311250122264,
+        "loss_readback": 0.05398751818574965,
+        "backward": 0.5434437480289489,
+        "optimizer": 0.3829812558251433
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut6_r4",
+      "boundary": 6,
+      "interval": 4,
+      "milliseconds_per_update": 9.0456489585146,
+      "saving_vs_full_percent": 43.9312944220755,
+      "saving_vs_routed_percent": 48.06067502680265,
+      "saving_vs_faster_control_percent": 43.9312944220755,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7863624996389262,
+        "routing_rng_zero_grad": 0.4252874932717532,
+        "forward_loss": 4.94318749406375,
+        "loss_readback": 0.05889999738428742,
+        "backward": 2.754043751338031,
+        "optimizer": 0.6029000142007135
+      },
+      "measured_minus_mixture_ms_per_update": -0.45833619788027136
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut6_r16",
+      "boundary": 6,
+      "interval": 16,
+      "milliseconds_per_update": 7.458953125023982,
+      "saving_vs_full_percent": 53.76629707779584,
+      "saving_vs_routed_percent": 57.171343692726694,
+      "saving_vs_faster_control_percent": 53.76629707779584,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8171375156962313,
+        "routing_rng_zero_grad": 0.3843125159619376,
+        "forward_loss": 4.5221812833915465,
+        "loss_readback": 0.05493751814356074,
+        "backward": 1.330824990873225,
+        "optimizer": 0.40013126272242516
+      },
+      "measured_minus_mixture_ms_per_update": -0.0670783205502327
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "full",
+      "boundary": 0,
+      "interval": 1,
+      "milliseconds_per_update": 16.133151042595273,
+      "saving_vs_full_percent": 0.0,
+      "saving_vs_routed_percent": 7.3648581007245,
+      "saving_vs_faster_control_percent": 0.0,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.4515499860863201,
+        "routing_rng_zero_grad": 0.639587509795092,
+        "forward_loss": 7.7658562222495675,
+        "loss_readback": 0.06378746911650524,
+        "backward": 11.39876247907523,
+        "optimizer": 1.5997875161701813
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "routed_full",
+      "boundary": 6,
+      "interval": 1,
+      "milliseconds_per_update": 17.4157999996775,
+      "saving_vs_full_percent": -7.950393284583613,
+      "saving_vs_routed_percent": 0.0,
+      "saving_vs_faster_control_percent": -7.950393284583613,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0257562607876025,
+        "routing_rng_zero_grad": 0.5686625081580132,
+        "forward_loss": 5.393218751123641,
+        "loss_readback": 0.05833750037709251,
+        "backward": 10.031800004071556,
+        "optimizer": 1.2578187524923123
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut1_r0",
+      "boundary": 1,
+      "interval": 0,
+      "milliseconds_per_update": 15.671606249573719,
+      "saving_vs_full_percent": 2.860847157526568,
+      "saving_vs_routed_percent": 10.015007924620626,
+      "saving_vs_faster_control_percent": 2.860847157526568,
+      "peak_allocated_mib": 1384.91748046875,
+      "components_mean_ms": {
+        "augmentation": 1.412481266015675,
+        "routing_rng_zero_grad": 0.7496437610825524,
+        "forward_loss": 6.846675009001046,
+        "loss_readback": 0.0743375057936646,
+        "backward": 8.612006233306602,
+        "optimizer": 1.9866124930558726
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut1_r4",
+      "boundary": 1,
+      "interval": 4,
+      "milliseconds_per_update": 15.445292709046043,
+      "saving_vs_full_percent": 4.2636328869240945,
+      "saving_vs_routed_percent": 11.31448047559081,
+      "saving_vs_faster_control_percent": 4.2636328869240945,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0111000010510907,
+        "routing_rng_zero_grad": 0.5575562463491224,
+        "forward_loss": 5.587100014963653,
+        "loss_readback": 0.06051248055882752,
+        "backward": 8.10819999605883,
+        "optimizer": 1.029081249726005
+      },
+      "measured_minus_mixture_ms_per_update": -0.6623619780536197
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut1_r16",
+      "boundary": 1,
+      "interval": 16,
+      "milliseconds_per_update": 16.69156250015173,
+      "saving_vs_full_percent": -3.4612671516067683,
+      "saving_vs_routed_percent": 4.158508363320558,
+      "saving_vs_faster_control_percent": -3.4612671516067683,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0523499950068071,
+        "routing_rng_zero_grad": 0.5935999870416708,
+        "forward_loss": 5.7002937464858405,
+        "loss_readback": 0.06698747893096879,
+        "backward": 7.392518746200949,
+        "optimizer": 1.264087506569922
+      },
+      "measured_minus_mixture_ms_per_update": 0.9109441411965236
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut3_r0",
+      "boundary": 3,
+      "interval": 0,
+      "milliseconds_per_update": 12.150663541736625,
+      "saving_vs_full_percent": 24.685118798825812,
+      "saving_vs_routed_percent": 30.231952928021524,
+      "saving_vs_faster_control_percent": 24.685118798825812,
+      "peak_allocated_mib": 1126.21435546875,
+      "components_mean_ms": {
+        "augmentation": 1.0616812505759299,
+        "routing_rng_zero_grad": 0.5269124885671772,
+        "forward_loss": 5.830975002027117,
+        "loss_readback": 0.06726876017637551,
+        "backward": 5.2010437357239425,
+        "optimizer": 0.835293743875809
+      }
+    },
+    {
+      "session": 2,
+      "seed": 1502,
+      "arm": "cut3_r4",
+      "boundary": 3,
+      "interval": 4,
+      "milliseconds_per_update": 12.672522916545859,
+      "saving_vs_full_percent": 21.450416703547564,
+      "saving_vs_routed_percent": 27.23548205204168,
+      "saving_vs_faster_control_percent": 21.450416703547564,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8848562647472136,
+        "routing_rng_zero_grad": 0.518481268954929,
+        "forward_loss": 5.418581233243458,
+        "loss_readback": 0.06423125887522474,
+        "backward": 5.579618737101555,
+        "optimizer": 1.014118744933512
+      },
+      "measured_minus_mixture_ms_per_update": -0.7944247396759844
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut3_r4",
+      "boundary": 3,
+      "interval": 4,
+      "milliseconds_per_update": 16.127465625080124,
+      "saving_vs_full_percent": 14.756499361813573,
+      "saving_vs_routed_percent": 16.783958446606512,
+      "saving_vs_faster_control_percent": 14.756499361813573,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.5427437610924244,
+        "routing_rng_zero_grad": 0.7593874979647808,
+        "forward_loss": 7.017118739895523,
+        "loss_readback": 0.07856877346057445,
+        "backward": 8.885187482519541,
+        "optimizer": 1.3625437568407506
+      },
+      "measured_minus_mixture_ms_per_update": 0.28347213568243507
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut3_r0",
+      "boundary": 3,
+      "interval": 0,
+      "milliseconds_per_update": 14.665245832778359,
+      "saving_vs_full_percent": 22.485223557908405,
+      "saving_vs_routed_percent": 24.328860158078843,
+      "saving_vs_faster_control_percent": 22.485223557908405,
+      "peak_allocated_mib": 1126.21435546875,
+      "components_mean_ms": {
+        "augmentation": 1.3624937491840683,
+        "routing_rng_zero_grad": 0.5826437773066573,
+        "forward_loss": 7.070212501275819,
+        "loss_readback": 0.07182498666225001,
+        "backward": 5.648181264405139,
+        "optimizer": 1.0431500268168747
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut1_r16",
+      "boundary": 1,
+      "interval": 16,
+      "milliseconds_per_update": 16.78490416694937,
+      "saving_vs_full_percent": 11.281535342901215,
+      "saving_vs_routed_percent": 13.391644099712861,
+      "saving_vs_faster_control_percent": 11.281535342901215,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1150000063935295,
+        "routing_rng_zero_grad": 0.5390687583712861,
+        "forward_loss": 6.1931937671033666,
+        "loss_readback": 0.06974999996600673,
+        "backward": 7.794987497618422,
+        "optimizer": 1.1939812466152944
+      },
+      "measured_minus_mixture_ms_per_update": 1.0017165360901952
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut1_r4",
+      "boundary": 1,
+      "interval": 4,
+      "milliseconds_per_update": 16.050658333066774,
+      "saving_vs_full_percent": 15.162472786154693,
+      "saving_vs_routed_percent": 17.18027606726521,
+      "saving_vs_faster_control_percent": 15.162472786154693,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.4314562431536615,
+        "routing_rng_zero_grad": 0.6194249945110641,
+        "forward_loss": 6.3882749891490676,
+        "loss_readback": 0.059718753618653864,
+        "backward": 10.202506273344625,
+        "optimizer": 1.574375004565809
+      },
+      "measured_minus_mixture_ms_per_update": -0.45193906347170315
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut1_r0",
+      "boundary": 1,
+      "interval": 0,
+      "milliseconds_per_update": 15.54338437563274,
+      "saving_vs_full_percent": 17.84372531023493,
+      "saving_vs_routed_percent": 19.797756811117367,
+      "saving_vs_faster_control_percent": 17.84372531023493,
+      "peak_allocated_mib": 1384.91748046875,
+      "components_mean_ms": {
+        "augmentation": 1.0986249981215224,
+        "routing_rng_zero_grad": 0.5470124960993417,
+        "forward_loss": 6.794762513891328,
+        "loss_readback": 0.07918749906821176,
+        "backward": 8.561218768591061,
+        "optimizer": 1.1575312455534004
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "routed_full",
+      "boundary": 6,
+      "interval": 1,
+      "milliseconds_per_update": 19.380236459255684,
+      "saving_vs_full_percent": -2.436380110068168,
+      "saving_vs_routed_percent": 0.0,
+      "saving_vs_faster_control_percent": -2.436380110068168,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.162156266218517,
+        "routing_rng_zero_grad": 0.5891187611268833,
+        "forward_loss": 6.21706875244854,
+        "loss_readback": 0.06702500104438514,
+        "backward": 9.231474999978673,
+        "optimizer": 1.4204500330379233
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "full",
+      "boundary": 0,
+      "interval": 1,
+      "milliseconds_per_update": 18.919290625490248,
+      "saving_vs_full_percent": 0.0,
+      "saving_vs_routed_percent": 2.3784324548078244,
+      "saving_vs_faster_control_percent": 0.0,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.4044187410036102,
+        "routing_rng_zero_grad": 0.703043733665254,
+        "forward_loss": 6.786049976653885,
+        "loss_readback": 0.06250624574022368,
+        "backward": 10.260106268106028,
+        "optimizer": 1.744924986269325
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut6_r16",
+      "boundary": 6,
+      "interval": 16,
+      "milliseconds_per_update": 8.339787501123888,
+      "saving_vs_full_percent": 55.91913213761003,
+      "saving_vs_routed_percent": 56.967565805210064,
+      "saving_vs_faster_control_percent": 55.91913213761003,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.7629000101587735,
+        "routing_rng_zero_grad": 0.38868747651576996,
+        "forward_loss": 4.583099995215889,
+        "loss_readback": 0.0630687500233762,
+        "backward": 1.4222062673070468,
+        "optimizer": 0.40479999006493017
+      },
+      "measured_minus_mixture_ms_per_update": -2.2975759103095093
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut6_r4",
+      "boundary": 6,
+      "interval": 4,
+      "milliseconds_per_update": 10.118872915578928,
+      "saving_vs_full_percent": 46.51557970178006,
+      "saving_vs_routed_percent": 47.78767051241875,
+      "saving_vs_faster_control_percent": 46.51557970178006,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0398812519269995,
+        "routing_rng_zero_grad": 0.4406375010148622,
+        "forward_loss": 5.905831239942927,
+        "loss_readback": 0.06796873640269041,
+        "backward": 3.097906221228186,
+        "optimizer": 0.7319687647395767
+      },
+      "measured_minus_mixture_ms_per_update": -2.267065105418927
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut6_r0",
+      "boundary": 6,
+      "interval": 0,
+      "milliseconds_per_update": 10.054505208245246,
+      "saving_vs_full_percent": 46.855802327500285,
+      "saving_vs_routed_percent": 48.11980117279024,
+      "saving_vs_faster_control_percent": 46.855802327500285,
+      "peak_allocated_mib": 802.42578125,
+      "components_mean_ms": {
+        "augmentation": 0.992587512882892,
+        "routing_rng_zero_grad": 0.46725626452825963,
+        "forward_loss": 5.469481264299247,
+        "loss_readback": 0.08092499774647877,
+        "backward": 0.6812625069869682,
+        "optimizer": 0.5202250031288713
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut5_r16",
+      "boundary": 5,
+      "interval": 16,
+      "milliseconds_per_update": 11.410693750804057,
+      "saving_vs_full_percent": 39.68751801174693,
+      "saving_vs_routed_percent": 41.12200965765567,
+      "saving_vs_faster_control_percent": 39.68751801174693,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.2885124888271093,
+        "routing_rng_zero_grad": 0.5240499885985628,
+        "forward_loss": 6.615456244617235,
+        "loss_readback": 0.07740625005681068,
+        "backward": 2.337862490094267,
+        "optimizer": 0.7693687512073666
+      },
+      "measured_minus_mixture_ms_per_update": 0.8923654947921023
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut5_r4",
+      "boundary": 5,
+      "interval": 4,
+      "milliseconds_per_update": 13.320911458625536,
+      "saving_vs_full_percent": 29.590851357407296,
+      "saving_vs_routed_percent": 31.265485399876603,
+      "saving_vs_faster_control_percent": 29.590851357407296,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.148793744505383,
+        "routing_rng_zero_grad": 0.6338187449728139,
+        "forward_loss": 7.239487487822771,
+        "loss_readback": 0.0615562530583702,
+        "backward": 6.113062503573019,
+        "optimizer": 1.1184062386746518
+      },
+      "measured_minus_mixture_ms_per_update": 1.0302015619648348
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut5_r0",
+      "boundary": 5,
+      "interval": 0,
+      "milliseconds_per_update": 9.927534375795707,
+      "saving_vs_full_percent": 47.526920684752376,
+      "saving_vs_routed_percent": 48.77495743322328,
+      "saving_vs_faster_control_percent": 47.526920684752376,
+      "peak_allocated_mib": 867.51123046875,
+      "components_mean_ms": {
+        "augmentation": 0.9056874841917306,
+        "routing_rng_zero_grad": 0.4739562500617467,
+        "forward_loss": 5.191531265154481,
+        "loss_readback": 0.05532499199034646,
+        "backward": 2.5208375009242445,
+        "optimizer": 0.5778562554041855
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1502,
+      "arm": "cut3_r16",
+      "boundary": 3,
+      "interval": 16,
+      "milliseconds_per_update": 13.136894791387022,
+      "saving_vs_full_percent": 30.56349177443533,
+      "saving_vs_routed_percent": 32.214992221557466,
+      "saving_vs_faster_control_percent": 30.56349177443533,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1690812243614346,
+        "routing_rng_zero_grad": 0.5322937431628816,
+        "forward_loss": 6.397087505320087,
+        "loss_readback": 0.060987491451669484,
+        "backward": 5.652806263242383,
+        "optimizer": 0.9168187461909838
+      },
+      "measured_minus_mixture_ms_per_update": -1.8230379555461695
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut3_r4",
+      "boundary": 3,
+      "interval": 4,
+      "milliseconds_per_update": 12.98516770839342,
+      "saving_vs_full_percent": 42.82933269979777,
+      "saving_vs_routed_percent": 27.940970579217428,
+      "saving_vs_faster_control_percent": 27.940970579217428,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0625624854583293,
+        "routing_rng_zero_grad": 0.49840626161312684,
+        "forward_loss": 5.13929999578977,
+        "loss_readback": 0.06560001202160493,
+        "backward": 5.623331257083919,
+        "optimizer": 0.9322937621618621
+      },
+      "measured_minus_mixture_ms_per_update": -1.1636526038879917
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut3_r0",
+      "boundary": 3,
+      "interval": 0,
+      "milliseconds_per_update": 12.858366666478105,
+      "saving_vs_full_percent": 43.387608137085614,
+      "saving_vs_routed_percent": 28.644631880723406,
+      "saving_vs_faster_control_percent": 28.644631880723406,
+      "peak_allocated_mib": 1126.21435546875,
+      "components_mean_ms": {
+        "augmentation": 0.7905250022304244,
+        "routing_rng_zero_grad": 0.47240003186743706,
+        "forward_loss": 4.858881249674596,
+        "loss_readback": 0.054750009439885616,
+        "backward": 4.6178562406566925,
+        "optimizer": 0.8744500009925105
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut1_r16",
+      "boundary": 1,
+      "interval": 16,
+      "milliseconds_per_update": 15.8442489579708,
+      "saving_vs_full_percent": 30.241464250614804,
+      "saving_vs_routed_percent": 12.074974505363535,
+      "saving_vs_faster_control_percent": 12.074974505363535,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.227218766871374,
+        "routing_rng_zero_grad": 0.8184187681763433,
+        "forward_loss": 6.36229373048991,
+        "loss_readback": 0.06291874160524458,
+        "backward": 9.608581247448456,
+        "optimizer": 1.4891624960000627
+      },
+      "measured_minus_mixture_ms_per_update": -1.8237887375107675
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut1_r4",
+      "boundary": 1,
+      "interval": 4,
+      "milliseconds_per_update": 15.30515416622317,
+      "saving_vs_full_percent": 32.61497298568903,
+      "saving_vs_routed_percent": 15.066591427956165,
+      "saving_vs_faster_control_percent": 15.066591427956165,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 0.8493312634527683,
+        "routing_rng_zero_grad": 0.4626812515198253,
+        "forward_loss": 4.750549989694264,
+        "loss_readback": 0.056287506595253944,
+        "backward": 8.072774995525833,
+        "optimizer": 1.0068874908029102
+      },
+      "measured_minus_mixture_ms_per_update": -2.4333122401003493
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut1_r0",
+      "boundary": 1,
+      "interval": 0,
+      "milliseconds_per_update": 17.644561458534252,
+      "saving_vs_full_percent": 22.315107863274584,
+      "saving_vs_routed_percent": 2.0844395844437584,
+      "saving_vs_faster_control_percent": 2.0844395844437584,
+      "peak_allocated_mib": 1384.91748046875,
+      "components_mean_ms": {
+        "augmentation": 1.1637124916887842,
+        "routing_rng_zero_grad": 0.6734687412972562,
+        "forward_loss": 7.111631261068396,
+        "loss_readback": 0.07098748756106943,
+        "backward": 9.12886873993557,
+        "optimizer": 1.3792499958071858
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "routed_full",
+      "boundary": 6,
+      "interval": 1,
+      "milliseconds_per_update": 18.02018124969133,
+      "saving_vs_full_percent": 20.66134145887674,
+      "saving_vs_routed_percent": 0.0,
+      "saving_vs_faster_control_percent": 0.0,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0337000057916157,
+        "routing_rng_zero_grad": 0.5298562464304268,
+        "forward_loss": 5.777306250820402,
+        "loss_readback": 0.07212500349851325,
+        "backward": 9.798749997571576,
+        "optimizer": 1.1889875095221214
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "full",
+      "boundary": 0,
+      "interval": 1,
+      "milliseconds_per_update": 22.7129895829421,
+      "saving_vs_full_percent": 0.0,
+      "saving_vs_routed_percent": -26.04195966858633,
+      "saving_vs_faster_control_percent": -26.04195966858633,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1093562643509358,
+        "routing_rng_zero_grad": 0.5170437652850524,
+        "forward_loss": 5.728856245696079,
+        "loss_readback": 0.06936875433893874,
+        "backward": 9.135106251051184,
+        "optimizer": 1.2848312544520013
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut6_r16",
+      "boundary": 6,
+      "interval": 16,
+      "milliseconds_per_update": 8.659014582614569,
+      "saving_vs_full_percent": 61.876376727096904,
+      "saving_vs_routed_percent": 51.948238130163695,
+      "saving_vs_faster_control_percent": 51.948238130163695,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1024500054190867,
+        "routing_rng_zero_grad": 0.42226872756145895,
+        "forward_loss": 4.925493740302045,
+        "loss_readback": 0.056618730013724416,
+        "backward": 1.255837494682055,
+        "optimizer": 0.5344125020201318
+      },
+      "measured_minus_mixture_ms_per_update": -1.1303707685783593
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut6_r4",
+      "boundary": 6,
+      "interval": 4,
+      "milliseconds_per_update": 13.306418749076935,
+      "saving_vs_full_percent": 41.414939233405384,
+      "saving_vs_routed_percent": 26.158241336752017,
+      "saving_vs_faster_control_percent": 26.158241336752017,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.0371249882155098,
+        "routing_rng_zero_grad": 0.5276874944684096,
+        "forward_loss": 5.843762497534044,
+        "loss_readback": 0.06653124000877142,
+        "backward": 2.911318741098512,
+        "optimizer": 0.7255000091390684
+      },
+      "measured_minus_mixture_ms_per_update": 1.8708742181843263
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut6_r0",
+      "boundary": 6,
+      "interval": 0,
+      "milliseconds_per_update": 9.240665624626368,
+      "saving_vs_full_percent": 59.31550273960285,
+      "saving_vs_routed_percent": 48.72046237168311,
+      "saving_vs_faster_control_percent": 48.72046237168311,
+      "peak_allocated_mib": 802.42578125,
+      "components_mean_ms": {
+        "augmentation": 1.0303500093868934,
+        "routing_rng_zero_grad": 0.43513748823897913,
+        "forward_loss": 6.052831253327895,
+        "loss_readback": 0.061574988649226725,
+        "backward": 0.6219499846338294,
+        "optimizer": 0.4235749947838485
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut5_r16",
+      "boundary": 5,
+      "interval": 16,
+      "milliseconds_per_update": 13.96777916670544,
+      "saving_vs_full_percent": 38.503123440889894,
+      "saving_vs_routed_percent": 22.48813164992612,
+      "saving_vs_faster_control_percent": 22.48813164992612,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1452874969108962,
+        "routing_rng_zero_grad": 0.4966312553733587,
+        "forward_loss": 6.045950009138323,
+        "loss_readback": 0.07504376844735816,
+        "backward": 2.5018437663675286,
+        "optimizer": 0.712862478394527
+      },
+      "measured_minus_mixture_ms_per_update": 2.763001237402326
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut5_r4",
+      "boundary": 5,
+      "interval": 4,
+      "milliseconds_per_update": 12.107557292135121,
+      "saving_vs_full_percent": 46.69324684044176,
+      "saving_vs_routed_percent": 32.81112368199673,
+      "saving_vs_faster_control_percent": 32.81112368199673,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1581999715417624,
+        "routing_rng_zero_grad": 0.5952437422820367,
+        "forward_loss": 7.284931234607939,
+        "loss_readback": 0.087181237176992,
+        "backward": 4.588387477269862,
+        "optimizer": 0.9643437297199853
+      },
+      "measured_minus_mixture_ms_per_update": -0.46030130124563584
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut5_r0",
+      "boundary": 5,
+      "interval": 0,
+      "milliseconds_per_update": 10.750417707943901,
+      "saving_vs_full_percent": 52.66841615593539,
+      "saving_vs_routed_percent": 40.34234418076096,
+      "saving_vs_faster_control_percent": 40.34234418076096,
+      "peak_allocated_mib": 867.51123046875,
+      "components_mean_ms": {
+        "augmentation": 1.0727625121944584,
+        "routing_rng_zero_grad": 0.5529812478926033,
+        "forward_loss": 5.104543750348967,
+        "loss_readback": 0.06530625250888988,
+        "backward": 2.310756222868804,
+        "optimizer": 0.6542999763041735
+      }
+    },
+    {
+      "session": 3,
+      "seed": 1501,
+      "arm": "cut3_r16",
+      "boundary": 3,
+      "interval": 16,
+      "milliseconds_per_update": 11.620253125632493,
+      "saving_vs_full_percent": 48.83873352207439,
+      "saving_vs_routed_percent": 35.51533713995503,
+      "saving_vs_faster_control_percent": 35.51533713995503,
+      "peak_allocated_mib": 1513.2958984375,
+      "components_mean_ms": {
+        "augmentation": 1.1552125070011243,
+        "routing_rng_zero_grad": 0.608506248681806,
+        "forward_loss": 6.5664624780765735,
+        "loss_readback": 0.06830624624853954,
+        "backward": 5.558831231610384,
+        "optimizer": 1.005912505206652
+      },
+      "measured_minus_mixture_ms_per_update": -1.560726952296439
+    }
+  ],
+  "faster_control_comparison": "post hoc sensitivity analysis; not a new qualification gate"
+}

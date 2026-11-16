@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "same_environment": "CPU",
+  "runs_replayed": 10,
+  "step_traces_bitwise_equal": true,
+  "validation_curves_bitwise_equal": true,
+  "checkpoint_tensor_payloads_equal": 1416,
+  "scope": "same-model/environment replay only; no CPU-CUDA equivalence or cross-hardware guarantee"
+}

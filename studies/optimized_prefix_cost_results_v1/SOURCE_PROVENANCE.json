@@ -1,0 +1,30 @@
+{
+  "REPORT.md": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\optimized_prefix_cost_review_v1\\REPORT.md",
+    "sha256": "d4d8b637998b45900b96caa4a00e3594f90facf3286afd2ff962afcb111ce00a"
+  },
+  "frozen_audit_recheck.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\optimized_prefix_cost_review_v1\\frozen_audit_recheck.json",
+    "sha256": "8bd42f25a87f5b8853046d418db25072c00e2eeb54d3efb73fe19c47fa6559d3"
+  },
+  "independent_audit.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\optimized_prefix_cost_review_v1\\independent_audit.json",
+    "sha256": "e112271ef289c892018e2ac46a1cd38cec7bf8c49a52f862fa2f98dfa90ece84"
+  },
+  "review_data.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\optimized_prefix_cost_review_v1\\review_data.json",
+    "sha256": "250b1eac632481935d7cf941a9336971f4eabf62483b1e38b89709eaa6eeb730"
+  },
+  "group_summary.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\optimized_prefix_cost_review_v1\\group_summary.json",
+    "sha256": "8b45a2b1911b0fcd4de6659b17942b03e1262ea69921d1c2bd32559b9f97bd31"
+  },
+  "telemetry.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\optimized_prefix_cost_review_v1\\telemetry.json",
+    "sha256": "674fac8863b3031fa769da6d3a2c7622124b957ba32a01cd5a1eca1f0c8e51e0"
+  },
+  "analysis/summarize_results_v1.py": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\optimized_prefix_cost\\summarize_results_v1.py",
+    "sha256": "4da87e81b4a0281290e8b0707cb059277c1640e1cf11a4d6cad848d53694c2d5"
+  }
+}

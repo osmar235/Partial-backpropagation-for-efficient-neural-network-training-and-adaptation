@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "exact_json": true,
+  "requires_torch": false
+}

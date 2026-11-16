@@ -1,0 +1,17 @@
+{
+  "preflight_samples": 24,
+  "condition_samples": 32,
+  "preflight_utilization_range": [
+    1.0,
+    7.0
+  ],
+  "condition_temperature_range_c": [
+    61.0,
+    70.0
+  ],
+  "condition_sm_clock_range_mhz": [
+    2760.0,
+    2782.0
+  ],
+  "continuous_monitoring": false
+}

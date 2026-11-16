@@ -1,0 +1,34 @@
+{
+  "REPORT.md": {
+    "project_source": "results/bf16_continuation_review_v1/REPORT.md",
+    "sha256": "fb8a0fb61fa6320c4f660d03059eb12999ba61f652dcbceb0fa361c90c5d0666"
+  },
+  "frozen_audit_recheck.json": {
+    "project_source": "results/bf16_continuation_review_v1/frozen_audit_recheck.json",
+    "sha256": "20a8e84af45d8289805175b8d4bee997cfad933de33d612d9320b6e5df0806d0"
+  },
+  "independent_audit.json": {
+    "project_source": "results/bf16_continuation_review_v1/independent_audit.json",
+    "sha256": "71989f15e421eee30da72260284691f15b1ceeced1fbc06a6e82f8b466685588"
+  },
+  "review_data.json": {
+    "project_source": "results/bf16_continuation_review_v1/review_data.json",
+    "sha256": "a9819cb29d025beff9e4dc0a53831ea9dff5f15849b872d01c7df083ebb070de"
+  },
+  "group_summary.json": {
+    "project_source": "results/bf16_continuation_review_v1/group_summary.json",
+    "sha256": "95420fd3b92bbe8b17ffcbd5f92da1c2d6fb2272ebcbb73201b54687e4172953"
+  },
+  "validation_scores.json": {
+    "project_source": "results/bf16_continuation_review_v1/validation_scores.json",
+    "sha256": "a516b2ef22a579530f546cf6fae5bfeee69fd8235042319ff36525b9fc10d191"
+  },
+  "source_metadata.json": {
+    "project_source": "results/bf16_continuation_review_v1/source_metadata.json",
+    "sha256": "992da90b3ca79b204992de89b80bc07a0eb6b718bb6b50b8100faa6c9d6e46f5"
+  },
+  "analysis/summarize_results_v1.py": {
+    "project_source": "protocol/bf16_continuation/summarize_results_v1.py",
+    "sha256": "f89f634b08809d2100f6e231412bc55b3ba339372b0102e4d5055c82f166b4d1"
+  }
+}

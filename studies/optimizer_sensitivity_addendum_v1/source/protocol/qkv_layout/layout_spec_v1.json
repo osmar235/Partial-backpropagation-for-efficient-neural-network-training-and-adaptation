@@ -1,0 +1,52 @@
+{
+  "version": "qkv-unbind-layout-v1",
+  "date": "2026-10-25",
+  "seeds": [
+    99081,
+    99082
+  ],
+  "batch_sizes": [
+    256,
+    200
+  ],
+  "arms": [
+    "math",
+    "qkv_unbind"
+  ],
+  "rounds": 6,
+  "discarded_warmup_updates": 3,
+  "steady_updates": 8,
+  "correctness_updates": 2,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "input_seed_offset": 341001,
+  "dropout_seed_offset": 342001,
+  "required_saving": 0.1,
+  "tolerances": {
+    "logits": {
+      "atol": 0.0001,
+      "rtol": 0.0003
+    },
+    "loss": {
+      "atol": 1e-05,
+      "rtol": 0.0001
+    },
+    "gradient": {
+      "atol": 2e-05,
+      "rtol": 0.0005
+    },
+    "parameter": {
+      "atol": 2e-05,
+      "rtol": 1e-05
+    },
+    "exp_avg": {
+      "atol": 5e-06,
+      "rtol": 0.001
+    },
+    "exp_avg_sq": {
+      "atol": 1e-07,
+      "rtol": 0.001
+    }
+  }
+}

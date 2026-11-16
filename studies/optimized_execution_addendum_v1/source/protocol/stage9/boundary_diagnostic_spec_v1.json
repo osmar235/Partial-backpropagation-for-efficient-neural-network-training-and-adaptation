@@ -1,0 +1,19 @@
+{
+  "version": "stage9C-boundary-diagnostic-v1",
+  "development_seeds": [1201, 1202],
+  "training_epochs": 30,
+  "lr_schedule_horizon_epochs": 300,
+  "checkpoint_epochs": [1, 5, 15, 30],
+  "prefix_blocks": [0, 1, 2, 3, 4, 5],
+  "learning_rate": 0.001,
+  "training_batch_size": 256,
+  "probe_batches_per_checkpoint": 64,
+  "probe_train_batch_size": 128,
+  "probe_validation_batch_size": 64,
+  "probe_warmup_batches": 2,
+  "calibration_quantiles": [0.2, 0.4],
+  "omission_modes": ["zero", "freeze"],
+  "features": ["raw_loss", "excess_loss", "boundary_grad_rms", "activation_grad_rms"],
+  "training_recipe": "Stage8 v2 architecture, AdamW, MixUp, precision and fixed 45k/5k split; first 30 epochs of its 300-epoch LR schedule",
+  "inference": "development mechanism/cost screen only; no trained adaptive policy or confirmatory performance claim"
+}

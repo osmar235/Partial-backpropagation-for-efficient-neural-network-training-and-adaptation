@@ -1,0 +1,12 @@
+{
+  "fingerprint": "a93655fb3479002993e1fcf74c751ca7857f817cc08a36e146b4910c471e09fc",
+  "attempt": "attempt_66f21885731a4dfa81a97ab69d4e2873",
+  "sha256": {
+    "epochs.csv": "cd07523760c98d5e3bb764cf8e36de6b61807144b636b7baec514108c006a35b",
+    "final.pt": "2c1b02f3cafcd38223a45f33b5017149174a8ac4d2d115d2a0631d0476dca51c",
+    "logits.npz": "8efb7910e45a16c1e4b95590865fc5ad328fe0dac7186e3997876ca13add5f21",
+    "steps.csv": "8757182815ff2772a6da5ba1bf4a4ec75be8b01637b6f403e9bd5153b69ff40b",
+    "streams.json": "d4364253f65564744c864eabc2ef2ce27510befaf7b9b5a23da3c50f5475df66",
+    "summary.json": "8c07798a9811789ac3a5f85edf302006a4c7b632d7ed7f4ddaec119bb089da1d"
+  }
+}

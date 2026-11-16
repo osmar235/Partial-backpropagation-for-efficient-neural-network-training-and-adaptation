@@ -1,0 +1,76 @@
+{
+  "version": "pets-independent-evaluation-prepared-v1",
+  "date": "2026-10-30",
+  "sources": {
+    "scripts/pets_transfer.py": "adfa5bae57d65feca71ab3be9ed7ad4d3ceb098da1a9ea0ab747410f4417626d",
+    "scripts/test_pets_transfer.py": "8e155b4ff0e0f64fb5be1e426df4ac86ee31f590f0fe510900bb655f3c5b778b",
+    "scripts/run_pets_baseline.cmd": "707537e99af1fceca5011d660c69332224a0c038afc7fb8e53aa854735c4374c",
+    "protocol/pets_transfer/baseline_spec_v1.json": "4d814d02774d1cd661d8f5df46a1212dcc0b409d41ac562f07f6b43f6a17ed81",
+    "protocol/pets_transfer/PROTOCOL_v1.md": "687d76c9da40fcb8ee49f0d0ccc03c578ddec9c80b5a89bb0eca8355ad231adc",
+    "README_PETS_TRANSFER.md": "5507694ddc9dcc102d8783d9ce85723b14fbd932d30207cd846fa4b9b2c7e583",
+    "scripts/pets_selective.py": "b8b53ac37c6d67232030754728bdeabf67b82d4648270d6941f9678f9fd8b57a",
+    "scripts/test_pets_selective.py": "423f6b1389b619fd72a2bd2e8eda6dbaf258f4af77d8eba9c1949e59030990f4",
+    "scripts/run_pets_selective.cmd": "4ea35ca54b524186cce8c86cd542f1f9cf2d713850c5832f406b2f27d5242ec9",
+    "protocol/pets_selective/development_spec_v1.json": "cd8bfcd32645fa4324cd37f6b895b1f4cbbbb261e86ac2699aed650ff0f4fc66",
+    "protocol/pets_selective/PROTOCOL_v1.md": "fa357546ce00daebb3ad6bc21c7e5841aa7789f6fa0f4db3cd4b604f4b332e96",
+    "README_PETS_SELECTIVE.md": "ad5bb85f6ec0b3a529655f4cc4f21a21bc258f656d9c120e4d2fec7acbf3acd0",
+    "scripts/pets_evaluation.py": "2ab5aade0e930e4b76d0f22765ef8c840447248a3d167894e5d1e917e9e99da3",
+    "scripts/analyze_pets_evaluation.py": "d8c186b04bc74ae4934d8baf6b9c60cd6c21edc1849ffd584a41b863622cba8a",
+    "scripts/test_pets_evaluation.py": "fe6621571a996e60bdac96af04d22a2905ca7c2a06301888fe83df8a39989233",
+    "scripts/run_pets_evaluation.cmd": "f1e3dfe65537697589d7fd109766e2ed6e68646028166480f52de5a5d988f363",
+    "protocol/pets_evaluation/spec_v1.json": "52de5063cbef9502cdd50c6b3b306522bf90d300756702ec52870a996082063d",
+    "protocol/pets_evaluation/PROTOCOL_v1.md": "1fd9c3d2c61c0b8c49684fb8fc995bd7cbd38ba87aa430026d107af4979d6348",
+    "README_PETS_EVALUATION.md": "41e18355e8ff74bf1c831f2c4e1cbce55613a84b65ea78da6df5870cee78d336"
+  },
+  "evidence": {
+    "results/pets_baseline_v1/baseline_freeze.json": "8d946a8d13fa168094826649355e4ef178719032ae626b2519b8b9c1db17c3c0",
+    "results/pets_baseline_v1/audit.json": "23a5ff78ed2a0f3377cdd3c5e513a373f7cdf668e2bdec28474d50c7db945fe0",
+    "results/pets_selective_review_v1/verification.json": "cfa19411ca7d0e788ce790451d1d098b9ce1c88794a1a0dd74354576bbf3ee79",
+    "results/pets_selective_review_v1/analysis.json": "5de60f97e58bd1b08741722c81dbbf480579688c8638e3ef9218c7096b19cdf6"
+  },
+  "validation_status": "PASS",
+  "validation": {
+    "status": "PASS",
+    "functional_tests": 12,
+    "synthetic_training_trajectories": 12,
+    "synthetic_test_scorings": 12,
+    "training_checkpoint_rescores": 48,
+    "completed_restart_checks": 2,
+    "real_test_access": false,
+    "real_training_updates": 0
+  },
+  "runtime": {
+    "python": "3.14.3",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.4.3",
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5080"
+  },
+  "inputs": {
+    "cache_sha256": "51236f1c019ba075cfc0af9fe9798bc558fcff91430ca0332c84ccf49ff1a638",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "split_hash": "840fcffa423ab6f2eb454e4075dc8e4c4e74d824841605c3001454f8a0b19fa9",
+    "examples": 3680,
+    "train": 2944,
+    "validation": 736
+  },
+  "scipy_version": "1.17.1",
+  "precision_planning": {
+    "target_half_width_pp": 0.2,
+    "cap": 24,
+    "development_pairs": 6,
+    "paired_sd_pp": 0.641615160495523,
+    "one_sided_95_percent_upper_sd_pp": 1.340499262414658,
+    "point_estimate_required_n": 42,
+    "upper_sd_required_n": 175,
+    "half_width_at_cap_point_sd_pp": 0.2709303210249838,
+    "half_width_at_cap_upper_sd_pp": 0.5660431951440642,
+    "recommended_evaluation_seeds": 24,
+    "assumptions": "Normal paired differences; t interval; one-sided chi-square upper SD. Trainval variance may not transfer to official test.",
+    "status": "Planning recommendation; final evaluation protocol/code/independent seeds still to be frozen. No test access."
+  },
+  "real_test_access_at_freeze": false
+}

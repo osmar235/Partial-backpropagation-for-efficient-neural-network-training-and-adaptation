@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "stage13C_updates_verified": 2816,
+  "stage13C_calibration_updates": 256,
+  "stage14A_operations": 144,
+  "stage13C_reference_qualified": true,
+  "stage13C_local_screen_pass": false,
+  "stage14A_both_seed_screen_pass": false,
+  "source_final_or_mode_scores_rescored": 16,
+  "max_abs_rescored_logit_error": 0.0,
+  "original_files_preserved": 1373,
+  "parameter_updates_performed": false,
+  "test_scoring_performed": false,
+  "development_scoring_performed": true
+}

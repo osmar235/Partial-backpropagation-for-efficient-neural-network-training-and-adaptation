@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Downloaded datasets and local outputs
+data/
+smoke_test/
+scratch/
+
+# Generated manuscript variants
+manuscript/*_figures_rebuilt.docx
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

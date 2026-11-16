@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "synthetic": false,
+  "integrity_pass": true,
+  "trajectories": 8,
+  "trajectory_updates": 2816,
+  "calibration_updates": 256,
+  "both_seed_reference_qualified": true,
+  "both_seed_local_screen_pass": false,
+  "streams_optimizer_states_and_costs_verified": true,
+  "source_files_unchanged": true,
+  "automatic_followup": false
+}

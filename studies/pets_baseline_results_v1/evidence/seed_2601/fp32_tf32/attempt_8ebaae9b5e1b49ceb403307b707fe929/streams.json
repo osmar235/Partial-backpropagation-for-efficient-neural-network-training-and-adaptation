@@ -1,0 +1,92 @@
+[
+  {
+    "epoch": 0,
+    "order": "59e05be1c5a3b14461e8f5eda3dc0bb75ee501402b190fb442fa7f17bbce9f30",
+    "offsets": "1c9571479929ab21a0c23d3b1cbcbb4dc45eeedb1d2630e4d561d76ede417b80",
+    "flips": "9cb7c525cc4e3cb53afa53aca9b405e9333ec60cf0ae119456d25ebaff057e33"
+  },
+  {
+    "epoch": 1,
+    "order": "7f88f3530cbb681bf61dbe9d1a5b76f68cd33e3c17aeca08546813b5b76b89b5",
+    "offsets": "2689b7cc5bb7b6d309691dada8d9f10a46f310b668b3d031e3380f64af4e0825",
+    "flips": "4eac897f8906cc4cc12d3c1c6892459fd08a3bd6f4d0edf32b1673e8c6885996"
+  },
+  {
+    "epoch": 2,
+    "order": "a87f46529ca5dc696e9bbdd5df8bb4ef7af5f89c4662a1f37f19143cc5325ed3",
+    "offsets": "57914fba48c80ae164d1f08801f25a878977edc730460562fec05ddd99ec6d81",
+    "flips": "1c21d12303bfc47844bc8c7f41e3e83655dbaf7ed757459d47bbe88be2d0d0d0"
+  },
+  {
+    "epoch": 3,
+    "order": "81f7874202ecc260d244350de30a08cb346161c0f7cb6eb1f4831095eef31b8a",
+    "offsets": "17705a020404bea897cefab29eb62e3acc00ccee65312f31297e78bd6cd05f6d",
+    "flips": "9962652ac79d3d9fe19d881da274c2714fe0ecaa4d0cf5eca0178cff830f5671"
+  },
+  {
+    "epoch": 4,
+    "order": "660895c38d970a354c3ee0dde3d7131ce577a026d69d83f02c4afe53271158e7",
+    "offsets": "f0d55ca23e0a2f4b8b04919d33874b16aa15b62a7bdf3022331e7e7b1589faa4",
+    "flips": "3e48ab4ff87d601a994553c0c5c2aca262d31a9549f3d38cced4f0e2f14eea62"
+  },
+  {
+    "epoch": 5,
+    "order": "8bb05df82cbdba038922f8bcc7cd97109f38ebb899201933b0da5adcb99684fc",
+    "offsets": "9e01e807027b02f057819fb7129190d24620e6d56b537a47d907243a00a9354f",
+    "flips": "2f990610898668a8ef3883209ef9ef752073a15762ed48bc1181fa7d75838668"
+  },
+  {
+    "epoch": 6,
+    "order": "54ac5c4307cbec154f7f5044d5b257ce818d2cd507b57e4ef6b4b34fa29de886",
+    "offsets": "ad6ea1216c50fba376d7ad85bb1271865038e03148848bb80c5cb01ef9e7c765",
+    "flips": "05f272da01b6af95dc0b06f724fc1242cf9417e790dab08c6c035ecee116ecff"
+  },
+  {
+    "epoch": 7,
+    "order": "7a80d06073a68cf1c1ca5db4d0d3a5c5e0a576b29b2b5cdf0ec539fd314abdd4",
+    "offsets": "42cd5c06b69a59efeb2d50c694c1cba2836e3a52d05d9cf79b922a2b683dbb73",
+    "flips": "90c27a1f3f2ca696f2da1d639bc77716f0ff95f79180fb24c05d952d87e43712"
+  },
+  {
+    "epoch": 8,
+    "order": "85001ca162b1929607a1ff22e60ffeb0a26477cca06e8d56cacb04c0ed74772e",
+    "offsets": "da24a77ad197ae2fbb0f8d06944129780416236fffb51cfae2c87d2a3310c995",
+    "flips": "aaa4fdfe2fe27647953c837d07de2847262c8202b1fecd0b869416478ea7f29a"
+  },
+  {
+    "epoch": 9,
+    "order": "593c224eb2f0360189136e2111dc14657ca3215b2a69c0d17d3b53bd9a168e13",
+    "offsets": "c4accb10cf016fba8f850daac193213b4f1bf48f5fbce6f4c768c4b7b1c9f501",
+    "flips": "fa7054ae0d869114091c7298101381bf5dc342229cdd9ce7815221d350d61cae"
+  },
+  {
+    "epoch": 10,
+    "order": "8d927a9b72b2d2cb9473053248ec15ec834b449f3e9816db717f6c21ee453eb1",
+    "offsets": "59205f5252266f115fe7786093637c3be9a831d74086902be8132387e3f13e96",
+    "flips": "c9f3a3714366243098a64b7fc73370653e361e24ce6602535d2ad13400d19d8d"
+  },
+  {
+    "epoch": 11,
+    "order": "e2ee779d9de192959c3240ef6c34dcae42b47ae4e2d1d824b637812807fe8bec",
+    "offsets": "c8b793f412a82e6980a0457f6e73796e09bdbe02b55276576923c025196424a4",
+    "flips": "9287a6e2c30b12ebc5fb4c096e860caa68a9ca5e9e30a56c53e8ec9c97cf93a6"
+  },
+  {
+    "epoch": 12,
+    "order": "e4f8c5f7683a919f0b58fe11ba5a597571159eb1e1e300785c15aa5b410a0541",
+    "offsets": "83c57e2da5ffb514c4bbd224e1fa64ed3c3316d150a27b69443bd0130a7a21be",
+    "flips": "c0949cebbb4da58e411310e30ddf63df77e7f228f88390a5259820311b1d33ed"
+  },
+  {
+    "epoch": 13,
+    "order": "1ef8ebd8e399bbb93533396fbfbea5eb9c4c18485d430043c8c1a40b728cdf04",
+    "offsets": "d49a458935b9d5966790386c9d8671a59e111904e8cf27af6b8866646605c53d",
+    "flips": "e9a0c8bd042d37ec692e12f829376719befc89cbca048ead6fb0ad4b9dda9c9f"
+  },
+  {
+    "epoch": 14,
+    "order": "01a67ada8c62344ed7a95b1e87a5943b8fe5c1b879898cdf4726795007eb967b",
+    "offsets": "28f9c801ffa19cc223348662d6ec601fd4839f96833fe5c8853212627fddeddb",
+    "flips": "343b4f38a8308611cf100f3f75abe72d86d5d861eff7349b0181a3206bce7d28"
+  }
+]

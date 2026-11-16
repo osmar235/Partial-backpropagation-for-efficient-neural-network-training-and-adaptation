@@ -1,0 +1,22 @@
+{
+  "version": "stage11A-growth-feasibility-v1",
+  "source_seeds": [1401, 1402],
+  "paths": ["small", "grown", "full"],
+  "source_variants": ["small_rgb32", "full_rgb32"],
+  "batch_size": 256,
+  "eval_batch_size": 512,
+  "probe_batches": 36,
+  "warmup_steps_per_path": 16,
+  "liveness_steps": 8,
+  "learning_rate": 0.001,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "mixup_alpha": 0.2,
+  "logit_atol": 0.00005,
+  "logit_rtol": 0.00001,
+  "maximum_prediction_changes": 0,
+  "maximum_small_full_step_ratio": 0.85,
+  "maximum_grown_full_step_ratio": 1.10,
+  "optimizer_policy": "fresh AdamW for every path; old optimizer is not transported",
+  "inference": "mechanics and operation-cost feasibility at seen endpoint states; no training-efficacy, novelty or publication claim"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "runs": 24,
+  "steps": 1411200,
+  "checkpoint_counters_verified": true,
+  "identical_initialization_per_seed": true,
+  "freeze_hash": "fea1b99e9f6abf58a5f14c8cf1624c7e6cf2bd6c407417f045e3b0c36e02b5e6",
+  "synthetic": false
+}

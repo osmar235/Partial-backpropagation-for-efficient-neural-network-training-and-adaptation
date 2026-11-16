@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "timed_blocks": 112,
+  "primary_updates": 10752,
+  "component_updates": 1792,
+  "paired_contrasts_recomputed": 104,
+  "full_routed_control_pairs_exact": 8,
+  "retried_sessions": [],
+  "warmup_dispatch": {
+    "math": 0,
+    "efficient": 672,
+    "flash": 0,
+    "cudnn": 0
+  },
+  "all_trajectories_repeat_exactly": true,
+  "preserved_immutable_files": 8182,
+  "inference_run": false,
+  "backward_run": false,
+  "optimizer_updates": 0,
+  "state_assertions": "verified recorded runtime checks; final checkpoints/gradients were not archived for replay"
+}

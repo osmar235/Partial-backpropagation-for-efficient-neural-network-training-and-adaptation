@@ -1,0 +1,98 @@
+[
+  {
+    "session": 0,
+    "seed": 1501,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 1,
+    "seed": 1501,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 2,
+    "seed": 1501,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 3,
+    "seed": 1501,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 4,
+    "seed": 1501,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 5,
+    "seed": 1501,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 0,
+    "seed": 1502,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 1,
+    "seed": 1502,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 2,
+    "seed": 1502,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 3,
+    "seed": 1502,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 4,
+    "seed": 1502,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  },
+  {
+    "session": 5,
+    "seed": 1502,
+    "model_exact": true,
+    "optimizer_exact": true,
+    "common_accuracy_difference_pp": 0.0,
+    "own_accuracy_difference_pp": 0.0
+  }
+]

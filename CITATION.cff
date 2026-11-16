@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this code and processed-evidence collection using its commit, or its version DOI once assigned."
+title: "Partial backpropagation for efficient neural network training and adaptation"
+type: software
+authors:
+  - given-names: Osmar
+    family-names: Pinto Neto
+    affiliation: "Department of Kinesiology, California State University San Marcos"
+    orcid: "https://orcid.org/0000-0002-3978-8320"
+repository-code: "https://github.com/osmar235/Partial-backpropagation-for-efficient-neural-network-training-and-adaptation"
+abstract: "Frozen experiment source, protocols, processed evidence and portable analysis replays for selective backpropagation, optimizer-state behavior and optimized training and adaptation execution."
+keywords:
+  - partial backpropagation
+  - efficient deep learning
+  - optimizer states
+  - reproducibility
+license:
+  - Apache-2.0
+  - CC-BY-4.0

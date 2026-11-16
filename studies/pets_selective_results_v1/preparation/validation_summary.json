@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "functional_tests": 12,
+  "synthetic_trajectories": 12,
+  "checkpoint_rescores": 48,
+  "completed_restart_checks": 2,
+  "real_selective_trajectories": 0,
+  "test_access": false
+}

@@ -1,0 +1,794 @@
+[
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 0,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 0,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 0,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 0,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 0,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 0,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 2,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 2,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 2,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 2,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 2,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "anchor": 2,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 0,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 0,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 0,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 0,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 0,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 0,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 2,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 2,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 2,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 2,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 2,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "anchor": 2,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 0,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 0,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 0,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 0,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 0,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 0,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 2,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 2,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 2,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 2,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 2,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "anchor": 2,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 0,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 0,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 0,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 0,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 0,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 0,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 2,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 2,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 2,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 2,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 2,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1501_training",
+    "anchor": 2,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 0,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 0,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 0,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 0,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 0,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 0,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 2,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 2,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 2,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 2,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 2,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "anchor": 2,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 0,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 0,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 0,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 0,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 0,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 0,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 2,
+    "arm": "native_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 2,
+    "arm": "reference_fp32_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 2,
+    "arm": "native_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 2,
+    "arm": "reference_bf16_math",
+    "dispatch": {
+      "math": 6,
+      "efficient": 0,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 2,
+    "arm": "native_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  },
+  {
+    "task": "trained_1502_training",
+    "anchor": 2,
+    "arm": "reference_bf16_auto",
+    "dispatch": {
+      "math": 0,
+      "efficient": 6,
+      "flash": 0,
+      "cudnn": 0
+    }
+  }
+]

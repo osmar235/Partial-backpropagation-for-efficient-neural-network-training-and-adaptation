@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "command": "python -B scripts/review_attention_reference.py results/attention_reference_v1",
+  "trials": 288,
+  "measured_updates": 9504,
+  "numerical_failures": 0,
+  "fragmented_sessions": 0,
+  "experiment_rerun": false,
+  "record_type": "Observed successful tool output; independent reconstruction saved separately"
+}

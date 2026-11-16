@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "runs": 10,
+  "updates": 176000,
+  "preserved_immutable_files": 941,
+  "independent_targets_and_screens_match": true,
+  "final_checkpoints_rescored_this_invocation": true,
+  "both_seed_speed_pass": true,
+  "both_seed_quality_pass": false,
+  "seeds_passing": 1,
+  "decision": "Fixed midpoint growth fails the frozen both-seed criterion. Preserve evidence; no automatic extension or transition search. Publication on hold."
+}

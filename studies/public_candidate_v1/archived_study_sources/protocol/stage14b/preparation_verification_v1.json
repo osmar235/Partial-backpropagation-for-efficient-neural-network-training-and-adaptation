@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "date": "2026-10-24",
+  "prior_immutable_files_verified": 1396,
+  "cpu_resume_files_unchanged": 69,
+  "source_files_frozen": 32,
+  "freeze_hash": "db88fdfcdaf2b1d6a3473407b580dc6d112a34c1719fa735a760447fb632e791",
+  "real_source_checkpoints_verified": 2,
+  "real_output_absent": true,
+  "real_training_performed": false,
+  "real_scoring_performed": false,
+  "partial_restart_and_tamper_checks_passed": true
+}

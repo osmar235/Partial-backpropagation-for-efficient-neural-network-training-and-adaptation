@@ -1,0 +1,11 @@
+{
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\qkv_training\\FROZEN_TRAINING_v1.json": "4212084f1c7671f3439a3faeffa916f8b0e636d5797cfe82913997711845833c",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1501\\full\\attempt_001\\final_checkpoint.pt": "b62dc07c108121c2bcf9f7fa763eb78c54c9681877008d845e33e7eb201da96d",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1502\\full\\attempt_001\\final_checkpoint.pt": "a57ea7c165463f3de57bb6fea4306459142cd94356f183faf2ea929c2c0308dc",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\data\\cifar-10-batches-py\\batches.meta": "f962466ef690d46b226450fb9aadc74ba4bc64a76aa526b5827fe4bc5c7125cb",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\data\\cifar-10-batches-py\\data_batch_1": "54636561a3ce25bd3e19253c6b0d8538147b0ae398331ac4a2d86c6d987368cd",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\data\\cifar-10-batches-py\\data_batch_2": "766b2cef9fbc745cf056b3152224f7cf77163b330ea9a15f9392beb8b89bc5a8",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\data\\cifar-10-batches-py\\data_batch_3": "0f00d98ebfb30b3ec0ad19f9756dc2630b89003e10525f5e148445e82aa6a1f9",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\data\\cifar-10-batches-py\\data_batch_4": "3f7bb240661948b8f4d53e36ec720d8306f5668bd0071dcb4e6c947f78e9682b",
+  "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\data\\cifar-10-batches-py\\data_batch_5": "d91802434d8376bbaeeadf58a737e3a1b12ac839077e931237e0dcd43adcb154"
+}

@@ -1,0 +1,17 @@
+{
+  "version": "side-operation-cost-v1",
+  "date": "2026-10-25",
+  "arms": ["full", "head", "final_side", "multi_side"],
+  "seeds": [99031, 99032],
+  "batch_sizes": [256, 200],
+  "rounds": 8,
+  "discarded_warmup_updates": 3,
+  "steady_updates_per_trial": 8,
+  "side_width": 48,
+  "taps": [2, 4, 6],
+  "learning_rate": 0.0001,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "minimum_operation_time_saving": 0.1,
+  "gate": "Median paired multi_side/full steady-block ratio <= 0.90 in each seed and batch size. Head/final-side costs descriptive; no quality-qualified controls yet."
+}

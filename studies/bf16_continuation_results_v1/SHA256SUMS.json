@@ -1,0 +1,12 @@
+{
+  "analysis/summarize_results_v1.py": "f89f634b08809d2100f6e231412bc55b3ba339372b0102e4d5055c82f166b4d1",
+  "frozen_audit_recheck.json": "20a8e84af45d8289805175b8d4bee997cfad933de33d612d9320b6e5df0806d0",
+  "group_summary.json": "95420fd3b92bbe8b17ffcbd5f92da1c2d6fb2272ebcbb73201b54687e4172953",
+  "independent_audit.json": "71989f15e421eee30da72260284691f15b1ceeced1fbc06a6e82f8b466685588",
+  "README.md": "0e32a5caf01e9f9e7089f52d4c4d2abe30bd9dcf6f31654fad5a2b91a66fc025",
+  "REPORT.md": "fb8a0fb61fa6320c4f660d03059eb12999ba61f652dcbceb0fa361c90c5d0666",
+  "review_data.json": "a9819cb29d025beff9e4dc0a53831ea9dff5f15849b872d01c7df083ebb070de",
+  "source_metadata.json": "992da90b3ca79b204992de89b80bc07a0eb6b718bb6b50b8100faa6c9d6e46f5",
+  "SOURCE_PROVENANCE.json": "7f8c5a719a92de5f2f639bd4ad68e19cb35fbd8979df7791debf225be8003420",
+  "validation_scores.json": "a516b2ef22a579530f546cf6fae5bfeee69fd8235042319ff36525b9fc10d191"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "synthetic": false,
+  "measured_operations": 144,
+  "warmup_operations": 36,
+  "optimizer_updates": 0,
+  "source_checkpoints_unchanged": true,
+  "source_accuracy_reproduced": true,
+  "training_streams_and_validation_labels_verified": true,
+  "both_seed_review_flags": {
+    "spatial": false,
+    "similarity": false
+  },
+  "interpretation": "Exploratory immediate quality and operation cost; no training efficacy claim"
+}

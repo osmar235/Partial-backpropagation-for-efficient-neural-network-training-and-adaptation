@@ -1,0 +1,14 @@
+{
+  "version": "stage13B-reference-replay-v1",
+  "seeds": [1601, 1602],
+  "source_epoch": 2,
+  "replay_epoch": 3,
+  "arms": ["continuation", "reset"],
+  "orders": [["continuation", "reset"], ["reset", "continuation"]],
+  "score_steps": [0, 1, 4, 16, 64, 176, 352],
+  "trace_atol": 0.00001,
+  "trace_rtol": 0.00001,
+  "validation_loss_atol": 0.00001,
+  "accuracy_atol": 0.000000000001,
+  "warmup_steps": 3
+}

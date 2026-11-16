@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checkpoints": [
+    {
+      "seed": 1501,
+      "source_sha256": "b62dc07c108121c2bcf9f7fa763eb78c54c9681877008d845e33e7eb201da96d",
+      "parameter_count": 2693578,
+      "parameter_tensors": 80,
+      "source_optimizer_age": 17600,
+      "model_sha256": "b7b04491cebb905d79dc9fde576d232fbf9f181c37d6cce28948f0a9ea2fe5b0",
+      "optimizer_sha256": "2ef3b38259c2aff26faa50d39ad867647f2924af43106554009e1f0188b18035"
+    },
+    {
+      "seed": 1502,
+      "source_sha256": "a57ea7c165463f3de57bb6fea4306459142cd94356f183faf2ea929c2c0308dc",
+      "parameter_count": 2693578,
+      "parameter_tensors": 80,
+      "source_optimizer_age": 17600,
+      "model_sha256": "fcfc29b91e52229c30be37d8bfa6e4cd8898e5d2ff0f1b40e827537fa2eb8a95",
+      "optimizer_sha256": "40aabe708a2c023a8dd341c824f4799372766c1ea0668ddd717e0c492894d04d"
+    }
+  ],
+  "parameter_updates_performed": false,
+  "real_scoring_performed": false
+}

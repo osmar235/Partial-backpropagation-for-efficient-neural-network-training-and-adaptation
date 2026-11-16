@@ -1,0 +1,18 @@
+{
+  "README.md": "67b1c132c2c91281b861474aab624002c46c83aa51fa404d1b70ee6468714bf7",
+  "README_PETS_DOWNLOAD_RECOVERY.md": "c3836d91b05244309db77ed257c1f4633ae1b0632277566429ca0f89d16df82e",
+  "README_PETS_DOWNLOAD_RECOVERY_v2.md": "4c2c629cbd01bee6ebf23db6a5714699980520080e6e6780f52c8bdcb1c24a66",
+  "README_PETS_TRANSFER.md": "5507694ddc9dcc102d8783d9ce85723b14fbd932d30207cd846fa4b9b2c7e583",
+  "SOURCE_PROVENANCE.json": "4aa149272c3f8733b97a2135aaf757a562943551d68c467fe551d829e568d82a",
+  "scripts/download_pets_archives.py": "36f901222b04afd7ee4b30016a886411c3c9955e0ceab9d87eb1019e97bd6f89",
+  "scripts/download_pets_archives_v2.py": "94784b3ae2f99dc402d7e18fb23d51e45017d74e15207c8ea4f59fe079e75502",
+  "scripts/pets_transfer.py": "adfa5bae57d65feca71ab3be9ed7ad4d3ceb098da1a9ea0ab747410f4417626d",
+  "scripts/run_pets_baseline.cmd": "707537e99af1fceca5011d660c69332224a0c038afc7fb8e53aa854735c4374c",
+  "scripts/run_pets_baseline_retry.cmd": "b6017f9beb28c3083d2aaf2b3946c8d74daf72854f85d9aa1664d31ea52a06fe",
+  "scripts/run_pets_baseline_retry_v2.cmd": "820eefa8c67287118afa8ad8eb8578154cc52b1dc1c951c40dd7174ca305f26a",
+  "scripts/test_pets_download.py": "6c22e962e54b5bc8087ed117aa53c6b8d1ff48813997938ebbc93305f310f4d4",
+  "scripts/test_pets_download_v2.py": "49213cb6fce798b3f2278dd1041ae37db6d31f4749e8f79e7badfce36fdfbed3",
+  "scripts/test_pets_transfer.py": "8e155b4ff0e0f64fb5be1e426df4ac86ee31f590f0fe510900bb655f3c5b778b",
+  "protocol/pets_transfer/baseline_spec_v1.json": "4d814d02774d1cd661d8f5df46a1212dcc0b409d41ac562f07f6b43f6a17ed81",
+  "protocol/pets_transfer/PROTOCOL_v1.md": "687d76c9da40fcb8ee49f0d0ccc03c578ddec9c80b5a89bb0eca8355ad231adc"
+}

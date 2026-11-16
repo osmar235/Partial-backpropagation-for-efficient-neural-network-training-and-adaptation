@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "synthetic": false,
+  "training_updates": 10560,
+  "discarded_hardware_warmup_updates": 36,
+  "trajectories": 12,
+  "curve_points": 72,
+  "source_states_optimizer_histories_streams_labels_and_costs_verified": true,
+  "paired_initial_logits_identical": true,
+  "historical_restored_trajectory_reproduced": true,
+  "retained_arms_share_one_launch": true,
+  "both_seed_reference_qualified": true,
+  "both_seed_screen": {
+    "practical": false,
+    "mechanism": true
+  },
+  "practical_candidate": false,
+  "decision": "mechanism_only_no_efficiency_claim",
+  "test_scoring_performed": false,
+  "automatic_followup": false
+}

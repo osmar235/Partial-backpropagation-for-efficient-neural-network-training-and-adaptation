@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "runs": 10,
+  "updates": 42240,
+  "preserved_immutable_files": 1069,
+  "independent_targets_and_screens_match": true,
+  "final_checkpoints_rescored_this_invocation": true,
+  "baselines_ready_both_seeds": true,
+  "both_seed_speed_pass": true,
+  "both_seed_quality_pass": false,
+  "seeds_passing": 0,
+  "decision": "Periodic pretrained-prefix updates fail final-quality criterion in both seeds. Preserve useful tradeoffs and strong LP-FT control; no automatic tuning. Publication on hold."
+}

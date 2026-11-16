@@ -1,0 +1,14 @@
+{
+  "seed": 2822,
+  "arm": "periodic_r4",
+  "fingerprint": "a93655fb3479002993e1fcf74c751ca7857f817cc08a36e146b4910c471e09fc",
+  "checkpoint_sha256": "94451ee0b435d5253b81e974281654de31addecfb1e4e301b0922907c17374b7",
+  "cache_sha256": "661749d2fa69e57e06470547956f0af1fa25005ce90f554feebdeb9fd376e691",
+  "test_assessment_seconds": 1.7961427001282573,
+  "examples": 3669,
+  "common_accuracy": 0.9005178809165955,
+  "own_accuracy": 0.9005178809165955,
+  "common_loss": 0.43201321363449097,
+  "own_loss": 0.43106892704963684,
+  "smoke": false
+}

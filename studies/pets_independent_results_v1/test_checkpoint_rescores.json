@@ -1,0 +1,866 @@
+[
+  {
+    "seed": 2801,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2801,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2801,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2801,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2801,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2801,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2802,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2802,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2802,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2802,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2802,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2802,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2803,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2803,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2803,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2803,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2803,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2803,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2804,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2804,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2804,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2804,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2804,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2804,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2805,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2805,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2805,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2805,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2805,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2805,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2806,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2806,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2806,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2806,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2806,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2806,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2807,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2807,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2807,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2807,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2807,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2807,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2808,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2808,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2808,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2808,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2808,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2808,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2809,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2809,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2809,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2809,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2809,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2809,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2810,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2810,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2810,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2810,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2810,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2810,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2811,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2811,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2811,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2811,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2811,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2811,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2812,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2812,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2812,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2812,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2812,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2812,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2813,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2813,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2813,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2813,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2813,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2813,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2814,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2814,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2814,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2814,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2814,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2814,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2815,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2815,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2815,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2815,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2815,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2815,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2816,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2816,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2816,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2816,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2816,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2816,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2817,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2817,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2817,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2817,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2817,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2817,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2818,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2818,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2818,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2818,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2818,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2818,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2819,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2819,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2819,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2819,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2819,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2819,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2820,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2820,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2820,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2820,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2820,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2820,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2821,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2821,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2821,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2821,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2821,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2821,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2822,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2822,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2822,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2822,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2822,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2822,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2823,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2823,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2823,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2823,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2823,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2823,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2824,
+    "arm": "full",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2824,
+    "arm": "full",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2824,
+    "arm": "frozen",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2824,
+    "arm": "frozen",
+    "mode": "bf16",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2824,
+    "arm": "periodic_r4",
+    "mode": "common_fp32",
+    "max_error": 0.0
+  },
+  {
+    "seed": 2824,
+    "arm": "periodic_r4",
+    "mode": "bf16",
+    "max_error": 0.0
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "version": "stage13C-matched-local-trajectory-v1",
+  "seeds": [1601, 1602],
+  "arms": ["full", "full_aux", "local", "suffix"],
+  "orders": [["full", "full_aux", "local", "suffix"], ["suffix", "local", "full_aux", "full"]],
+  "score_steps": [0, 1, 4, 16, 64, 176, 352],
+  "warmup_steps": 3,
+  "calibration_steps": 128,
+  "calibration_lr": 0.001,
+  "trace_atol": 0.00001,
+  "trace_rtol": 0.00001,
+  "score_loss_atol": 0.00001,
+  "accuracy_atol": 0.000000000001,
+  "accuracy_margin_pp": 0.3,
+  "minimum_time_saving": 0.1,
+  "minimum_memory_saving": 0.2
+}

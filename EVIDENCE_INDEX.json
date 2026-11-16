@@ -1,0 +1,164 @@
+[
+  {
+    "study": "stage6b",
+    "report": "evidence/stage6b/REPORT.md",
+    "scope": "Original held-out-seed confirmation; preserve declared 1 pp margin",
+    "report_sha256": "8f32c539f412e5b38e046eb9bd08a32dded4b6cc9b7cfcec045f701e47632ac1"
+  },
+  {
+    "study": "stage7b",
+    "report": "evidence/stage7b/REPORT.md",
+    "scope": "Six-seed scheduling and optimizer ablations; exploratory contrasts",
+    "report_sha256": "39e8b6846eea28afc326f796bad11291abd44f9edccb67d281166199fcd45dfc"
+  },
+  {
+    "study": "stage7c",
+    "report": "evidence/stage7c/REPORT.md",
+    "scope": "Sensitivity; no full-gradient control inside this study",
+    "report_sha256": "6039f87ba1856a42a62640e13ede373f270d3445f6a42a009db0c3cf73e36d46"
+  },
+  {
+    "study": "stage7d",
+    "report": "evidence/stage7d/REPORT.md",
+    "scope": "CIFAR-100 transfer; quality cost retained",
+    "report_sha256": "ea8c5e5a1909490cd0e2132a2651e800d7036ff11eb15864d6e936eca971decc"
+  },
+  {
+    "study": "stage7e",
+    "report": "evidence/stage7e/REPORT.md",
+    "scope": "AdamW extension; mean difference is not formal equivalence",
+    "report_sha256": "dabf517f987cc3a841d55698ab2c797d1a379abc4ffdce16dd2c7b760fa35ec9"
+  },
+  {
+    "study": "stage8b",
+    "report": "evidence/stage8b/REPORT.md",
+    "scope": "ViT extension; joint primary failure with strong periodic control",
+    "report_sha256": "b8848dd57fe6f91598f362b51dc7d2c97a3a5e90ca183214e26c1d5496550f12"
+  },
+  {
+    "study": "stage9e",
+    "report": "evidence/stage9e/REPORT.md",
+    "scope": "Adaptive gates fail; disclose quota limits and warmup drift",
+    "report_sha256": "8927e39a9b2632a9e836c19185132411d51058df68e4d921652748e821753687"
+  },
+  {
+    "study": "growth",
+    "report": "evidence/growth/REPORT.md",
+    "scope": "Fixed-budget savings, inconsistent quality; target reached later",
+    "report_sha256": "a49b9a85fbb0ac72a064135862cbd69ab2869fad4341dbb4762b73458785af99"
+  },
+  {
+    "study": "pretrained_adaptation",
+    "report": "evidence/pretrained_adaptation/REPORT.md",
+    "scope": "Selective failure and useful ordinary head-then-full control",
+    "report_sha256": "c297a305059cd906f8e1a08d3da5b3d082bb5b3263bb75233d1cc6a098098658"
+  },
+  {
+    "study": "local_objectives",
+    "report": "evidence/local_objectives/REPORT.md",
+    "scope": "Repaired full reference; tested local objective fails",
+    "report_sha256": "6b4c6f0b9649125f532975777177014a02f22e1f065a29505db88f3a5598a6c4"
+  },
+  {
+    "study": "token_recovery",
+    "report": "evidence/token_recovery/REPORT.md",
+    "scope": "Marginal and source-inclusive clocks distinct; quality failure",
+    "report_sha256": "50452d9438ecb322ffbb8926a33829ff5603b9c24c2dd362f9a016d838772dfb"
+  },
+  {
+    "study": "optimizer_reset",
+    "report": "evidence/optimizer_reset/REPORT.md",
+    "scope": "Small descriptive accuracy effect; joint failure remains",
+    "report_sha256": "ce7af6a4157c0f956442ea8f531337587f815d99fff5d0a74c20760cdb77dcca"
+  },
+  {
+    "study": "side_adaptation",
+    "report": "evidence/side_adaptation/REPORT.md",
+    "scope": "Fixed recipe fails quality against strongest controls",
+    "report_sha256": "e202892dff8cbac77a355af4bef7a6f211fe4cae2b83a571111f0c11aed63942"
+  },
+  {
+    "study": "sampled_gradients",
+    "report": "evidence/sampled_gradients/REPORT.md",
+    "scope": "Tested implementation slower; memory not a speed proxy",
+    "report_sha256": "76564d639377e8aa1013d8d033258e1a806b034a3a12de47667ce240b1f92e55"
+  },
+  {
+    "study": "qkv_confirmation",
+    "report": "evidence/qkv_confirmation/REPORT.md",
+    "scope": "Operation confirmation; not independent architecture evidence",
+    "report_sha256": "d7efbae954347814795077faebb30d4ea6542833cb5109f1f9ebe183b1ab3d06"
+  },
+  {
+    "study": "qkv_adaptation",
+    "report": "evidence/qkv_adaptation/REPORT.md",
+    "scope": "Scoped real-data implementation saving with exact recorded learning",
+    "report_sha256": "60502a9093f4debc01f13c603c4a0c661bc8a98eab3e36f5bd331cf279446d6e"
+  },
+  {
+    "study": "competitive_reference",
+    "report": "evidence/competitive_reference/REPORT.md",
+    "scope": "Established upstream reference constrains novelty and superiority",
+    "report_sha256": "5d726af65baea71f3a8240e37aa65aded8bf4f341da91b464fa12202055839e3"
+  },
+  {
+    "study": "optimized_execution",
+    "report": "evidence/optimized_execution/REPORT.md",
+    "scope": "Earlier BF16 numerical policy remains failed",
+    "report_sha256": "885125ade0c65a197d578b925aff532091e78b11040802499080ee0f3fe51b3a"
+  },
+  {
+    "study": "optimizer_sensitivity",
+    "report": "evidence/optimizer_sensitivity/REPORT.md",
+    "scope": "Parameter update diagnostic; not task-quality evidence",
+    "report_sha256": "c22989e6f21623650c7dc100d156a3de914ae46e277744e8383e3a29a5278342"
+  },
+  {
+    "study": "key_bias",
+    "report": "evidence/key_bias/REPORT.md",
+    "scope": "Precision-dependent functional effects; remedy not established",
+    "report_sha256": "3a7e20e5890497a427b7b5aa13dccbbd12f33a91aa392b093ca0bd05d49226a5"
+  },
+  {
+    "study": "bf16_adaptation",
+    "report": "evidence/bf16_adaptation/REPORT.md",
+    "scope": "Qualified local conventional baseline; different prospective policy",
+    "report_sha256": "fb8a0fb61fa6320c4f660d03059eb12999ba61f652dcbceb0fa361c90c5d0666"
+  },
+  {
+    "study": "optimized_cost",
+    "report": "evidence/optimized_cost/REPORT.md",
+    "scope": "Cost feasibility only; no quality inference",
+    "report_sha256": "d4d8b637998b45900b96caa4a00e3594f90facf3286afd2ff962afcb111ce00a"
+  },
+  {
+    "study": "prefix_adaptation",
+    "report": "evidence/prefix_adaptation/REPORT.md",
+    "scope": "Periodic/frozen quality failures despite consistent savings",
+    "report_sha256": "cd90b2d3da2288c424230254daefebfae9ba4e56b3d06f6a1d60db1d4f79950c"
+  },
+  {
+    "study": "copy_profile",
+    "report": "evidence/copy_profile/REPORT.md",
+    "scope": "Mixed ordinary timing and layout-dependent learning; target parked",
+    "report_sha256": "6b7c4ff12f92bad012dd359ad836fef5a172f28a7ee04d81c90bbfde3a0b5693"
+  },
+  {
+    "study": "pets_baseline",
+    "report": "evidence/pets_baseline/REPORT.md",
+    "scope": "Three development seeds; execution readiness only",
+    "report_sha256": "94ba092dc2420cb444f3a6f9b26ca58a31fd46991bddc75398d00b39d6903eaf"
+  },
+  {
+    "study": "pets_development",
+    "report": "evidence/pets_development/REPORT.md",
+    "scope": "Six development seeds; exploratory feasibility and precision planning",
+    "report_sha256": "68149b5fc4f21c7dd917c462b16ddf0631f250f054edadd74c0340c8d77ec7b4"
+  },
+  {
+    "study": "pets_independent",
+    "report": "evidence/pets_independent/REPORT.md",
+    "scope": "24 fresh evaluation seeds; official-test final accuracy; frozen primary and secondary comparisons",
+    "report_sha256": "a7d6441d99267259fd037656457ca12306ecff2ba007d0dc7bef648d355f0b2f"
+  }
+]

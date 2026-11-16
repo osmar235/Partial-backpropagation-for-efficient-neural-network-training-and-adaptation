@@ -1,0 +1,53 @@
+{
+  "version": "qkv-confirmation-v1",
+  "date": "2026-10-26",
+  "seeds": [
+    99101,
+    99102
+  ],
+  "batch_sizes": [
+    256,
+    200
+  ],
+  "arms": [
+    "math",
+    "qkv_unbind"
+  ],
+  "rounds": 4,
+  "discarded_warmup_updates": 20,
+  "steady_updates": 128,
+  "correctness_updates": 2,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "input_seed_offset": 341001,
+  "dropout_seed_offset": 342001,
+  "tolerances": {
+    "logits": {
+      "atol": 0.0001,
+      "rtol": 0.0003
+    },
+    "loss": {
+      "atol": 1E-05,
+      "rtol": 0.0001
+    },
+    "gradient": {
+      "atol": 2E-05,
+      "rtol": 0.0005
+    },
+    "parameter": {
+      "atol": 2E-05,
+      "rtol": 1E-05
+    },
+    "exp_avg": {
+      "atol": 5E-06,
+      "rtol": 0.001
+    },
+    "exp_avg_sq": {
+      "atol": 1E-07,
+      "rtol": 0.001
+    }
+  },
+  "sessions": 8
+}
+

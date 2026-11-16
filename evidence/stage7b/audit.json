@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "zip_sha256": "2bd4cc94b8616fd8941843a11828c4f2903c638628b2dfa304e0e76ae7c380c0",
+  "zip_files_matching_local": 119,
+  "completed_runs": 36,
+  "epochs": 1080,
+  "steps": 211680,
+  "original_files_unchanged": 218,
+  "checks": [
+    "ZIP CRC and local equality",
+    "configuration fingerprints and source hashes",
+    "planned settings and rotated order",
+    "full step-level EMA/gate/matched-mask reconstruction",
+    "cosine LR, counts, epoch and component timing reconciliation",
+    "final metrics and target crossings",
+    "all ten reported paired estimates and confidence intervals independently reproduced"
+  ]
+}

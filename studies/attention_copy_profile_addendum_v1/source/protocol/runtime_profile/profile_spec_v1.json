@@ -1,0 +1,19 @@
+{
+  "version": "runtime-profile-v1",
+  "date": "2026-10-25",
+  "seeds": [99051,99052],
+  "batch_sizes": [256,200],
+  "arms": ["native","exact_custom","sampled_quarter"],
+  "patches_kept": 16,
+  "patches_total": 64,
+  "rounds": 3,
+  "burnin_updates": 3,
+  "profile_warmup_updates": 1,
+  "profile_active_updates": 3,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "input_seed_offset": 321001,
+  "dropout_seed_offset": 322001,
+  "sampling_seed_offset": 323001
+}

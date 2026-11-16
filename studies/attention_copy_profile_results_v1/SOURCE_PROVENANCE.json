@@ -1,0 +1,38 @@
+{
+  "REPORT.md": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\attention_copy_profile_review_v1\\REPORT.md",
+    "sha256": "6b7c4ff12f92bad012dd359ad836fef5a172f28a7ee04d81c90bbfde3a0b5693"
+  },
+  "frozen_audit_recheck.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\attention_copy_profile_review_v1\\frozen_audit_recheck.json",
+    "sha256": "ab00bed352cbf950495c2e3ec0550f95335425ac5708f3a8c159de0bc49a92a4"
+  },
+  "independent_audit.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\attention_copy_profile_review_v1\\independent_audit.json",
+    "sha256": "68447be938e3335640465b9afe23d4257879d0091d7f5efa726b36d468ef6bee"
+  },
+  "review_data.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\attention_copy_profile_review_v1\\review_data.json",
+    "sha256": "7785c9c62e65677ebeec0dc2270a3fed94c6e507330917e88a2c8dce2e8fa84d"
+  },
+  "group_summary.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\attention_copy_profile_review_v1\\group_summary.json",
+    "sha256": "87605ad1b5c9b4951597cd9a8b2c83287d3289f214053184513b54a050786202"
+  },
+  "trace_reconstruction.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\attention_copy_profile_review_v1\\trace_reconstruction.json",
+    "sha256": "1c7ff65d72208d0401d93e786609c392ab006dca7231d4c374d5aed82420cec6"
+  },
+  "raw_measurements.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\attention_copy_profile_review_v1\\raw_measurements.json",
+    "sha256": "979ac69485f8aa6c45bf5dfa458f25f1a887f77fbef1ac7bd85814b619c99c80"
+  },
+  "telemetry.json": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\attention_copy_profile_review_v1\\telemetry.json",
+    "sha256": "fb40459840b356f0875b4cee77d9ba72564eccd17f3e2e99fb3e0d5a0946461d"
+  },
+  "analysis/summarize_results_v1.py": {
+    "source": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\attention_copy_profile\\summarize_results_v1.py",
+    "sha256": "490dae8c6b9453899dd39aa206311347abc414c666d1e007beb945e562a6bf6f"
+  }
+}

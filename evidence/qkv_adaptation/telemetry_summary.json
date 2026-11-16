@@ -1,0 +1,17 @@
+{
+  "preflight_samples": 24,
+  "post_trajectory_samples": 32,
+  "preflight_utilization_range": [
+    2.0,
+    6.0
+  ],
+  "post_trajectory_temperature_range_c": [
+    49.0,
+    71.0
+  ],
+  "post_trajectory_sm_clock_range_mhz": [
+    2752.0,
+    2850.0
+  ],
+  "continuous_monitoring": false
+}

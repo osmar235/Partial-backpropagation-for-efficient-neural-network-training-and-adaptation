@@ -1,0 +1,402 @@
+[
+  {
+    "task": "initialized_99201_synthetic",
+    "domain": "synthetic",
+    "kind": "initialized",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 0.13329695706876474,
+    "maximum_difference_ratio": 0.658379289497678
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "domain": "synthetic",
+    "kind": "initialized",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 0.13847985995369727,
+    "maximum_difference_ratio": 0.664042675568688
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "domain": "synthetic",
+    "kind": "initialized",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 0.14201582803109736,
+    "maximum_difference_ratio": 0.5876710159909847
+  },
+  {
+    "task": "initialized_99201_synthetic",
+    "domain": "synthetic",
+    "kind": "initialized",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 0.14756930879515792,
+    "maximum_difference_ratio": 0.5984917535393296
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "domain": "synthetic",
+    "kind": "initialized",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 0.13367468959317036,
+    "maximum_difference_ratio": 0.7521049102153342
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "domain": "synthetic",
+    "kind": "initialized",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 0.13378532586942612,
+    "maximum_difference_ratio": 0.7380700684105377
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "domain": "synthetic",
+    "kind": "initialized",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 0.14430840883983126,
+    "maximum_difference_ratio": 0.6426234699413472
+  },
+  {
+    "task": "initialized_99202_synthetic",
+    "domain": "synthetic",
+    "kind": "initialized",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 0.14627895085429848,
+    "maximum_difference_ratio": 0.6218261789808613
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 0.7150675561209271,
+    "maximum_difference_ratio": 1.450326005961252
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 0.6762503319797741,
+    "maximum_difference_ratio": 1.4355179968628213
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 0.9359848865622175,
+    "maximum_difference_ratio": 1.512639247114491
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 0.9390515765563596,
+    "maximum_difference_ratio": 1.5336958954675415
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 0.20214139954096644,
+    "maximum_difference_ratio": 0.32949830011177345
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 0.20188845163383182,
+    "maximum_difference_ratio": 0.3275498505320883
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 0.21495756326896784,
+    "maximum_difference_ratio": 0.32995135162828826
+  },
+  {
+    "task": "trained_1501_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 0.21305407165299617,
+    "maximum_difference_ratio": 0.33875155726061845
+  },
+  {
+    "task": "trained_1501_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 1.2571065335950058,
+    "maximum_difference_ratio": 1.4668686341811001
+  },
+  {
+    "task": "trained_1501_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 1.2842591009289117,
+    "maximum_difference_ratio": 1.4814049827334477
+  },
+  {
+    "task": "trained_1501_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 1.6204103250255124,
+    "maximum_difference_ratio": 1.5057992781464664
+  },
+  {
+    "task": "trained_1501_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 1.5397789110034084,
+    "maximum_difference_ratio": 1.508847383507704
+  },
+  {
+    "task": "trained_1501_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 0.1216652829527843,
+    "maximum_difference_ratio": 0.5524089875917576
+  },
+  {
+    "task": "trained_1501_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 0.1231055223875775,
+    "maximum_difference_ratio": 0.5690387481371088
+  },
+  {
+    "task": "trained_1501_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 0.12903974323435705,
+    "maximum_difference_ratio": 0.6033609061778076
+  },
+  {
+    "task": "trained_1501_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 0.12827838620553386,
+    "maximum_difference_ratio": 0.6048885908040837
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 0.5948478081379395,
+    "maximum_difference_ratio": 1.43049707493386
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 0.6220039020637634,
+    "maximum_difference_ratio": 1.4355995677448203
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 0.8429243605377379,
+    "maximum_difference_ratio": 1.5658932963183783
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 0.8665263572390586,
+    "maximum_difference_ratio": 1.5251024160642421
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 0.20308580876891777,
+    "maximum_difference_ratio": 0.3449755058913934
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 0.23492861110004024,
+    "maximum_difference_ratio": 0.3615191512351429
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 0.2107048668440538,
+    "maximum_difference_ratio": 0.3608862704918033
+  },
+  {
+    "task": "trained_1502_synthetic",
+    "domain": "synthetic",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 0.2496372012315289,
+    "maximum_difference_ratio": 0.36178903440952365
+  },
+  {
+    "task": "trained_1502_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 1.1638548494082155,
+    "maximum_difference_ratio": 1.4599699608792847
+  },
+  {
+    "task": "trained_1502_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 1.1368952634956642,
+    "maximum_difference_ratio": 1.4749734552837956
+  },
+  {
+    "task": "trained_1502_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 1.3359504159021063,
+    "maximum_difference_ratio": 1.5140319369411326
+  },
+  {
+    "task": "trained_1502_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 0,
+    "context": "archived",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 1.2488046212159551,
+    "maximum_difference_ratio": 1.4984050182549735
+  },
+  {
+    "task": "trained_1502_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_math",
+    "relative_l2_ratio": 0.11422755517413795,
+    "maximum_difference_ratio": 0.5575737252929451
+  },
+  {
+    "task": "trained_1502_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_math",
+    "relative_l2_ratio": 0.11443411203671355,
+    "maximum_difference_ratio": 0.5675962666964735
+  },
+  {
+    "task": "trained_1502_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "native_bf16_auto",
+    "relative_l2_ratio": 0.11887182701828201,
+    "maximum_difference_ratio": 0.6085004517553256
+  },
+  {
+    "task": "trained_1502_training",
+    "domain": "training",
+    "kind": "trained",
+    "anchor": 2,
+    "context": "retained_two_updates",
+    "arm": "reference_bf16_auto",
+    "relative_l2_ratio": 0.11989400929362351,
+    "maximum_difference_ratio": 0.6057862478809217
+  }
+]

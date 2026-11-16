@@ -1,0 +1,117 @@
+{
+  "prepared_date": "2026-10-23",
+  "synthetic": false,
+  "spec": {
+    "version": "stage14A-intermediate-token-diagnostic-v1",
+    "seeds": [
+      1501,
+      1502
+    ],
+    "modes": [
+      "full",
+      "spatial",
+      "similarity"
+    ],
+    "after_blocks": 3,
+    "original_patch_tokens": 64,
+    "merged_patch_tokens": 32,
+    "batch_size": 256,
+    "eval_batch_size": 512,
+    "trials": 12,
+    "warmups": 3,
+    "accuracy_margin_pp": 0.3,
+    "minimum_time_saving": 0.1,
+    "minimum_incremental_memory_saving": 0.2,
+    "baseline_min_accuracy": 0.8,
+    "source_loss_tolerance": 1e-05,
+    "stream_seed_offset": 214001,
+    "dropout_seed_offset": 215001,
+    "operations": [
+      "inference",
+      "forward_backward"
+    ]
+  },
+  "source_sha256": {
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage8_vit_v2.py": "2cb7d41d21fd6e906efa5dab69f03d5638aa06ca7586f69c73152ae7c93452e5",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage8_workflow_v2.py": "b34f2dccd2bbc012f7dae7c3d3caf65251a239edcd801101133c16e865db6f3e",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage8_audit_v2.py": "ceda4bb8545fe6b5edc8da945363f84040f02880eea8f95cf6c1688c2c65135d",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage8\\study_spec_v2.json": "191967df463ec4f29638070ca6e87400859281a31ac62e25feb2f92683feba4b",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\agrls_stage6a_cifar10_augmented_schedule.py": "556bd1b69f06acf8e1787521b40a32dd65b3166ee1f7966de323c4fa603cad53",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\agrls_stage5a1_cifar10_fggr_microprobe.py": "8e90fa73a179ee75b2dd4e650222dccc553f9ce9f7988a977c4ddf2c7573db61",
+    "C:\\Users\\osmar\\projects\\.venv\\Lib\\site-packages\\torchvision\\models\\vision_transformer.py": "a832238318b4c406a9051cab8941538ee22c4de5a2410d369d96a4b3b4a10a81",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage8\\STAGE8_PROTOCOL_v2.md": "2c46afd62260a8cd4615dcee451fa678535bf63a9ed148fa25a79ff338a2eb59",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage9_boundary_diagnostic.py": "c979f9ead6924941107f006285a1429a82fef928317ff71240c94d6cf17b76fd",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage9\\boundary_diagnostic_spec_v1.json": "60030c91d4784ad2500dba168aefaca2766ab40a350a5097f0d67e7752159149",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage9_split_backward_proof.py": "bac39c7906f3dfda7f13d8835c5fee0c5c174dd75efd460a0a5cbeed645a21ee",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage9\\BOUNDARY_DIAGNOSTIC_v1.md": "e10b2ddcb7ac28820a55e80dac456b80c444ac61fd461583056ac6f82c9bd78e",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage10_models.py": "80ae826fb092e8a5b12dcc54eeb25d52863f0ff47de9925df4f98592ea755f87",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage10_representation.py": "abacae79d627e4ed0e39061f28eadc7b9e69fa70059d894c5ccb5101857204e0",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\review_stage10A.py": "4dceb7c832eb6ecc79fb73d7cdc172513a511fc66b8f992f41ec9d99605347ca",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\test_stage10_representation.py": "d0e36ffca7645ef414960f4d180aa325df4d6f59a9322571d9f86d9e32370652",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\run_stage10A_representation.cmd": "68a2cab6760165f2d0d099a8a53e0e217a856c2891eabf3a9ea3294af7ed90fd",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage10\\representation_spec_v1.json": "1cc2432cef796430ad09840dbd9c5835f643189d8d8b26d730ac1776f470dc2f",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage10\\REPRESENTATION_SCREEN_v1.md": "4c115c50669ec44ec1b10da28b646a9ba69219de0b08d90d2f1e9ce228d7600b",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage14_tokens.py": "18f9e08c24d21a9c548e1ef798382149940454efe38afc077c3e5b088ea24022",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage14_diagnostic.py": "e4dacaa7cb330387720dbff41d7fd337f558534e3bcf4f720f65244a1328f9a2",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\review_stage14A.py": "fa2489d17678f31e32c9daa0573b723ec34c928acfc7b0aa9199bfb434931995",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\test_stage14_tokens.py": "42211ad6202941321d5dd9739f48b0edbf3220e864bc4876b5d1e51d13c119c4",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\run_stage14A_token_diagnostic.cmd": "c0073f17cfbd96a8545afaaca5f1df2441229a840619c258880ac50695aaf7d9",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage14\\token_diagnostic_spec_v1.json": "ce0054177f0016a6a9b4c7cb2b80d1d1394c13951200ee3a424b2bd3280b5ca8",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage14\\TOKEN_DIAGNOSTIC_v1.md": "3b99696939965e3036f172625113ed18fb6b9524bf7d871ac490a254ee05e705"
+  },
+  "evidence_sha256": {
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\configuration.json": "ed85565ef56494a98303faa43e634e555a19c591c0c62e4bdd4d8c1f1336849c",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_review_v1\\REPORT.md": "a49b9a85fbb0ac72a064135862cbd69ab2869fad4341dbb4762b73458785af99",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage13A_review_v1\\REPORT.md": "a9a39aa9cadd0a4d0a9903fed9152196230e57c3b56caedb59a4c388dfdf9361",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\paper\\RESEARCH_DISCUSSION_MEMORY_v1.md": "f20e18dd53c8500671fa1526a349ec7ddbfede25acb584aeb733e2a620234ed9",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1501\\full\\COMPLETE.json": "c3909f00c8c01441221a7fca92b35caf4e110e1b1f82ee2bb6e8aba1104d8f0c",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1501\\full\\run_config.json": "12eb4cacdb8cd67aa116a92fe7ebdf05337ade752374168275863efb5669e759",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1501\\full\\attempt_001\\summary.json": "e29911428d2eef53816ff377710c39ded81b5831c78450d6f7953c0a46b7c467",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1502\\full\\COMPLETE.json": "0cc31811cb22c57c534f8cbf997c1a2a4f2225eec7e9d8c44097b882b7c05439",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1502\\full\\run_config.json": "f1132b25226e37944b913af0f4b041c0d81920485c05415e80b362b008ca9d59",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1502\\full\\attempt_001\\summary.json": "a3d2d89ea6e1bd519ec260877a2383cbe3dbc9449d7096ec1b6d5938bab21a0e"
+  },
+  "checkpoints": {
+    "1501": {
+      "path": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1501\\full\\attempt_001\\final_checkpoint.pt",
+      "sha256": "b62dc07c108121c2bcf9f7fa763eb78c54c9681877008d845e33e7eb201da96d",
+      "updates": 17600,
+      "run_fingerprint": "565311c97a5983e2ee07f208aa1ec932003cbec58e8d00a28fe3ae693838e04a",
+      "root_fingerprint": "3740b0f109c08c74ff48118eb15311469cf5a00b384a761d7a3c6e8d50062ad2",
+      "accuracy": 0.8246,
+      "loss": 0.6180185089111329
+    },
+    "1502": {
+      "path": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage11B_growth_pilot_v1\\seed_1502\\full\\attempt_001\\final_checkpoint.pt",
+      "sha256": "a57ea7c165463f3de57bb6fea4306459142cd94356f183faf2ea929c2c0308dc",
+      "updates": 17600,
+      "run_fingerprint": "1114fa7bd18502498495f001a6a376f803927b3ed2b8b91a0763a3bd1589abaa",
+      "root_fingerprint": "3740b0f109c08c74ff48118eb15311469cf5a00b384a761d7a3c6e8d50062ad2",
+      "accuracy": 0.8274,
+      "loss": 0.6157069610595703
+    }
+  },
+  "expected_split": {
+    "kind": "train_only_stratified_45000_5000",
+    "train_index_sha256": "00491c95abbca7f58eb0dd3b4837d9454346be33a85fa35bdeac50548bf8f30f",
+    "validation_index_sha256": "da760376f97d0ecaa9ce13819d1953983cd5b3646b1df6c82140004b78ecdfde"
+  },
+  "execution": {
+    "deterministic": true,
+    "warn_only": false,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "flash_sdp": false,
+    "mem_efficient_sdp": false,
+    "math_sdp": true,
+    "cudnn_sdp": false,
+    "cublas_workspace": ":4096:8",
+    "cpu_threads": 1,
+    "tf32_matmul": false,
+    "tf32_cudnn": false
+  },
+  "torch_version": "2.11.0+cu128",
+  "torchvision_version": "0.26.0+cu128",
+  "python_version": "3.14.3",
+  "freeze_hash": "2a070bfee1b904b0cede831fa34365e3443769adcddff39764cba8bd581fec46"
+}

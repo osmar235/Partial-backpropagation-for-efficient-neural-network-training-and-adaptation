@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "runs": 10,
+  "updates": 176000,
+  "initial_full_warmup_losses_bitwise_identical": false,
+  "initial_full_warmup_max_loss_difference": 0.0730515718460083,
+  "warmup_note": "Matched initialization and RNG streams do not guarantee bitwise CUDA trajectories; native full-update arms already drift during warmup. No deterministic-algorithm setting was required by frozen protocol.",
+  "independent_targets_and_practical_screens_match": true,
+  "preserved_immutable_files": 648,
+  "final_checkpoint_validation_rescored": true,
+  "temperature_range": [
+    61.0,
+    73.0
+  ],
+  "clock_range": [
+    2752.0,
+    2805.0
+  ],
+  "decision": "Both adaptive candidates failed frozen development screen; no automatic extension or parameter search"
+}

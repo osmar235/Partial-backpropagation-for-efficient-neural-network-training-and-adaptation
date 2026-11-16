@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "synthetic": false,
+  "fingerprint": "3740b0f109c08c74ff48118eb15311469cf5a00b384a761d7a3c6e8d50062ad2",
+  "runs": 10,
+  "audited_updates": 176000,
+  "all_transition_states_and_counters_verified": true,
+  "matched_histories_bitwise_before_transition": true,
+  "data_rng_streams_matched": true,
+  "full_baselines_ready": true,
+  "both_seed_quality_pass": false,
+  "both_seed_speed_pass": true,
+  "promising_development_hypothesis": false,
+  "inference": "development pilot; primary complete-run wall time at comparable final accuracy; no novelty or publication result"
+}

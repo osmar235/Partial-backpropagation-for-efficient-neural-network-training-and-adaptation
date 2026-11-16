@@ -1,0 +1,2 @@
+variant,reference,n_paired_seeds,mean_accuracy_delta_pp,ci95_accuracy_low_pp,ci95_accuracy_high_pp,geometric_wall_ratio,ci95_wall_ratio_low,ci95_wall_ratio_high,mean_partial_fraction_diff_pp
+lgpb,adam,6,-0.6950000000000012,-1.3583479276296337,-0.03165207237036871,0.9001678657160582,0.888121050610035,0.9123780884500157,35.78514739229025

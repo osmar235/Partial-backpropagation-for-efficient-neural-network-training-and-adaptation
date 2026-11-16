@@ -1,0 +1,56 @@
+[
+  {
+    "available": true,
+    "gpus": [
+      {
+        "timestamp": "2026/10/24 23:09:44.917",
+        "index": "0",
+        "name": "NVIDIA GeForce RTX 5080",
+        "driver_version": "610.88",
+        "pstate": "P3",
+        "temperature.gpu": "41",
+        "utilization.gpu": "2",
+        "clocks.sm": "592",
+        "clocks.mem": "7001",
+        "power.draw": "39.23",
+        "power.limit": "360.00"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "gpus": [
+      {
+        "timestamp": "2026/10/24 23:09:45.494",
+        "index": "0",
+        "name": "NVIDIA GeForce RTX 5080",
+        "driver_version": "610.88",
+        "pstate": "P3",
+        "temperature.gpu": "41",
+        "utilization.gpu": "2",
+        "clocks.sm": "442",
+        "clocks.mem": "7001",
+        "power.draw": "39.17",
+        "power.limit": "360.00"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "gpus": [
+      {
+        "timestamp": "2026/10/24 23:09:46.159",
+        "index": "0",
+        "name": "NVIDIA GeForce RTX 5080",
+        "driver_version": "610.88",
+        "pstate": "P3",
+        "temperature.gpu": "41",
+        "utilization.gpu": "3",
+        "clocks.sm": "772",
+        "clocks.mem": "7001",
+        "power.draw": "40.23",
+        "power.limit": "360.00"
+      }
+    ]
+  }
+]

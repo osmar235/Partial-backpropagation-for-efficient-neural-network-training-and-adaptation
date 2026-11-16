@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "sessions": 8,
+  "trajectories": 32,
+  "paired_comparisons": 16,
+  "faster_pairs": 16,
+  "training_updates": 28160,
+  "discarded_warmup_updates": 96,
+  "frozen_audit_final_checkpoints_rescored": 32,
+  "distinct_process_ids": [
+    28628,
+    50212,
+    63824,
+    62500,
+    66036,
+    66300,
+    34772,
+    28264
+  ],
+  "fragmented_sessions": 0,
+  "native_reference_loss_and_logits_difference": 0,
+  "all_paired_and_cross_session_learning_records_identical": true,
+  "independent_validation_score_method": "stdlib NPY float32/int64 parsing and stable softmax scoring; repeated identical prediction payloads compared bytewise",
+  "peak_memory_deltas": [
+    0
+  ],
+  "incremental_memory_deltas": [
+    -68157440,
+    0,
+    68157440
+  ],
+  "reserved_memory_deltas": [
+    -2097152,
+    0,
+    2097152
+  ],
+  "comparison": [
+    {
+      "seed": 1501,
+      "native_median_seconds": 30.924771050049458,
+      "candidate_median_seconds": 28.784488200035412,
+      "median_paired_saving_percent": 6.337698213814447,
+      "median_paired_saved_seconds": 1.9592941000009887,
+      "min_saving_percent": 5.245252800330191,
+      "max_saving_percent": 13.210462429683478,
+      "positive_pairs": 8,
+      "adjusted_p": 0.0078125,
+      "native_first_median_saving": 7.451156257413771,
+      "candidate_first_median_saving": 5.982773224735483,
+      "training_median_saving_percent": 6.972678344705136,
+      "training_positive_pairs": 8,
+      "final_accuracy": 0.847
+    },
+    {
+      "seed": 1502,
+      "native_median_seconds": 31.111328899976797,
+      "candidate_median_seconds": 28.84920435003005,
+      "median_paired_saving_percent": 6.403439743659806,
+      "median_paired_saved_seconds": 1.957555249973666,
+      "min_saving_percent": 3.235914068217216,
+      "max_saving_percent": 8.649887111800359,
+      "positive_pairs": 8,
+      "adjusted_p": 0.0078125,
+      "native_first_median_saving": 8.029043371320089,
+      "candidate_first_median_saving": 5.674548682863712,
+      "training_median_saving_percent": 7.244522206972526,
+      "training_positive_pairs": 8,
+      "final_accuracy": 0.8388
+    }
+  ],
+  "original_ten_percent_outcome": "FAILED_UNCHANGED",
+  "new_training_performed": false,
+  "raw_results_unchanged": true
+}

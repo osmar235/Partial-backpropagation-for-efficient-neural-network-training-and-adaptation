@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "manifest": "protocol/stage7/frozen_files_before.csv",
+      "verified": 218,
+      "changed": []
+    },
+    {
+      "manifest": "results/stage8A_review_v1/preserved_v1_sha256.csv",
+      "verified": 35,
+      "changed": []
+    }
+  ],
+  "real_v2_paths_absent": true
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "date": "2026-10-25",
+  "trials_verified": 72,
+  "paired_candidate_rounds": 24,
+  "retained_artificial_updates_verified": 648,
+  "discarded_warmup_updates_verified": 216,
+  "passing_conditions": 0,
+  "total_conditions": 4,
+  "passing_candidate_rounds": 0,
+  "operation_cost_gate": false,
+  "decision": "park_fixed_implementation",
+  "prior_and_raw_files_preserved": 2785,
+  "new_benchmark_or_training_performed": false,
+  "real_data_or_checkpoint_used": false,
+  "task_quality_measured": false,
+  "complete_adaptation_measured": false
+}

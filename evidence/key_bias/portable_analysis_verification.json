@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "group_summary_exact": true,
+  "findings_exact": true,
+  "standard_library_only": true
+}

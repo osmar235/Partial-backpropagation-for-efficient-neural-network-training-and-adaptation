@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "date": "2026-10-25",
+  "prior_files_preserved": 2215,
+  "benchmark": {
+    "status": "PASS",
+    "date": "2026-10-25",
+    "synthetic": true,
+    "smoke": false,
+    "trials": 128,
+    "discarded_warmup_updates": 384,
+    "retained_artificial_updates": 1152,
+    "paired_condition_count": 4,
+    "operation_cost_gate": true,
+    "decision": "cost_feasible_prepare_quality_screen",
+    "real_data_loaded": false,
+    "real_checkpoints_loaded": false,
+    "task_quality_measured": false,
+    "complete_adaptation_time_measured": false
+  },
+  "real_study_prepared": false,
+  "publication_on_hold": true,
+  "current_master": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\adaptive_gradient_refresh_project_master_v7.20.md",
+  "paper_memory": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\paper\\RESEARCH_DISCUSSION_MEMORY_v10.md"
+}

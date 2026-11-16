@@ -1,0 +1,15 @@
+{
+  "freeze": "1fec63bf3a8821e606a773f2bdaebca8f96cdf8c7d8bc9c871ff62baa46d0518",
+  "hardware": "NVIDIA GeForce RTX 5080",
+  "python": "3.14.3",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "raw_configuration_sha256": "909cca370292f5649fa07f9896f9387af2c9124818976762415d9fc00a09534c",
+  "raw_complete_sha256": "233df1ed9724f1fe44b669783a97f6fc5f352e4a09394144aaf78b014ecfe607",
+  "profiled_warmup_dispatch": {
+    "reference_fp32_math/math": 72,
+    "reference_bf16_math/math": 72,
+    "reference_bf16_auto/efficient": 72
+  },
+  "raw_checkpoint_bytes": 1167954228
+}

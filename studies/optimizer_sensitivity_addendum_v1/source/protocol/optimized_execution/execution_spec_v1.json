@@ -1,0 +1,37 @@
+{
+  "version": "optimized-execution-feasibility-v1",
+  "seeds": [99201, 99202],
+  "batch_sizes": [256, 200],
+  "sessions": 4,
+  "rounds": 6,
+  "correctness_updates": 3,
+  "discarded_warmup_updates": 5,
+  "steady_updates": 32,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "input_seed_offset": 381001,
+  "dropout_seed_offset": 382001,
+  "required_baseline": "reference_fp32_math",
+  "arms": ["native_fp32_math", "reference_fp32_math", "native_bf16_math", "reference_bf16_math", "native_bf16_auto", "reference_bf16_auto"],
+  "fp32_tolerances": {
+    "logits": {"atol": 0.0001, "rtol": 0.0003},
+    "loss": {"atol": 0.00001, "rtol": 0.0001},
+    "gradient": {"atol": 0.00002, "rtol": 0.0005},
+    "parameter": {"atol": 0.00002, "rtol": 0.00001},
+    "exp_avg": {"atol": 0.000005, "rtol": 0.001},
+    "exp_avg_sq": {"atol": 0.0000001, "rtol": 0.001}
+  },
+  "bf16_sanity_budgets": {
+    "logits_max_abs": 0.02,
+    "logits_relative_l2": 0.02,
+    "loss_max_abs": 0.02,
+    "gradient_relative_l2": 0.1,
+    "gradient_cosine_min": 0.99,
+    "parameter_max_abs": 0.0003,
+    "exp_avg_relative_l2": 0.1,
+    "exp_avg_sq_relative_l2": 0.2
+  },
+  "bf16_budget_interpretation": "Prospective coarse numerical sanity screen only; not bitwise equivalence, task-quality noninferiority or a learned quality tolerance.",
+  "compiler_scope": "Capability-only CUDA Inductor probe in the installed environment. No compiled performance claim or eager substitution. A successful capability probe requires a separate full-model compiled protocol."
+}

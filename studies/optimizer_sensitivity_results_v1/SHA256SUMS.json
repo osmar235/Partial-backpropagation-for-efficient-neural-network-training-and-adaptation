@@ -1,0 +1,14 @@
+{
+  "comparison_rows.json": "43971ef729a3caa8bc98003daf7d29ece69a32b1c3233a31005bcc20383711f6",
+  "coordinate_traces.json": "3153cf6156858bb3dd105e1c3ee2f92f6277896440b07b194e3152c5e01d0045",
+  "dispatch.json": "a5f2a719dd23f943fdfa30518cf5aaef40963eb92179a093fe348644d37f1470",
+  "group_summary.json": "393d3a8b67d4887a30dd031ce1d47c81b32e493fa3d7afcbfe10677c10c945fb",
+  "history_contrasts.json": "3df193932babbc8d05bc58fea5840c6987d8098b153b01ae12512efa3ebad177",
+  "independent_audit.json": "09e2b1e1baed3fb18b9543b0e718647608d0b26c877f0cdd864c84e18e2c82f1",
+  "norm_scale_check.json": "b527cd13e5275481ba2422ae65a97b652289350686d0c22f0b42d48cfbf6bea8",
+  "original_workspace_review.py": "062d70cace66dbd7ea3826e853ac99f4dc6a01410b84a67092b13360eb9ddbce",
+  "README.md": "19e55b3657c55a57a304ae1be2479e453227b041cb82087139359a63733be255",
+  "recompute_summary.py": "24ea63489d123126b82123ad32c6f3d6892b1319d5cb82cf0401af2eb73b05bc",
+  "REPORT.md": "c22989e6f21623650c7dc100d156a3de914ae46e277744e8383e3a29a5278342",
+  "source_metadata.json": "6ca69054003acb37a965ccd4c4b30a305b213b60e325d629a8d3301756a63ead"
+}

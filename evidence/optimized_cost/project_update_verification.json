@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "preserved_immutable_files": 8182,
+  "result_source_copies": 7,
+  "master": "v7.47",
+  "paper_memory": "v36",
+  "training_rerun": false,
+  "inference_run": false,
+  "next_experiment_prepared": false
+}

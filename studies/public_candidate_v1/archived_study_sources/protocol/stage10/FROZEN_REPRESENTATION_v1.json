@@ -1,0 +1,109 @@
+{
+  "version": "stage10A-representation-screen-v1",
+  "prepared_date": "2026-10-21",
+  "synthetic": false,
+  "spec": {
+    "version": "stage10A-representation-screen-v1",
+    "development_seeds": [
+      1401,
+      1402
+    ],
+    "variants": [
+      "full_rgb32",
+      "small_rgb32",
+      "coarse_rgb16",
+      "pixel_branches",
+      "haar_branches"
+    ],
+    "orders": [
+      [
+        "full_rgb32",
+        "small_rgb32",
+        "coarse_rgb16",
+        "pixel_branches",
+        "haar_branches"
+      ],
+      [
+        "haar_branches",
+        "pixel_branches",
+        "coarse_rgb16",
+        "small_rgb32",
+        "full_rgb32"
+      ]
+    ],
+    "epochs": 100,
+    "schedule_horizon_epochs": 300,
+    "batch_size": 256,
+    "eval_batch_size": 512,
+    "learning_rate": 0.001,
+    "weight_decay": 0.05,
+    "mixup_alpha": 0.2,
+    "label_smoothing": 0.1,
+    "lr_warmup_epochs": 5,
+    "min_lr_ratio": 0.01,
+    "hardware_warmup_steps": 16,
+    "telemetry_every_epochs": 5,
+    "primary_target": 0.8,
+    "secondary_target": 0.82,
+    "sustained_epochs": 3,
+    "minimum_time_gain": 0.05,
+    "final_accuracy_margin_pp": 0.2,
+    "minimum_detail_gain_pp": 0.5,
+    "minimum_structure_gain_pp": 0.2,
+    "maximum_structure_training_cost_ratio": 1.05,
+    "expected_batches_per_epoch": 176,
+    "expected_updates_per_run": 17600,
+    "base_architecture": "native ViT6, patch4, width192, heads3, MLP768, dropout0.1; small RGB width96/MLP384",
+    "detail_architecture": "9->24->48 channels; two conv3x3 stride2 padding1 with GELU; spatial mean; LayerNorm48; concatenate with class feature then zero-init linear head",
+    "dropout_seed_offset": 195001,
+    "inference": "development representation/architecture screen; all parameters use full AdamW each step; no optimizer hybrid, independent local losses, adaptive omissions, novelty or publication claim"
+  },
+  "source_sha256": {
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage8_vit_v2.py": "2cb7d41d21fd6e906efa5dab69f03d5638aa06ca7586f69c73152ae7c93452e5",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage8_workflow_v2.py": "b34f2dccd2bbc012f7dae7c3d3caf65251a239edcd801101133c16e865db6f3e",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage8_audit_v2.py": "ceda4bb8545fe6b5edc8da945363f84040f02880eea8f95cf6c1688c2c65135d",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage8\\study_spec_v2.json": "191967df463ec4f29638070ca6e87400859281a31ac62e25feb2f92683feba4b",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\agrls_stage6a_cifar10_augmented_schedule.py": "556bd1b69f06acf8e1787521b40a32dd65b3166ee1f7966de323c4fa603cad53",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\agrls_stage5a1_cifar10_fggr_microprobe.py": "8e90fa73a179ee75b2dd4e650222dccc553f9ce9f7988a977c4ddf2c7573db61",
+    "C:\\Users\\osmar\\projects\\.venv\\Lib\\site-packages\\torchvision\\models\\vision_transformer.py": "a832238318b4c406a9051cab8941538ee22c4de5a2410d369d96a4b3b4a10a81",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage8\\STAGE8_PROTOCOL_v2.md": "2c46afd62260a8cd4615dcee451fa678535bf63a9ed148fa25a79ff338a2eb59",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage9_boundary_diagnostic.py": "c979f9ead6924941107f006285a1429a82fef928317ff71240c94d6cf17b76fd",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage9\\boundary_diagnostic_spec_v1.json": "60030c91d4784ad2500dba168aefaca2766ab40a350a5097f0d67e7752159149",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage9_split_backward_proof.py": "bac39c7906f3dfda7f13d8835c5fee0c5c174dd75efd460a0a5cbeed645a21ee",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage9\\BOUNDARY_DIAGNOSTIC_v1.md": "e10b2ddcb7ac28820a55e80dac456b80c444ac61fd461583056ac6f82c9bd78e",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage10_models.py": "80ae826fb092e8a5b12dcc54eeb25d52863f0ff47de9925df4f98592ea755f87",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\stage10_representation.py": "abacae79d627e4ed0e39061f28eadc7b9e69fa70059d894c5ccb5101857204e0",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\review_stage10A.py": "4dceb7c832eb6ecc79fb73d7cdc172513a511fc66b8f992f41ec9d99605347ca",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\test_stage10_representation.py": "d0e36ffca7645ef414960f4d180aa325df4d6f59a9322571d9f86d9e32370652",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\scripts\\run_stage10A_representation.cmd": "68a2cab6760165f2d0d099a8a53e0e217a856c2891eabf3a9ea3294af7ed90fd",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage10\\representation_spec_v1.json": "1cc2432cef796430ad09840dbd9c5835f643189d8d8b26d730ac1776f470dc2f",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage10\\REPRESENTATION_SCREEN_v1.md": "4c115c50669ec44ec1b10da28b646a9ba69219de0b08d90d2f1e9ce228d7600b"
+  },
+  "evidence_sha256": {
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage9E_review_v1\\REPORT.md": "8927e39a9b2632a9e836c19185132411d51058df68e4d921652748e821753687",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage9E_review_v1\\independent_audit.json": "a102df1fef71be2cb9934fb9d99b8220484e79da91d527da69622d30673f57a5",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\protocol\\stage9\\POST_PILOT_DECISION_v1.md": "f6cecba2aafa3d047a3473fe81421275b1a7054229651a2ce538871af378047a",
+    "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\results\\stage9E_quality_pilot_v1\\configuration.json": "d0ec728489be0849b488c0e5f7628df96b689725eaf21f77472ab20ce4486bc8"
+  },
+  "expected_split": {
+    "kind": "train_only_stratified_45000_5000",
+    "train_index_sha256": "00491c95abbca7f58eb0dd3b4837d9454346be33a85fa35bdeac50548bf8f30f",
+    "validation_index_sha256": "da760376f97d0ecaa9ce13819d1953983cd5b3646b1df6c82140004b78ecdfde"
+  },
+  "required_execution": {
+    "deterministic": true,
+    "warn_only": false,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "flash_sdp": false,
+    "mem_efficient_sdp": false,
+    "math_sdp": true,
+    "cudnn_sdp": false,
+    "cublas_workspace": ":4096:8",
+    "cpu_threads": 1,
+    "tf32_matmul": false,
+    "tf32_cudnn": false
+  },
+  "role": "representation/architecture development screen; no local optimizer/evolution/new-method claim",
+  "freeze_hash": "d6d0fa21b0747f2884bd79314951c63a712cbaf6bc7d40778271f2c4de34081c"
+}

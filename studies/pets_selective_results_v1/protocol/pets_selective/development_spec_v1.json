@@ -1,0 +1,11 @@
+{
+  "version": "pets-selective-development-v1",
+  "seeds": [2701, 2702, 2703, 2704, 2705, 2706],
+  "arms": ["full", "frozen", "periodic_r4"],
+  "policy": "bf16",
+  "prefix": "stem + layer1 + layer2",
+  "refresh_period": 4,
+  "orders": [["full", "frozen", "periodic_r4"], ["frozen", "periodic_r4", "full"], ["periodic_r4", "full", "frozen"], ["periodic_r4", "frozen", "full"], ["full", "periodic_r4", "frozen"], ["frozen", "full", "periodic_r4"]],
+  "test_access": false,
+  "scope": "development feasibility and paired variance estimation only"
+}

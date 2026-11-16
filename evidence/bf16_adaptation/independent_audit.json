@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "trajectories": 36,
+  "training_updates_audited": 31680,
+  "logit_arrays_independently_scored": 252,
+  "paired_comparisons": 24,
+  "both_policies_pass": true,
+  "fragmented_sessions": [],
+  "model_forwards_this_independent_audit": 0,
+  "backwards_this_review": 0,
+  "optimizer_steps_this_review": 0,
+  "prior_immutable_files": 7264
+}

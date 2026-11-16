@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "preserved_files": 5534,
+  "master": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\adaptive_gradient_refresh_project_master_v7.37.md",
+  "paper_memory": "C:\\Users\\osmar\\projects\\Projeto_AI_Fronteira\\paper\\RESEARCH_DISCUSSION_MEMORY_v26.md",
+  "no_experiment_rerun": true,
+  "consistent_competitive_unbind_advantage": false,
+  "full_shape_numerical_gates_pass": true,
+  "original_ten_percent_gate": "FAILED_UNCHANGED",
+  "next_experiment_prepared": false,
+  "publication_on_hold": true
+}

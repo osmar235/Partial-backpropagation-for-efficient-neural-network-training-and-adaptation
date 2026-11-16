@@ -1,0 +1,14 @@
+{
+  "analysis/extract_findings_v1.py": "cbea1bb774db20c2e7f9d3ea66f0c3c9f31ae739bb2c3aeace3c6ba13cda60c0",
+  "analysis/summarize_results_v1.py": "bb7ef6fd83d8afeb22198acc9a3897edb6c3e8f20b0068f7c1b11063bdc64cd3",
+  "comparison_rows.json": "3769d3e4aa89212d857449ac5edece6ade7fb16577c7e7c327045cf9e083defc",
+  "findings.json": "199aadbbfca3cf87890f6be402f06734cf6bfec0d68047bb7b2fd28bc094bccc",
+  "group_summary.json": "6ea871021ffd97e49a63983770918a61c0e0c4bbb442e4922395c34f045b56d5",
+  "independent_audit.json": "e803ed4e3613bddf4dc2a346fe6d39193858c052e65aceac91ee39b39bb992b5",
+  "loss_arithmetic_and_dispatch.json": "31dc3f13d86a472e06eb22359deae444c1fb96ba1323d8652cc129e680bdd97c",
+  "prediction_changes.json": "3501b7dde1aee0a42e0408f96d16d924200b1aaf7e9910974aad525574d74210",
+  "README.md": "8d19d64254f8a4f34b37e83b8bdd328b0bd45d99285612759525c257bf2b6ef4",
+  "REPORT.md": "3a7e20e5890497a427b7b5aa13dccbbd12f33a91aa392b093ca0bd05d49226a5",
+  "source_metadata.json": "e51971fe4de11d7616376813a3c228bc1a544f202ae96e76df78ed3ea64e7b6e",
+  "SOURCE_PROVENANCE.json": "31fa9e266fd131edce1af1cd612996c3d70e0f0bfd1e3caa9e51c9b09662b81b"
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "arm": "native_bf16_auto",
+    "budget": "exp_avg_relative_l2",
+    "min_value": 0.0094287900913398,
+    "max_value": 0.011666213847730866,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_auto",
+    "budget": "exp_avg_sq_relative_l2",
+    "min_value": 0.011049542490736253,
+    "max_value": 0.01661776747158328,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_auto",
+    "budget": "gradient_cosine_min",
+    "min_value": 0.9997922506904734,
+    "max_value": 0.9999434084775346,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_auto",
+    "budget": "gradient_relative_l2",
+    "min_value": 0.010671299856905132,
+    "max_value": 0.02039976686360117,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_auto",
+    "budget": "logits_max_abs",
+    "min_value": 0.009054914116859436,
+    "max_value": 0.012902747839689255,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_auto",
+    "budget": "logits_relative_l2",
+    "min_value": 0.008817355176906733,
+    "max_value": 0.014081261803056286,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_auto",
+    "budget": "loss_max_abs",
+    "min_value": 4.5299530029296875e-06,
+    "max_value": 0.0003609657287597656,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_auto",
+    "budget": "parameter_max_abs",
+    "min_value": 0.00019998662173748016,
+    "max_value": 0.0005655810236930847,
+    "failed_checks": 32,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_math",
+    "budget": "exp_avg_relative_l2",
+    "min_value": 0.00931516508948822,
+    "max_value": 0.011935393799338381,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_math",
+    "budget": "exp_avg_sq_relative_l2",
+    "min_value": 0.009827953766158594,
+    "max_value": 0.01866111844610272,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_math",
+    "budget": "gradient_cosine_min",
+    "min_value": 0.9998088733531133,
+    "max_value": 0.999944251898101,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_math",
+    "budget": "gradient_relative_l2",
+    "min_value": 0.010626107256815535,
+    "max_value": 0.019845000430958642,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_math",
+    "budget": "logits_max_abs",
+    "min_value": 0.009068787097930908,
+    "max_value": 0.012950334697961807,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_math",
+    "budget": "logits_relative_l2",
+    "min_value": 0.00882869168213376,
+    "max_value": 0.013669662453694154,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_math",
+    "budget": "loss_max_abs",
+    "min_value": 2.0265579223632812e-05,
+    "max_value": 0.00047516822814941406,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "native_bf16_math",
+    "budget": "parameter_max_abs",
+    "min_value": 0.00019998662173748016,
+    "max_value": 0.0005671863909810781,
+    "failed_checks": 32,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_auto",
+    "budget": "exp_avg_relative_l2",
+    "min_value": 0.008606117056035078,
+    "max_value": 0.01166625108408966,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_auto",
+    "budget": "exp_avg_sq_relative_l2",
+    "min_value": 0.011051103818434852,
+    "max_value": 0.014766517832008948,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_auto",
+    "budget": "gradient_cosine_min",
+    "min_value": 0.9998476605738332,
+    "max_value": 0.9999434087053828,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_auto",
+    "budget": "gradient_relative_l2",
+    "min_value": 0.010671264235472176,
+    "max_value": 0.017570770810573316,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_auto",
+    "budget": "logits_max_abs",
+    "min_value": 0.009054914116859436,
+    "max_value": 0.01328366994857788,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_auto",
+    "budget": "logits_relative_l2",
+    "min_value": 0.008817355176906733,
+    "max_value": 0.01279030808086982,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_auto",
+    "budget": "loss_max_abs",
+    "min_value": 1.239776611328125e-05,
+    "max_value": 0.0005288124084472656,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_auto",
+    "budget": "parameter_max_abs",
+    "min_value": 0.00019998662173748016,
+    "max_value": 0.0005565658211708069,
+    "failed_checks": 32,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_math",
+    "budget": "exp_avg_relative_l2",
+    "min_value": 0.009047127662866099,
+    "max_value": 0.011934727236651902,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_math",
+    "budget": "exp_avg_sq_relative_l2",
+    "min_value": 0.011026356858676053,
+    "max_value": 0.01654557986062671,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_math",
+    "budget": "gradient_cosine_min",
+    "min_value": 0.9998431292588907,
+    "max_value": 0.9999442523937891,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_math",
+    "budget": "gradient_relative_l2",
+    "min_value": 0.010626050552800893,
+    "max_value": 0.017718931193913132,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_math",
+    "budget": "logits_max_abs",
+    "min_value": 0.009068787097930908,
+    "max_value": 0.013112187385559082,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_math",
+    "budget": "logits_relative_l2",
+    "min_value": 0.00882869168213376,
+    "max_value": 0.012580429290953064,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_math",
+    "budget": "loss_max_abs",
+    "min_value": 1.8358230590820312e-05,
+    "max_value": 0.00042176246643066406,
+    "failed_checks": 0,
+    "checks": 48
+  },
+  {
+    "arm": "reference_bf16_math",
+    "budget": "parameter_max_abs",
+    "min_value": 0.00019998662173748016,
+    "max_value": 0.0005756542086601257,
+    "failed_checks": 32,
+    "checks": 48
+  }
+]
